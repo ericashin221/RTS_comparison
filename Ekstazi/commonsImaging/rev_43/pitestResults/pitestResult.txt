@@ -1,0 +1,157 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< org.apache.commons:commons-imaging >-----------------
+[INFO] Building Apache Commons Imaging 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- pitest-maven:1.5.0:mutationCoverage (default-cli) @ commons-imaging ---
+[INFO] Found plugin : Default csv report plugin
+[INFO] Found plugin : Default xml report plugin
+[INFO] Found plugin : Default html report plugin
+[INFO] Found plugin : Static initializer code detector plugin
+[INFO] Found plugin : Static initializer filter plugin
+[INFO] Found plugin : Excluded annotations plugin
+[INFO] Found plugin : Try with resources filter
+[INFO] Found plugin : Inlined finally block filter plugin
+[INFO] Found plugin : Implicit null check filter
+[INFO] Found plugin : Method reference null check filter
+[INFO] Found plugin : For each loop filter
+[INFO] Found plugin : Enum constructor filter
+[INFO] Found plugin : Logging calls filter
+[INFO] Found plugin : Infinite for loop filter
+[INFO] Found plugin : Long running iterator loop filter
+[INFO] Found plugin : For loop counter filter
+[INFO] Found plugin : Kotlin junk mutations filter
+[INFO] Found plugin : Max mutations per class limit
+[INFO] Found plugin : Equals shortcut equivalent mutant filter
+[INFO] Found plugin : Trivial return vals equivalence filter
+[INFO] Found plugin : Mutant export plugin
+[INFO] Found shared classpath plugin : Default mutation engine
+[INFO] Found shared classpath plugin : JUnit plugin
+[INFO] Found shared classpath plugin : TestNG plugin
+[INFO] Adding org.pitest:pitest to SUT classpath
+[INFO] Mutating from /s/smith/b/nobackup/mkshin/Spring2020/Research/pitestWork2/target/classes
+2:59:14 PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+2:59:15 PM PIT >> INFO : Sending 50 test classes to minion
+2:59:15 PM PIT >> INFO : Sent tests to minion
+2:59:15 PM PIT >> INFO : MINION : 2:59:15 PM PIT >> INFO : Checking environment
+
+2:59:16 PM PIT >> INFO : MINION : 2:59:16 PM PIT >> INFO : Found  386 tests
+
+2:59:16 PM PIT >> INFO : MINION : 2:59:16 PM PIT >> INFO : Dependency analysis reduced number of potential tests by 0
+
+2:59:16 PM PIT >> INFO : MINION : 2:59:16 PM PIT >> INFO : 386 tests received
+
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|2:59:28 PM PIT >> INFO : MINION : 2:59:28 PM PIT >> WARNING : More threads at end of test (5) testErrorDecompressingInvalidFile(org.apache.commons.imaging.formats.rgbe.RgbeReadTest) than start. (4)
+
+2:59:30 PM PIT >> INFO : MINION : 2:59:30 PM PIT >> WARNING : More threads at end of test (5) test(org.apache.commons.imaging.formats.tiff.TiffReadTest) than start. (4)
+
+/-\|/-\|/-\|/-\|/-\|/-2:59:55 PM PIT >> INFO : Calculated coverage in 40 seconds.
+2:59:56 PM PIT >> INFO : Created  1 mutation test units
+stderr  : 3:05:58 PM PIT >> WARNING : JUnit error for class class org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest : org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest
+3:05:58 PM PIT >> WARNING : Not able to filter org.apache.commons.imaging.formats.jpstderr  : eg.iptc.IptcAddTest. Mutation may have prevented JUnit from constructing test
+stderr  : 3:08:27 PM PIT >> WARNING : JUnit error for class class org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest : org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest
+stderr  : 3:08:27 PM PIT >> WARNING : Not able to filter org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest. Mutation may have prevented JUnit from constructing test
+/3:08:27 PM PIT >> INFO : Completed in 552 seconds
+================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE
+>> Generated 12 Killed 0 (0%)
+> KILLED 0 SURVIVED 9 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 3 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator
+>> Generated 18 Killed 7 (39%)
+> KILLED 7 SURVIVED 1 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 10 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.experimental.SwitchMutator
+>> Generated 3 Killed 3 (100%)
+> KILLED 3 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE
+>> Generated 60 Killed 22 (37%)
+> KILLED 22 SURVIVED 29 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 9 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF
+>> Generated 12 Killed 7 (58%)
+> KILLED 7 SURVIVED 2 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 3 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.MathMutator
+>> Generated 19 Killed 1 (5%)
+> KILLED 1 SURVIVED 10 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 8 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 72 Killed 50 (69%)
+> KILLED 50 SURVIVED 10 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 12 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 12 Killed 6 (50%)
+> KILLED 6 SURVIVED 3 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 3 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator
+>> Generated 113 Killed 56 (50%)
+> KILLED 56 SURVIVED 26 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 31 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator
+>> Generated 31 Killed 15 (48%)
+> KILLED 15 SURVIVED 3 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 13 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator
+>> Generated 67 Killed 26 (39%)
+> KILLED 26 SURVIVED 4 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 37 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator
+>> Generated 199 Killed 83 (42%)
+> KILLED 83 SURVIVED 44 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 72 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF
+>> Generated 60 Killed 37 (62%)
+> KILLED 37 SURVIVED 14 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 9 
+--------------------------------------------------------------------------------
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : 40 seconds
+> build mutation tests : 1 seconds
+> run mutation analysis : 8 minutes and 30 seconds
+--------------------------------------------------------------------------------
+> Total  : 9 minutes and 12 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 678 mutations Killed 313 (46%)
+>> Ran 2414 tests (3.56 tests per mutation)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 09:16 min
+[INFO] Finished at: 2020-05-19T15:08:27-06:00
+[INFO] ------------------------------------------------------------------------

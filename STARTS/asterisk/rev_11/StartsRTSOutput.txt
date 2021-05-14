@@ -1,0 +1,182 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.0.0-SNAP-SHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:starts (default-cli) > [starts]test @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:run (default-cli) > test-compile @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:run (default-cli) < test-compile @ asterisk-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:run (default-cli) @ asterisk-java ---
+INFO: ALL(count): 854
+INFO: UNREACHED(count): 230
+INFO: STARTS:Nodes: 2991
+INFO: STARTS:Edges: 21848
+INFO: STARTS:AffectedTests: 2
+INFO: STARTS:TotalTests: 46
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ asterisk-java ---
+[INFO] Surefire report directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/asterisk/workingDir/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.asteriskjava.manager.internal.ManagerConnectionImplTest
+20:49:03.841 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:03.846 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+20:49:03.846 [Asterisk-Java ManagerConnection-0-Reconnect-0] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - TimeoutException while trying to log in after reconnect.
+20:49:03.896 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:03.897 [Thread-2] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:03.897 [Thread-2] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:03.948 [Thread-4] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:03.948 [Thread-4] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:03.956 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+20:49:03.956 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+20:49:03.956 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully reconnected.
+20:49:04.793 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:04.844 [Thread-8] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:04.844 [Thread-8] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:04.886 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+20:49:04.886 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+20:49:04.987 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:05.038 [Thread-12] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:05.038 [Thread-12] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:05.200 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:05.251 [Thread-14] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:05.251 [Thread-14] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:05.272 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:05.272 [Asterisk-Java ManagerConnection-7-Reconnect-0] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Exception while trying to reconnect: IOException
+20:49:05.322 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:05.373 [Thread-18] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:05.373 [Thread-18] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:05.415 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+20:49:05.415 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+20:49:05.415 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully reconnected.
+20:49:06.222 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:06.223 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:06.244 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+20:49:06.245 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to retrieve internalActionId from response: actionId 'null':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1122134344
+20:49:06.246 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:06.274 [Thread-22] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:06.274 [Thread-22] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:06.296 [Thread-25] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:06.297 [Thread-25] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:06.343 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+20:49:06.444 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:06.495 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+20:49:06.508 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to dispatch null response. This should never happen. Please file a bug.
+20:49:06.512 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to retrieve internalActionId from response: actionId '123_0-abc':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1418621776
+20:49:06.513 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:06.564 [Thread-30] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:06.564 [Thread-30] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:06.765 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+20:49:06.826 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:06.877 [Thread-33] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:06.877 [Thread-33] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+20:49:06.918 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+20:49:06.919 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+20:49:06.919 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully reconnected.
+20:49:07.776 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+20:49:07.778 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to retrieve internalActionId from response: actionId 'abc':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1181199958
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.151 sec - in org.asteriskjava.manager.internal.ManagerConnectionImplTest
+Running org.asteriskjava.pbx.internal.core.ListenerManagerTest
+20:49:07.802 [main] INFO  org.asteriskjava.util.ReflectionUtil - Loaded 38
+20:49:07.803 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ConnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConnectEvent
+20:49:07.803 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.RenameEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.RenameEvent
+20:49:07.804 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.ManagerEvent
+20:49:07.804 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.OriginateResponseEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.OriginateResponseEvent
+20:49:07.805 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.LinkEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.LinkEvent
+20:49:07.805 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.AgentCalledEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.AgentCalledEvent
+20:49:07.805 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.BridgeEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.BridgeEvent
+20:49:07.805 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DisconnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DisconnectEvent
+20:49:07.806 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DbGetResponseEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DbGetResponseEvent
+20:49:07.806 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.ResponseEvent
+20:49:07.806 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialEvent
+20:49:07.806 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.PeerEntryEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerEntryEvent
+20:49:07.807 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ParkedCallEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ParkedCallEvent
+20:49:07.807 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ExtensionStatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ExtensionStatusEvent
+20:49:07.808 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.PeerlistCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerlistCompleteEvent
+20:49:07.808 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MeetMeLeaveEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MeetMeLeaveEvent
+20:49:07.809 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MeetMeJoinEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MeetMeJoinEvent
+20:49:07.809 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.ConfbridgeListEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConfbridgeListEvent
+20:49:07.810 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.BlindTransferEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.BlindTransferEvent
+20:49:07.810 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.AgentConnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.AgentConnectEvent
+20:49:07.811 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.StatusCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusCompleteEvent
+20:49:07.811 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.HangupEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.HangupEvent
+20:49:07.811 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MasqueradeEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MasqueradeEvent
+20:49:07.812 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.UnparkedCallEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.UnparkedCallEvent
+20:49:07.812 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DndStateEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DndStateEvent
+20:49:07.812 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewChannelEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewChannelEvent
+20:49:07.812 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewExtenEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewExtenEvent
+20:49:07.813 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialEndEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialEndEvent
+20:49:07.813 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.StatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusEvent
+20:49:07.814 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.PeerStatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerStatusEvent
+20:49:07.814 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialBeginEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialBeginEvent
+20:49:07.814 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.UnlinkEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.UnlinkEvent
+20:49:07.814 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ConfbridgeListCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConfbridgeListCompleteEvent
+20:49:07.814 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.AbstractMeetMeEvent
+20:49:07.814 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.VarSetEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.VarSetEvent
+20:49:07.814 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.AbstractParkedCallEvent
+20:49:07.815 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.QueueCallerLeaveEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.QueueCallerLeaveEvent
+20:49:07.815 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewStateEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewStateEvent
+20:49:07.827 [Thread-37] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+20:49:07.828 [Thread-37] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec - in org.asteriskjava.pbx.internal.core.ListenerManagerTest
+
+Results :
+
+
+
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:starts (default-cli) < [starts]test @ asterisk-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:starts (default-cli) @ asterisk-java ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.698 s
+[INFO] Finished at: 2020-05-18T20:49:07-06:00
+[INFO] ------------------------------------------------------------------------

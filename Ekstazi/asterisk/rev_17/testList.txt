@@ -1,0 +1,2 @@
+org.asteriskjava.manager.internal.ManagerReaderImplTest
+org.asteriskjava.manager.internal.EventBuilderImplTest

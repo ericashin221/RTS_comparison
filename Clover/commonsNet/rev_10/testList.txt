@@ -1,0 +1,3 @@
+org.apache.commons.net.ntp.TestNtpClient
+org.apache.commons.net.tftp.TFTPTest
+org.apache.commons.net.tftp.TFTPServerPathTest

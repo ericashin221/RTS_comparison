@@ -1,0 +1,12 @@
+org.apache.commons.imaging.color.ColorHunterLabTest
+org/apache/commons/imaging/color/ColorHunterLabTest:<init>:()V
+org/apache/commons/imaging/color/ColorHunterLabTest:setUp:()V
+org/apache/commons/imaging/color/ColorHunterLabTest:testLAssignment:()V
+org/apache/commons/imaging/color/ColorHunterLabTest:testAAssignment:()V
+org/apache/commons/imaging/color/ColorHunterLabTest:testBAssignment:()V
+org/apache/commons/imaging/color/ColorHunterLabTest:testToString:()V
+org/apache/commons/imaging/color/ColorHunterLabTest:testHashCodeAndEquals:()V
+org/apache/commons/imaging/color/ColorHunterLab:<init>:(DDD)V
+org/apache/commons/imaging/color/ColorHunterLab:toString:()Ljava/lang/String;
+org/apache/commons/imaging/color/ColorHunterLab:equals:(Ljava/lang/Object;)Z
+org/apache/commons/imaging/color/ColorHunterLab:hashCode:()I

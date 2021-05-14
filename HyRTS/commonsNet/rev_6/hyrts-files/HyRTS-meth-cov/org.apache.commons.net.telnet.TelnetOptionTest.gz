@@ -1,0 +1,7 @@
+org.apache.commons.net.telnet.TelnetOptionTest
+org/apache/commons/net/telnet/TelnetOptionTest:<init>:()V
+org/apache/commons/net/telnet/TelnetOptionTest:testisValidOption:()V
+org/apache/commons/net/telnet/TelnetOptionTest:testGetOption:()V
+org/apache/commons/net/telnet/TelnetOption:<clinit>:()V
+org/apache/commons/net/telnet/TelnetOption:getOption:(I)Ljava/lang/String;
+org/apache/commons/net/telnet/TelnetOption:isValidOption:(I)Z

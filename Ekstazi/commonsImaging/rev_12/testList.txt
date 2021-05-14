@@ -1,0 +1,3 @@
+org.apache.commons.imaging.formats.jpeg.JpegReadTest
+org.apache.commons.imaging.formats.jpeg.JpegWithInvalidDhtSegmentTest
+org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest

@@ -1,0 +1,160 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-cli:commons-cli >-----------------------
+[INFO] Building Apache Commons CLI 1.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- pitest-maven:1.5.0:mutationCoverage (default-cli) @ commons-cli ---
+[INFO] Found plugin : Default csv report plugin
+[INFO] Found plugin : Default xml report plugin
+[INFO] Found plugin : Default html report plugin
+[INFO] Found plugin : Static initializer code detector plugin
+[INFO] Found plugin : Static initializer filter plugin
+[INFO] Found plugin : Excluded annotations plugin
+[INFO] Found plugin : Try with resources filter
+[INFO] Found plugin : Inlined finally block filter plugin
+[INFO] Found plugin : Implicit null check filter
+[INFO] Found plugin : Method reference null check filter
+[INFO] Found plugin : For each loop filter
+[INFO] Found plugin : Enum constructor filter
+[INFO] Found plugin : Logging calls filter
+[INFO] Found plugin : Infinite for loop filter
+[INFO] Found plugin : Long running iterator loop filter
+[INFO] Found plugin : For loop counter filter
+[INFO] Found plugin : Kotlin junk mutations filter
+[INFO] Found plugin : Max mutations per class limit
+[INFO] Found plugin : Equals shortcut equivalent mutant filter
+[INFO] Found plugin : Trivial return vals equivalence filter
+[INFO] Found plugin : Mutant export plugin
+[INFO] Found shared classpath plugin : Default mutation engine
+[INFO] Found shared classpath plugin : JUnit plugin
+[INFO] Found shared classpath plugin : TestNG plugin
+[INFO] Adding org.pitest:pitest to SUT classpath
+[INFO] Mutating from /s/smith/b/nobackup/mkshin/Spring2020/Research/pitestWork/target/classes
+/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-stderr  : Exception found converting d to desired type: Unable to find the class: System.DateTime
+Exception found converting x to desired type: For input string: "3,5"
+Exception found converting i to desired type: java.lang.IllegalAccessException; Unable to create astderr  : n instance of: java.util.Calendar
+Exception found converting n to desired type: Unable to find the class: System.DateTime
+Exception found converting v to desired type: Unable to parse the URL: foo://commons.apache.org
+stderr  : Exception found converting d to desired type: Unable to find the class: System.DateTime
+stderr  : Exception found converting x to desired type: For input string: "3,5"stderr  : 
+stderr  : Exception found converting i to desired type: java.lang.IllegalAccessException; Unable to create an instance of: java.util.Calendarstderr  : 
+Exception found converting n to desired type: Unable to find the class: System.DateTime
+stderr  : Exception found converting v to desired type: Unable to parse the URL: foo://commons.apache.org
+stderr  : Exception found converting d to desired type: null
+stderr  : Exception found converting x to desired type: null
+stderr  : Exception found converting i to desired type: null
+stderr  : Exception found converting n to desired type: null
+stderr  : Exception found converting v to desired type: nullstderr  : 
+stderr  : Exception found converting d to desired type: Unable to find the class: System.DateTime
+stderr  : Exception found converting d to desired type: Unable to find the class: System.DateTime
+stderr  : Exception found converting x to desired type: For input string: "3,5"stderr  : 
+stderr  : Exception found converting i to desired type: java.lang.IllegalAccessException; Unable to create an instance of: java.util.Calendarstderr  : 
+Exception found converting n to desired type: Unable to find the class: System.DateTime
+stderr  : Exception found converting v to desired type: Unable to parse the URL: foo://commons.apache.orgstderr  : 
+stderr  : Exception found converting d to desired type: Unable to find the class: System.DateTime
+stderr  : Exception found converting x to desired type: For input string: "3,5"
+stderr  : Exception found converting i to desired type: java.lang.IllegalAccessException; Unable to create an instance of: java.util.Calendarstderr  : 
+Exception found converting n to desired type: Unable to find the class: System.DateTime
+stderr  : Exception found converting v to desired type: Unable to parse the URL: foo://commons.apache.org
+stderr  : null
+stderr  : null
+stderr  : nullstderr  : 
+stderr  : nullstderr  : 
+stderr  : null
+/================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_ELSE
+>> Generated 2 Killed 2 (100%)
+> KILLED 2 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 2 Killed 2 (100%)
+> KILLED 2 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator
+>> Generated 1 Killed 0 (0%)
+> KILLED 0 SURVIVED 1 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.experimental.MemberVariableMutator
+>> Generated 2 Killed 2 (100%)
+> KILLED 2 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator
+>> Generated 11 Killed 11 (100%)
+> KILLED 11 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE
+>> Generated 14 Killed 10 (71%)
+> KILLED 10 SURVIVED 4 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator
+>> Generated 30 Killed 30 (100%)
+> KILLED 30 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_ORDER_IF
+>> Generated 2 Killed 2 (100%)
+> KILLED 2 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConstructorCallMutator
+>> Generated 6 Killed 6 (100%)
+> KILLED 6 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 16 Killed 16 (100%)
+> KILLED 16 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator
+>> Generated 74 Killed 68 (92%)
+> KILLED 68 SURVIVED 6 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF
+>> Generated 14 Killed 14 (100%)
+> KILLED 14 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 0 
+--------------------------------------------------------------------------------
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : < 1 second
+> build mutation tests : < 1 second
+> run mutation analysis : 3 seconds
+--------------------------------------------------------------------------------
+> Total  : 4 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 174 mutations Killed 163 (94%)
+>> Ran 540 tests (3.1 tests per mutation)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.707 s
+[INFO] Finished at: 2020-05-19T19:00:45-06:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,2 @@
+org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
+org.apache.commons.imaging.formats.rgbe.RgbeReadTest

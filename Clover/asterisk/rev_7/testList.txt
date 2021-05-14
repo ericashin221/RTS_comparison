@@ -1,0 +1,2 @@
+org.asteriskjava.manager.event.RtcpReceivedEventTest
+org.asteriskjava.manager.internal.ManagerReaderImplTest

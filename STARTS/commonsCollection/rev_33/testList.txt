@@ -1,0 +1,5 @@
+org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest
+org.apache.commons.collections4.list.PredicatedListTest
+org.apache.commons.collections4.list.LazyListTest
+org.apache.commons.collections4.list.FixedSizeListTest
+org.apache.commons.collections4.list.TransformedListTest

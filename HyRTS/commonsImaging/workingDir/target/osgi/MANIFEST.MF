@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1589893189113
+Build-Jdk: 1.8.0_242
+Built-By: mkshin
+Bundle-Description: Apache Commons Imaging (previously Sanselan) is a pu
+ re-Java image library.
+Bundle-DocURL: http://commons.apache.org/proper/commons-imaging/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Imaging
+Bundle-SymbolicName: org.apache.commons.commons-imaging
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.imaging;version="1.0.0.SNAPSHOT",org.
+ apache.commons.imaging.color;version="1.0.0.SNAPSHOT",org.apache.common
+ s.imaging.common;version="1.0.0.SNAPSHOT",org.apache.commons.imaging.co
+ mmon.bytesource;version="1.0.0.SNAPSHOT",org.apache.commons.imaging.com
+ mon.itu_t4;version="1.0.0.SNAPSHOT",org.apache.commons.imaging.common.m
+ ylzw;version="1.0.0.SNAPSHOT",org.apache.commons.imaging.formats.bmp;ve
+ rsion="1.0.0.SNAPSHOT",org.apache.commons.imaging.formats.dcx;version="
+ 1.0.0.SNAPSHOT",org.apache.commons.imaging.formats.gif;version="1.0.0.S
+ NAPSHOT",org.apache.commons.imaging.formats.icns;version="1.0.0.SNAPSHO
+ T",org.apache.commons.imaging.formats.ico;version="1.0.0.SNAPSHOT",org.
+ apache.commons.imaging.formats.jpeg;version="1.0.0.SNAPSHOT",org.apache
+ .commons.imaging.formats.jpeg.decoder;version="1.0.0.SNAPSHOT",org.apac
+ he.commons.imaging.formats.jpeg.exif;version="1.0.0.SNAPSHOT",org.apach
+ e.commons.imaging.formats.jpeg.iptc;version="1.0.0.SNAPSHOT",org.apache
+ .commons.imaging.formats.jpeg.segments;version="1.0.0.SNAPSHOT",org.apa
+ che.commons.imaging.formats.jpeg.xmp;version="1.0.0.SNAPSHOT",org.apach
+ e.commons.imaging.formats.pcx;version="1.0.0.SNAPSHOT",org.apache.commo
+ ns.imaging.formats.png;version="1.0.0.SNAPSHOT",org.apache.commons.imag
+ ing.formats.png.chunks;version="1.0.0.SNAPSHOT",org.apache.commons.imag
+ ing.formats.png.scanlinefilters;version="1.0.0.SNAPSHOT",org.apache.com
+ mons.imaging.formats.png.transparencyfilters;version="1.0.0.SNAPSHOT",o
+ rg.apache.commons.imaging.formats.pnm;version="1.0.0.SNAPSHOT",org.apac
+ he.commons.imaging.formats.psd;version="1.0.0.SNAPSHOT",org.apache.comm
+ ons.imaging.formats.psd.dataparsers;version="1.0.0.SNAPSHOT",org.apache
+ .commons.imaging.formats.psd.datareaders;version="1.0.0.SNAPSHOT",org.a
+ pache.commons.imaging.formats.rgbe;version="1.0.0.SNAPSHOT",org.apache.
+ commons.imaging.formats.tiff;version="1.0.0.SNAPSHOT",org.apache.common
+ s.imaging.formats.tiff.constants;version="1.0.0.SNAPSHOT",org.apache.co
+ mmons.imaging.formats.tiff.datareaders;version="1.0.0.SNAPSHOT",org.apa
+ che.commons.imaging.formats.tiff.fieldtypes;version="1.0.0.SNAPSHOT",or
+ g.apache.commons.imaging.formats.tiff.photometricinterpreters;version="
+ 1.0.0.SNAPSHOT",org.apache.commons.imaging.formats.tiff.taginfos;versio
+ n="1.0.0.SNAPSHOT",org.apache.commons.imaging.formats.tiff.write;versio
+ n="1.0.0.SNAPSHOT",org.apache.commons.imaging.formats.wbmp;version="1.0
+ .0.SNAPSHOT",org.apache.commons.imaging.formats.xbm;version="1.0.0.SNAP
+ SHOT",org.apache.commons.imaging.formats.xpm;version="1.0.0.SNAPSHOT",o
+ rg.apache.commons.imaging.icc;version="1.0.0.SNAPSHOT",org.apache.commo
+ ns.imaging.internal;version="1.0.0.SNAPSHOT",org.apache.commons.imaging
+ .palette;version="1.0.0.SNAPSHOT",org.apache.commons.imaging.util;versi
+ on="1.0.0.SNAPSHOT"
+Import-Package: javax.imageio
+Include-Resource: org/apache/commons/imaging/formats/xpm/rgb.txt=src/mai
+ n/resources/org/apache/commons/imaging/formats/xpm/rgb.txt,META-INF/NOT
+ ICE.txt=NOTICE.txt,META-INF/LICENSE.txt=LICENSE.txt
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.1.0.201810181252

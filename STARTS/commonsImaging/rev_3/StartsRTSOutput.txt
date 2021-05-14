@@ -1,0 +1,144 @@
+[INFO] Scanning for projects...
+[WARNING] The project org.apache.commons:commons-imaging:jar:1.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -----------------< org.apache.commons:commons-imaging >-----------------
+[INFO] Building Apache Commons Imaging 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:starts (default-cli) > [starts]test @ commons-imaging >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-imaging ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-imaging ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-imaging ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-imaging ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589859951819
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/smith)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 343 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:manifest (bundle-manifest) @ commons-imaging ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (checkAPIcompatibility) @ commons-imaging ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 147 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ commons-imaging ---
+[INFO] argLine set to -javaagent:/s/chopin/a/grad/mkshin/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/jacoco.exec
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:run (default-cli) > test-compile @ commons-imaging >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-imaging ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-imaging ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-imaging ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-imaging ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589859958274
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/smith)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 343 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:manifest (bundle-manifest) @ commons-imaging ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (checkAPIcompatibility) @ commons-imaging ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ commons-imaging ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:run (default-cli) < test-compile @ commons-imaging <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:run (default-cli) @ commons-imaging ---
+INFO: ALL(count): 621
+INFO: UNREACHED(count): 9
+INFO: STARTS:Nodes: 1319
+INFO: STARTS:Edges: 10727
+INFO: STARTS:AffectedTests: 1
+INFO: STARTS:TotalTests: 134
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ commons-imaging ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.imaging.formats.tiff.datareaders.DataReaderStripsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec - in org.apache.commons.imaging.formats.tiff.datareaders.DataReaderStripsTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (check-java-api) @ commons-imaging ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:starts (default-cli) < [starts]test @ commons-imaging <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:starts (default-cli) @ commons-imaging ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 15.937 s
+[INFO] Finished at: 2020-05-18T21:46:05-06:00
+[INFO] ------------------------------------------------------------------------

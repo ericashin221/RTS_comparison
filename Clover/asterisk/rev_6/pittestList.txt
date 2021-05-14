@@ -1,0 +1,3 @@
+<param> org.asteriskjava.manager.event.RtcpReceivedEventTest </param>
+<param> org.asteriskjava.manager.internal.ManagerReaderImplTest </param>
+<param> org.asteriskjava.fastagi.DefaultAgiServerTest </param>

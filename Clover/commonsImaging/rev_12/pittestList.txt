@@ -1,0 +1,7 @@
+<param> org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest </param>
+<param> org.apache.commons.imaging.roundtrip.BitmapRoundtripTest </param>
+<param> org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest </param>
+<param> org.apache.commons.imaging.roundtrip.GrayscaleRountripTest </param>
+<param> org.apache.commons.imaging.formats.jpeg.JpegReadTest </param>
+<param> org.apache.commons.imaging.formats.jpeg.JpegWithInvalidDhtSegmentTest </param>
+<param> org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest </param>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.imaging.formats.tiff.TiffRoundtripTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.347 s - in org.apache.commons.imaging.formats.tiff.TiffRoundtripTest

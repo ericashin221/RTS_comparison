@@ -1,0 +1,7 @@
+org.apache.commons.imaging.formats.pnm.PbmFileInfoTest
+org/apache/commons/imaging/formats/pnm/PbmFileInfoTest:<init>:()V
+org/apache/commons/imaging/formats/pnm/PbmFileInfoTest:testGetRGBThrowsIOException:()V
+org/apache/commons/imaging/formats/pnm/FileInfo:<init>:(IIZ)V
+org/apache/commons/imaging/formats/pnm/PbmFileInfo:<clinit>:()V
+org/apache/commons/imaging/formats/pnm/PbmFileInfo:<init>:(IIZ)V
+org/apache/commons/imaging/formats/pnm/PbmFileInfo:getRGB:(Ljava/io/InputStream;)I

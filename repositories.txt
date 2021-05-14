@@ -1,0 +1,5 @@
+commonsCollection https://github.com/apache/commons-collections.git 24539d8
+commonsNet https://github.com/apache/commons-net.git 2b0f338
+commonCLI https://github.com/apache/commons-cli.git 0f56df9
+commonsImaging https://github.com/apache/commons-imaging.git b437436
+asterisk https://github.com/asterisk-java/asterisk-java.git 53a66e8

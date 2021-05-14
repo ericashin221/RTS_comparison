@@ -1,0 +1,3 @@
+<param> org.apache.commons.imaging.formats.jpeg.JpegReadTest </param>
+<param> org.apache.commons.imaging.formats.jpeg.JpegWithInvalidDhtSegmentTest </param>
+<param> org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest </param>

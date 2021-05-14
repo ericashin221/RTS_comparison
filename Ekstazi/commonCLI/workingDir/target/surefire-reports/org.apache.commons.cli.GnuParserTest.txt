@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.cli.GnuParserTest
+-------------------------------------------------------------------------------
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 21, Time elapsed: 0.023 sec - in org.apache.commons.cli.GnuParserTest

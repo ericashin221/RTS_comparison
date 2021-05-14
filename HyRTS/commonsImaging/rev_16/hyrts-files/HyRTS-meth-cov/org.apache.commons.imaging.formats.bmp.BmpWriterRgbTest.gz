@@ -1,0 +1,7 @@
+org.apache.commons.imaging.formats.bmp.BmpWriterRgbTest
+org/apache/commons/imaging/formats/bmp/BmpWriterRgbTest:<init>:()V
+org/apache/commons/imaging/formats/bmp/BmpWriterRgbTest:testGetImageData:()V
+org/apache/commons/imaging/formats/bmp/BmpWriterRgb:<init>:()V
+org/apache/commons/imaging/formats/bmp/BmpWriterRgb:getPaletteSize:()I
+org/apache/commons/imaging/formats/bmp/BmpWriterRgb:getBitsPerPixel:()I
+org/apache/commons/imaging/formats/bmp/BmpWriterRgb:getImageData:(Ljava/awt/image/BufferedImage;)[B

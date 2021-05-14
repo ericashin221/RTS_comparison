@@ -1,0 +1,5 @@
+<param> org.apache.commons.net.SocketClientTest </param>
+<param> org.apache.commons.net.ftp.parser.MVSFTPEntryParserTest </param>
+<param> org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactoryTest </param>
+<param> org.apache.commons.net.ftp.TestConnectTimeout </param>
+<param> org.apache.commons.net.ftp.FTPClientTest </param>

@@ -1,0 +1,5 @@
+<param> org.asteriskjava.manager.internal.ManagerConnectionImplTest </param>
+<param> org.asteriskjava.live.internal.AsteriskChannelImplTest </param>
+<param> org.asteriskjava.live.internal.AsteriskQueueMemberImplTest </param>
+<param> org.asteriskjava.live.internal.AsteriskAgentImplTest </param>
+<param> org.asteriskjava.pbx.internal.core.ListenerManagerTest </param>

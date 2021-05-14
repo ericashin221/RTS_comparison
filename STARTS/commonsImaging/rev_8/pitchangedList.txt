@@ -1,0 +1,5 @@
+<param> org.apache.commons.imaging.formats.ico.IcoImageParser  </param>
+<param> org.apache.commons.imaging.formats.jpeg.JpegImageParser  </param>
+<param> org.apache.commons.imaging.formats.png.PngImageParser  </param>
+<param> org.apache.commons.imaging.formats.tiff.TiffDirectory  </param>
+<param> org.apache.commons.imaging.formats.tiff.TiffImageParser  </param>

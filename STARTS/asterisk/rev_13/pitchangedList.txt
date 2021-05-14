@@ -1,0 +1,5 @@
+<param> org.asteriskjava.manager.event.AbstractQueueMemberEvent  </param>
+<param> org.asteriskjava.manager.event.QueueMemberAddedEvent  </param>
+<param> org.asteriskjava.manager.event.QueueMemberEvent  </param>
+<param> org.asteriskjava.manager.event.QueueMemberRemovedEvent  </param>
+<param> org.asteriskjava.manager.event.QueueMemberStatusEvent  </param>

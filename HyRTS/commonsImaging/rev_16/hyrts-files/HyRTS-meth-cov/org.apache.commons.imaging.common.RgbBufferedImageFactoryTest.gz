@@ -1,0 +1,5 @@
+org.apache.commons.imaging.common.RgbBufferedImageFactoryTest
+org/apache/commons/imaging/common/RgbBufferedImageFactoryTest:<init>:()V
+org/apache/commons/imaging/common/RgbBufferedImageFactoryTest:testGetColorBufferedImageThrowsIllegalArgumentException:()V
+org/apache/commons/imaging/common/RgbBufferedImageFactory:<init>:()V
+org/apache/commons/imaging/common/RgbBufferedImageFactory:getColorBufferedImage:(IIZ)Ljava/awt/image/BufferedImage;

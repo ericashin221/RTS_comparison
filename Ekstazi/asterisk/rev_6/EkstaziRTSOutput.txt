@@ -1,0 +1,248 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.0.0-SNAP-SHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:4.6.3:ekstazi (default-cli) > [ekstazi]test @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/Ekstazi/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 737 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Ekstazi/asterisk/workingDir/target/classes
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 58 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Ekstazi/asterisk/workingDir/target/test-classes
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:4.6.3:select (ekstazi) @ asterisk-java ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:4.6.3:select (default-cli) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ asterisk-java ---
+[INFO] Surefire report directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/Ekstazi/asterisk/workingDir/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.asteriskjava.util.internal.streamreader.FastScannerDeterministicTest
+
+Testing scanner class: class org.asteriskjava.util.internal.streamreader.FastScannerCrNl
+Done
+
+L: agi_network: yes 16
+L: agi_network_script: route?targ=7601&ctx=Pre-Handset 51
+L: agi_request: agi://10.10.0.41/route?targ=7601&ctx=Pre-Handset 61
+L: agi_channel: Local/7610@default-2df1,1 38
+L: agi_language: en 16
+L: agi_type: Local 15
+L: agi_uniqueid: 1530169476.16133 30
+L: agi_callerid: unknown 21
+L: agi_calleridname: unknown 25
+L: agi_callingpres: 0 18
+L: agi_callingani2: 0 18
+L: agi_callington: 0 17
+L: agi_callingtns: 0 17
+L: agi_dnid: unknown 17
+L: agi_rdnis: unknown 18
+L: agi_context: routesv2-handset 29
+L: agi_extension: 7601 19
+L: agi_priority: 1 15
+L: agi_enhanced: 0.0 17
+L: agi_accountcode:  17
+L:  0
+L: 200 result=0 12
+L: 200 result=1 () 15
+L: 200 result=0 12
+L: 200 result=1 12
+L: 200 result=0 12
+L: 200 result=0 12
+L: 200 result=0 12
+L: 200 result=0 12
+L: 200 result=1 () 15
+L: 200 result=1 12
+
+Testing scanner class: class org.asteriskjava.util.internal.streamreader.FastScannerNl
+Done
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.337 sec - in org.asteriskjava.util.internal.streamreader.FastScannerDeterministicTest
+Running org.asteriskjava.util.internal.streamreader.FastScannerSpeedTest
+Scanner 9:	50980	230 ms
+Scanner 8:	50980	193 ms
+Scanner 7:	50980	181 ms
+Scanner 6:	50980	168 ms
+Scanner 5:	50980	165 ms
+Scanner 4:	50980	165 ms
+Scanner 3:	50980	171 ms
+Scanner 2:	50980	166 ms
+Scanner 1:	50980	166 ms
+Scanner 0:	50980	165 ms
+
+Testing fast CrNlStream
+Fast 9:	51073	79 ms
+Fast 8:	51073	43 ms
+Fast 7:	51073	39 ms
+Fast 6:	51073	38 ms
+Fast 5:	51073	39 ms
+Fast 4:	51073	37 ms
+Fast 3:	51073	37 ms
+Fast 2:	51073	38 ms
+Fast 1:	51073	37 ms
+Fast 0:	51073	38 ms
+
+Testing fast NlStream
+Fast 9:	149812	44 ms
+Fast 8:	149812	26 ms
+Fast 7:	149812	26 ms
+Fast 6:	149812	26 ms
+Fast 5:	149812	40 ms
+Fast 4:	149812	47 ms
+Fast 3:	149812	26 ms
+Fast 2:	149812	27 ms
+Fast 1:	149812	26 ms
+Fast 0:	149812	26 ms
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.242 sec - in org.asteriskjava.util.internal.streamreader.FastScannerSpeedTest
+Running org.asteriskjava.util.internal.streamreader.FastScannerRandomTest
+CR NL Completed 1MB
+CR NL Completed 2MB
+CR NL Completed 3MB
+CR NL Completed 4MB
+CR NL Completed 5MB
+CR NL Completed 6MB
+CR NL Completed 7MB
+CR NL Completed 8MB
+CR NL Completed 9MB
+CR NL Completed 10MB
+CR NL Completed 11MB
+CR NL Completed 12MB
+CR NL Completed 13MB
+CR NL Completed 14MB
+CR NL Completed 15MB
+CR NL Completed 16MB
+CR NL Completed 17MB
+CR NL Completed 18MB
+CR NL Completed 19MB
+CR NL Completed 20MB
+CR NL Completed 21MB
+CR NL Completed 22MB
+CR NL Completed 23MB
+CR NL Completed 24MB
+CR NL Completed 25MB
+CR NL Completed 26MB
+CR NL Completed 27MB
+CR NL Completed 28MB
+CR NL Completed 29MB
+CR NL Completed 30MB
+CR NL Completed 31MB
+CR NL Completed 32MB
+CR NL Completed 33MB
+CR NL Completed 34MB
+CR NL Completed 35MB
+CR NL Completed 36MB
+CR NL Completed 37MB
+CR NL Completed 38MB
+CR NL Completed 39MB
+CR NL Completed 40MB
+CR NL Completed 41MB
+CR NL Completed 42MB
+CR NL Completed 43MB
+CR NL Completed 44MB
+CR NL Completed 45MB
+CR NL Completed 46MB
+CR NL Completed 47MB
+CR NL Completed 48MB
+CR NL Completed 49MB
+CR NL Completed 50MB
+NL Completed 1MB
+NL Completed 2MB
+NL Completed 3MB
+NL Completed 4MB
+NL Completed 5MB
+NL Completed 6MB
+NL Completed 7MB
+NL Completed 8MB
+NL Completed 9MB
+NL Completed 10MB
+NL Completed 11MB
+NL Completed 12MB
+NL Completed 13MB
+NL Completed 14MB
+NL Completed 15MB
+NL Completed 16MB
+NL Completed 17MB
+NL Completed 18MB
+NL Completed 19MB
+NL Completed 20MB
+NL Completed 21MB
+NL Completed 22MB
+NL Completed 23MB
+NL Completed 24MB
+NL Completed 25MB
+NL Completed 26MB
+NL Completed 27MB
+NL Completed 28MB
+NL Completed 29MB
+NL Completed 30MB
+NL Completed 31MB
+NL Completed 32MB
+NL Completed 33MB
+NL Completed 34MB
+NL Completed 35MB
+NL Completed 36MB
+NL Completed 37MB
+NL Completed 38MB
+NL Completed 39MB
+NL Completed 40MB
+NL Completed 41MB
+NL Completed 42MB
+NL Completed 43MB
+NL Completed 44MB
+NL Completed 45MB
+NL Completed 46MB
+NL Completed 47MB
+NL Completed 48MB
+NL Completed 49MB
+NL Completed 50MB
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.753 sec - in org.asteriskjava.util.internal.streamreader.FastScannerRandomTest
+Running org.asteriskjava.manager.event.RtcpReceivedEventTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.asteriskjava.manager.event.RtcpReceivedEventTest
+Running org.asteriskjava.manager.internal.ManagerReaderImplTest
+22:35:21.686 [main] INFO  org.asteriskjava.util.ReflectionUtil - Loaded 185
+22:35:21.731 [main] INFO  o.a.m.internal.ManagerReaderImpl - Terminating reader thread: Something happened to the network...
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.214 sec - in org.asteriskjava.manager.internal.ManagerReaderImplTest
+Running org.asteriskjava.manager.internal.EventBuilderImplTest
+22:35:21.787 [main] ERROR o.a.m.internal.EventBuilderImpl - No event type in properties
+22:35:21.826 [main] INFO  o.a.m.internal.EventBuilderImpl - No event class registered for event type 'nonexisting', attributes: {event=Nonexisting}. Please report at https://github.com/asterisk-java/asterisk-java/issues
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec - in org.asteriskjava.manager.internal.EventBuilderImplTest
+Running org.asteriskjava.fastagi.DefaultAgiServerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in org.asteriskjava.fastagi.DefaultAgiServerTest
+
+Results :
+
+
+
+
+Tests run: 61, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:4.6.3:ekstazi (default-cli) < [ekstazi]test @ asterisk-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:4.6.3:ekstazi (default-cli) @ asterisk-java ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 20.977 s
+[INFO] Finished at: 2020-05-18T22:35:22-06:00
+[INFO] ------------------------------------------------------------------------

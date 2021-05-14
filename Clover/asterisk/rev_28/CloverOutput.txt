@@ -1,0 +1,148 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.asteriskjava:asterisk-java:jar:3.0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 150, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 160, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:setup (default-cli) @ asterisk-java ---
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 739 files (37 packages).
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 58 files (16 packages).
+[INFO] 256 test methods detected.
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:optimize (default-cli) @ asterisk-java ---
+[INFO] Adding fileset: directory=/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-test-instrumented, includes=[**/Test*.java, **/*Test.java, **/*TestCase.java], excludes=null
+[INFO] Clover estimates having saved around 29 seconds on this optimized test run. The full test run takes approx. 30 seconds
+[INFO] Clover included 7 test classes in this run (total # test classes : 46)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/src/main/resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 739 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/classes
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 58 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/test-classes
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/fastagi/internal/AgiRequestImplTest.java: Some input files use or override a deprecated API.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/fastagi/internal/AgiRequestImplTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ManagerConnectionImplTest.java: /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ManagerConnectionImplTest.java uses unchecked or unsafe operations.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ManagerConnectionImplTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ asterisk-java ---
+[INFO] Surefire report directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.asteriskjava.manager.event.SkypeChatMessageEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in org.asteriskjava.manager.event.SkypeChatMessageEventTest
+Running org.asteriskjava.manager.internal.ManagerReaderImplTest
+15:50:33.749 [main] INFO  org.asteriskjava.util.ReflectionUtil - Loaded 185
+15:50:33.797 [main] INFO  o.a.m.internal.ManagerReaderImpl - Terminating reader thread: Something happened to the network...
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.147 sec - in org.asteriskjava.manager.internal.ManagerReaderImplTest
+Running org.asteriskjava.manager.internal.ResponseBuilderImplTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.asteriskjava.manager.internal.ResponseBuilderImplTest
+Running org.asteriskjava.fastagi.ResourceBundleMappingStrategyTest
+15:50:33.848 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript
+15:50:33.848 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'string.agi' to class java.lang.String
+15:50:33.848 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'nonexisting.agi' to class org.asteriskjava.fastagi.NonExistingAgiScript
+15:50:33.851 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Resource bundle 'net.sf.asterisk.fastagi.unavailable' not found.
+15:50:33.851 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript
+15:50:33.851 [main] WARN  o.a.f.ResourceBundleMappingStrategy - Unable to create AgiScript instance of type java.lang.String: Class does not implement the AgiScript interface
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec - in org.asteriskjava.fastagi.ResourceBundleMappingStrategyTest
+Running org.asteriskjava.fastagi.CompositeMappingStrategyTest
+15:50:33.855 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript
+15:50:33.855 [main] WARN  o.a.f.ResourceBundleMappingStrategy - Unable to create AgiScript instance of type java.lang.String: Class does not implement the AgiScript interface
+15:50:33.856 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript
+15:50:33.856 [main] WARN  o.a.f.ResourceBundleMappingStrategy - Unable to create AgiScript instance of type java.lang.String: Class does not implement the AgiScript interface
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.asteriskjava.fastagi.CompositeMappingStrategyTest
+Running org.asteriskjava.fastagi.ClassNameMappingStrategyTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.asteriskjava.fastagi.ClassNameMappingStrategyTest
+Running org.asteriskjava.pbx.internal.core.ListenerManagerTest
+15:50:34.098 [main] INFO  org.asteriskjava.util.ReflectionUtil - Loaded 39
+15:50:34.098 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.VarSetEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.VarSetEvent
+15:50:34.098 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialEvent
+15:50:34.099 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialEndEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialEndEvent
+15:50:34.099 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.PeerStatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerStatusEvent
+15:50:34.099 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ReloadEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ReloadEvent
+15:50:34.099 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.ManagerEvent
+15:50:34.099 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.PeerlistCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerlistCompleteEvent
+15:50:34.099 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ConfbridgeListCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConfbridgeListCompleteEvent
+15:50:34.100 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ParkedCallEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ParkedCallEvent
+15:50:34.100 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.HangupEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.HangupEvent
+15:50:34.100 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.UnparkedCallEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.UnparkedCallEvent
+15:50:34.100 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.BlindTransferEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.BlindTransferEvent
+15:50:34.101 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewChannelEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewChannelEvent
+15:50:34.101 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.AgentCalledEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.AgentCalledEvent
+15:50:34.101 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MeetMeLeaveEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MeetMeLeaveEvent
+15:50:34.101 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.QueueCallerLeaveEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.QueueCallerLeaveEvent
+15:50:34.101 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ConnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConnectEvent
+15:50:34.101 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DisconnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DisconnectEvent
+15:50:34.102 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewStateEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewStateEvent
+15:50:34.102 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialBeginEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialBeginEvent
+15:50:34.102 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.UnlinkEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.UnlinkEvent
+15:50:34.102 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ExtensionStatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ExtensionStatusEvent
+15:50:34.102 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.StatusCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusCompleteEvent
+15:50:34.102 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DbGetResponseEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DbGetResponseEvent
+15:50:34.103 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.RenameEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.RenameEvent
+15:50:34.103 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.AgentConnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.AgentConnectEvent
+15:50:34.103 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MasqueradeEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MasqueradeEvent
+15:50:34.103 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.ConfbridgeListEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConfbridgeListEvent
+15:50:34.103 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.LinkEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.LinkEvent
+15:50:34.103 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.OriginateResponseEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.OriginateResponseEvent
+15:50:34.103 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.AbstractParkedCallEvent
+15:50:34.104 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DndStateEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DndStateEvent
+15:50:34.104 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.StatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusEvent
+15:50:34.104 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.BridgeEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.BridgeEvent
+15:50:34.104 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.ResponseEvent
+15:50:34.104 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.AbstractMeetMeEvent
+15:50:34.104 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MeetMeJoinEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MeetMeJoinEvent
+15:50:34.104 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewExtenEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewExtenEvent
+15:50:34.104 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.PeerEntryEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerEntryEvent
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.294 sec - in org.asteriskjava.pbx.internal.core.ListenerManagerTest
+
+Results :
+
+
+
+
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:snapshot (default-cli) @ asterisk-java ---
+[INFO] No span specified, using span of: 112s
+[INFO] Saving snapshot to: /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/.clover/clover.snapshot
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating snapshot '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/.clover/clover.snapshot' against Clover database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/clover.db'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:52 min
+[INFO] Finished at: 2020-05-24T15:50:34-06:00
+[INFO] ------------------------------------------------------------------------

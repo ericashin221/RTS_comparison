@@ -1,0 +1,2 @@
+<param> org.asteriskjava.manager.internal.ManagerConnectionImplTest </param>
+<param> org.asteriskjava.live.internal.AsteriskChannelImplTest </param>

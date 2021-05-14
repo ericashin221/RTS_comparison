@@ -1,0 +1,17 @@
+org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSShortTest
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShortTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShortTest:testGetValue:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILorg/apache/commons/imaging/formats/tiff/fieldtypes/FieldType;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILjava/util/List;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILjava/util/List;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;Z)V
+org/apache/commons/imaging/common/ByteConversions:toBytes:(SLjava/nio/ByteOrder;)[B
+org/apache/commons/imaging/common/ByteConversions:toBytes:(SLjava/nio/ByteOrder;[BI)V
+org/apache/commons/imaging/common/ByteConversions:toShort:([BLjava/nio/ByteOrder;)S
+org/apache/commons/imaging/common/ByteConversions:toShort:([BILjava/nio/ByteOrder;)S
+org/apache/commons/imaging/common/ByteConversions:toUInt16:([BILjava/nio/ByteOrder;)I
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeShort:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShort:<init>:(Ljava/lang/String;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShort:getValue:(Ljava/nio/ByteOrder;[B)S
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShort:encodeValue:(Ljava/nio/ByteOrder;S)[B

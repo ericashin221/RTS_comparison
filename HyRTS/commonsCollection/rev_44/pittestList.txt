@@ -1,0 +1,2 @@
+<param> org.apache.commons.collections4.keyvalue.MultiKeyTest </param>
+<param> org.apache.commons.collections4.map.MultiKeyMapTest </param>

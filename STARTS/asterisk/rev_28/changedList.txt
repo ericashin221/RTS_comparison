@@ -1,0 +1,3 @@
+org.asteriskjava.live.internal.QueueManager 
+org.asteriskjava.manager.internal.ResponseBuilderImpl 
+org.asteriskjava.pbx.internal.core.CoherentEventFactory 

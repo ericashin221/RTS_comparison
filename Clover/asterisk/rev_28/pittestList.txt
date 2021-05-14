@@ -1,0 +1,7 @@
+<param> org.asteriskjava.manager.event.SkypeChatMessageEventTest </param>
+<param> org.asteriskjava.manager.internal.ManagerReaderImplTest </param>
+<param> org.asteriskjava.manager.internal.ResponseBuilderImplTest </param>
+<param> org.asteriskjava.fastagi.ResourceBundleMappingStrategyTest </param>
+<param> org.asteriskjava.fastagi.CompositeMappingStrategyTest </param>
+<param> org.asteriskjava.fastagi.ClassNameMappingStrategyTest </param>
+<param> org.asteriskjava.pbx.internal.core.ListenerManagerTest </param>

@@ -1,0 +1,5 @@
+<param> org.apache.commons.cli.CommandLineTest </param>
+<param> org.apache.commons.cli.DefaultParserTest </param>
+<param> org.apache.commons.cli.PatternOptionBuilderTest </param>
+<param> org.apache.commons.cli.bug.BugCLI252Test </param>
+<param> org.apache.commons.cli.bug.BugCLI265Test </param>

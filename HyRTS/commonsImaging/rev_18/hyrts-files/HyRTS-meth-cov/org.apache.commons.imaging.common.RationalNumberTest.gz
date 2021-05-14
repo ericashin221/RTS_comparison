@@ -1,0 +1,16 @@
+org.apache.commons.imaging.common.RationalNumberTest
+org/apache/commons/imaging/ImagingTest:<init>:()V
+org/apache/commons/imaging/common/RationalNumberTest:data:()Ljava/util/Collection;
+org/apache/commons/imaging/common/RationalNumberTest:<init>:(D)V
+org/apache/commons/imaging/common/RationalNumberTest:testRationalNumber:()V
+org/apache/commons/imaging/util/Debug:debug:(Ljava/lang/String;)V
+org/apache/commons/imaging/util/Debug:debug:()V
+org/apache/commons/imaging/common/RationalNumber:<init>:(II)V
+org/apache/commons/imaging/common/RationalNumber:factoryMethod:(JJ)Lorg/apache/commons/imaging/common/RationalNumber;
+org/apache/commons/imaging/common/RationalNumber:gcd:(JJ)J
+org/apache/commons/imaging/common/RationalNumber:negate:()Lorg/apache/commons/imaging/common/RationalNumber;
+org/apache/commons/imaging/common/RationalNumber:doubleValue:()D
+org/apache/commons/imaging/common/RationalNumber:toString:()Ljava/lang/String;
+org/apache/commons/imaging/common/RationalNumber:valueOf:(D)Lorg/apache/commons/imaging/common/RationalNumber;
+org/apache/commons/imaging/common/RationalNumber$Option:<init>:(Lorg/apache/commons/imaging/common/RationalNumber;D)V
+org/apache/commons/imaging/common/RationalNumber$Option:factory:(Lorg/apache/commons/imaging/common/RationalNumber;D)Lorg/apache/commons/imaging/common/RationalNumber$Option;

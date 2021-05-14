@@ -1,0 +1,9 @@
+org.apache.commons.imaging.formats.tiff.JpegImageDataTest
+org/apache/commons/imaging/formats/tiff/JpegImageDataTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/JpegImageDataTest:testCreatesJpegImageDataAndCallsGetElementDescription:()V
+org/apache/commons/imaging/formats/tiff/TiffElement$DataElement:<init>:(JI[B)V
+org/apache/commons/imaging/formats/tiff/TiffElement$DataElement:getDataLength:()I
+org/apache/commons/imaging/formats/tiff/TiffElement:<init>:(JI)V
+org/apache/commons/imaging/formats/tiff/JpegImageData:<init>:(JI[B)V
+org/apache/commons/imaging/formats/tiff/JpegImageData:getElementDescription:()Ljava/lang/String;
+org/apache/commons/imaging/formats/tiff/JpegImageData:getDataLength:()I

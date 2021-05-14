@@ -1,0 +1,8 @@
+<param> org.asteriskjava.fastagi.AgiServer  </param>
+<param> org.asteriskjava.fastagi.DefaultAgiServer  </param>
+<param> org.asteriskjava.manager.event.RtcpReceivedEvent  </param>
+<param> org.asteriskjava.pbx.internal.core.AsteriskPBX  </param>
+<param> org.asteriskjava.util.ServerSocketFacade  </param>
+<param> org.asteriskjava.util.internal.ServerSocketFacadeImpl  </param>
+<param> org.asteriskjava.util.internal.SocketConnectionFacadeImpl  </param>
+<param> org.asteriskjava.fastagi.DefaultAgiServerTest$MockedServerSocketFacade  </param>

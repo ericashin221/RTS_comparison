@@ -1,0 +1,13 @@
+org.apache.commons.net.smtp.SimpleSMTPHeaderTestCase
+org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase:<init>:()V
+org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase:setUp:()V
+org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase:testToString:()V
+org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase:testToStringNoSubject:()V
+org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase:testToStringNoFrom:()V
+org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase:testToStringNoTo:()V
+org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase:testToStringAddHeader:()V
+org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase:testToStringAddHeaderDate:()V
+org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase:checkDate:(Ljava/lang/String;)Ljava/lang/String;
+org/apache/commons/net/smtp/SimpleSMTPHeader:<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+org/apache/commons/net/smtp/SimpleSMTPHeader:addHeaderField:(Ljava/lang/String;Ljava/lang/String;)V
+org/apache/commons/net/smtp/SimpleSMTPHeader:toString:()Ljava/lang/String;

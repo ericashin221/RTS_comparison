@@ -1,0 +1,5 @@
+org.asteriskjava.manager.event.AbstractQueueMemberEvent 
+org.asteriskjava.manager.event.QueueMemberAddedEvent 
+org.asteriskjava.manager.event.QueueMemberEvent 
+org.asteriskjava.manager.event.QueueMemberRemovedEvent 
+org.asteriskjava.manager.event.QueueMemberStatusEvent 

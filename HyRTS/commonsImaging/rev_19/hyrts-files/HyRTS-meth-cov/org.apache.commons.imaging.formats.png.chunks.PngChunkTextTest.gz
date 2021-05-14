@@ -1,0 +1,12 @@
+org.apache.commons.imaging.formats.png.chunks.PngChunkTextTest
+org/apache/commons/imaging/ImageReadException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/png/chunks/PngChunkTextTest:<init>:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkTextTest:testCreatesPngChunkText:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkText:<clinit>:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkText:<init>:(III[B)V
+org/apache/commons/imaging/formats/png/chunks/PngTextChunk:<init>:(III[B)V
+org/apache/commons/imaging/formats/png/chunks/PngChunk:<init>:(III[B)V
+org/apache/commons/imaging/common/BinaryFileParser:<init>:()V
+org/apache/commons/imaging/common/BinaryFunctions:findNull:([B)I
+org/apache/commons/imaging/common/BinaryFunctions:findNull:([BI)I

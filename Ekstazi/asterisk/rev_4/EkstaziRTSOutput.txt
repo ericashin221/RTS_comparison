@@ -1,0 +1,67 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.0.0-SNAP-SHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:4.6.3:ekstazi (default-cli) > [ekstazi]test @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/Ekstazi/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 737 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Ekstazi/asterisk/workingDir/target/classes
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 58 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Ekstazi/asterisk/workingDir/target/test-classes
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:4.6.3:select (ekstazi) @ asterisk-java ---
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:4.6.3:select (default-cli) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ asterisk-java ---
+[INFO] Surefire report directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/Ekstazi/asterisk/workingDir/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.asteriskjava.manager.event.RtcpReceivedEventTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.asteriskjava.manager.event.RtcpReceivedEventTest
+Running org.asteriskjava.manager.internal.ManagerReaderImplTest
+22:34:34.692 [main] INFO  org.asteriskjava.util.ReflectionUtil - Loaded 185
+22:34:34.752 [main] INFO  o.a.m.internal.ManagerReaderImpl - Terminating reader thread: Something happened to the network...
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.473 sec - in org.asteriskjava.manager.internal.ManagerReaderImplTest
+Running org.asteriskjava.manager.internal.EventBuilderImplTest
+22:34:34.876 [main] ERROR o.a.m.internal.EventBuilderImpl - No event type in properties
+22:34:34.925 [main] INFO  o.a.m.internal.EventBuilderImpl - No event class registered for event type 'nonexisting', attributes: {event=Nonexisting}. Please report at https://github.com/asterisk-java/asterisk-java/issues
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec - in org.asteriskjava.manager.internal.EventBuilderImplTest
+
+Results :
+
+
+
+
+Tests run: 49, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< ekstazi-maven-plugin:4.6.3:ekstazi (default-cli) < [ekstazi]test @ asterisk-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- ekstazi-maven-plugin:4.6.3:ekstazi (default-cli) @ asterisk-java ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.649 s
+[INFO] Finished at: 2020-05-18T22:34:35-06:00
+[INFO] ------------------------------------------------------------------------

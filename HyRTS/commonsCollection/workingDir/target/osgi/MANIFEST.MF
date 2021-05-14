@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1589892217234
+Build-Jdk: 1.8.0_242
+Built-By: mkshin
+Bundle-Description: The Apache Commons Collections package contains type
+ s that extend and augment the Java Collections Framework.
+Bundle-DocURL: https://commons.apache.org/proper/commons-collections/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons Collections
+Bundle-SymbolicName: org.apache.commons.commons-collections4
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.5.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.collections4;version="4.5.0.SNAPSHOT"
+ ,org.apache.commons.collections4.bag;version="4.5.0.SNAPSHOT",org.apach
+ e.commons.collections4.bidimap;version="4.5.0.SNAPSHOT",org.apache.comm
+ ons.collections4.collection;version="4.5.0.SNAPSHOT",org.apache.commons
+ .collections4.comparators;version="4.5.0.SNAPSHOT",org.apache.commons.c
+ ollections4.functors;version="4.5.0.SNAPSHOT",org.apache.commons.collec
+ tions4.iterators;version="4.5.0.SNAPSHOT",org.apache.commons.collection
+ s4.keyvalue;version="4.5.0.SNAPSHOT",org.apache.commons.collections4.li
+ st;version="4.5.0.SNAPSHOT",org.apache.commons.collections4.map;version
+ ="4.5.0.SNAPSHOT",org.apache.commons.collections4.multimap;version="4.5
+ .0.SNAPSHOT",org.apache.commons.collections4.multiset;version="4.5.0.SN
+ APSHOT",org.apache.commons.collections4.properties;version="4.5.0.SNAPS
+ HOT",org.apache.commons.collections4.queue;version="4.5.0.SNAPSHOT",org
+ .apache.commons.collections4.sequence;version="4.5.0.SNAPSHOT",org.apac
+ he.commons.collections4.set;version="4.5.0.SNAPSHOT",org.apache.commons
+ .collections4.splitmap;version="4.5.0.SNAPSHOT",org.apache.commons.coll
+ ections4.trie;version="4.5.0.SNAPSHOT",org.apache.commons.collections4.
+ trie.analyzer;version="4.5.0.SNAPSHOT"
+Import-Package: org.w3c.dom
+Include-Resource: META-INF/NOTICE.txt=NOTICE.txt,META-INF/LICENSE.txt=LI
+ CENSE.txt
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.1.0.201810181252

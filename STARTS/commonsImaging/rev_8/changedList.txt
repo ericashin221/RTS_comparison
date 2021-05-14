@@ -1,0 +1,5 @@
+org.apache.commons.imaging.formats.ico.IcoImageParser 
+org.apache.commons.imaging.formats.jpeg.JpegImageParser 
+org.apache.commons.imaging.formats.png.PngImageParser 
+org.apache.commons.imaging.formats.tiff.TiffDirectory 
+org.apache.commons.imaging.formats.tiff.TiffImageParser 

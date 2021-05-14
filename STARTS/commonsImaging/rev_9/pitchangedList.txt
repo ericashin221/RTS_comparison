@@ -1,0 +1,5 @@
+<param> org.apache.commons.imaging.formats.bmp.BmpImageParser  </param>
+<param> org.apache.commons.imaging.formats.ico.IcoImageParser  </param>
+<param> org.apache.commons.imaging.formats.png.PngImageParser  </param>
+<param> org.apache.commons.imaging.formats.pnm.PnmImageParser  </param>
+<param> org.apache.commons.imaging.formats.tiff.TiffImageParser  </param>

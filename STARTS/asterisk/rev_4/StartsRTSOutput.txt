@@ -1,0 +1,84 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.0.0-SNAP-SHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:starts (default-cli) > [starts]test @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:run (default-cli) > test-compile @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:run (default-cli) < test-compile @ asterisk-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:run (default-cli) @ asterisk-java ---
+INFO: ALL(count): 854
+INFO: UNREACHED(count): 230
+INFO: STARTS:Nodes: 2991
+INFO: STARTS:Edges: 21846
+INFO: STARTS:AffectedTests: 2
+INFO: STARTS:TotalTests: 46
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ asterisk-java ---
+[INFO] Surefire report directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/asterisk/workingDir/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.asteriskjava.manager.event.RtcpReceivedEventTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.asteriskjava.manager.event.RtcpReceivedEventTest
+Running org.asteriskjava.manager.internal.ManagerReaderImplTest
+20:45:44.915 [main] INFO  org.asteriskjava.util.ReflectionUtil - Loaded 185
+20:45:44.943 [main] INFO  o.a.m.internal.ManagerReaderImpl - Terminating reader thread: Something happened to the network...
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 sec - in org.asteriskjava.manager.internal.ManagerReaderImplTest
+
+Results :
+
+
+
+
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:starts (default-cli) < [starts]test @ asterisk-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:starts (default-cli) @ asterisk-java ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.610 s
+[INFO] Finished at: 2020-05-18T20:45:44-06:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+org.apache.commons.imaging.common.itu_t4.T4_T6_TablesTest
+org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
+org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
+org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
+org.apache.commons.imaging.roundtrip.GrayscaleRountripTest

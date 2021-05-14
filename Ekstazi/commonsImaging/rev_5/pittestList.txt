@@ -1,0 +1,4 @@
+<param> org.apache.commons.imaging.common.bytesource.ByteSourceImageTest </param>
+<param> org.apache.commons.imaging.formats.tiff.TiffRoundtripTest </param>
+<param> org.apache.commons.imaging.formats.tiff.TiffReadTest </param>
+<param> org.apache.commons.imaging.formats.tiff.TiffCcittTest </param>

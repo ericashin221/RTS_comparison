@@ -1,0 +1,6 @@
+org.apache.commons.imaging.formats.pnm.WhiteSpaceReaderTest
+org/apache/commons/imaging/formats/pnm/WhiteSpaceReaderTest:<init>:()V
+org/apache/commons/imaging/formats/pnm/WhiteSpaceReaderTest:testReadLineReturningNonEmptyString:()V
+org/apache/commons/imaging/formats/pnm/WhiteSpaceReader:<init>:(Ljava/io/InputStream;)V
+org/apache/commons/imaging/formats/pnm/WhiteSpaceReader:read:()C
+org/apache/commons/imaging/formats/pnm/WhiteSpaceReader:readLine:()Ljava/lang/String;

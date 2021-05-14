@@ -1,0 +1,3 @@
+<param> org.asteriskjava.live.internal.QueueManager  </param>
+<param> org.asteriskjava.manager.internal.ResponseBuilderImpl  </param>
+<param> org.asteriskjava.pbx.internal.core.CoherentEventFactory  </param>

@@ -1,0 +1,2 @@
+org.apache.commons.net.tftp.TFTPTest
+org.apache.commons.net.tftp.TFTPServerPathTest

@@ -1,0 +1,6 @@
+org.apache.commons.imaging.formats.psd.ImageResourceBlockTest
+org/apache/commons/imaging/formats/psd/ImageResourceBlockTest:<init>:()V
+org/apache/commons/imaging/formats/psd/ImageResourceBlockTest:testCreatesImageResourceBlockAndCallsGetName:()V
+org/apache/commons/imaging/internal/Debug:debug:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/psd/ImageResourceBlock:<init>:(I[B[B)V
+org/apache/commons/imaging/formats/psd/ImageResourceBlock:getName:()Ljava/lang/String;

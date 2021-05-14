@@ -1,0 +1,2 @@
+org.apache.commons.cli.PatternOptionBuilderTest
+org.apache.commons.cli.bug.BugCLI266Test

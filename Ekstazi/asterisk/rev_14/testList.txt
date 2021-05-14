@@ -1,0 +1,3 @@
+org.asteriskjava.live.internal.AsteriskChannelImplTest
+org.asteriskjava.live.internal.AsteriskQueueMemberImplTest
+org.asteriskjava.live.internal.AsteriskAgentImplTest

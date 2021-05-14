@@ -1,0 +1,261 @@
+[INFO] Scanning for projects...
+[WARNING] The project org.apache.commons:commons-imaging:jar:1.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -----------------< org.apache.commons:commons-imaging >-----------------
+[INFO] Building Apache Commons Imaging 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:starts (default-cli) > [starts]test @ commons-imaging >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-imaging ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-imaging ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-imaging ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-imaging ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589860407617
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/smith)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 343 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.4.0:manifest (bundle-manifest) @ commons-imaging ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (checkAPIcompatibility) @ commons-imaging ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ commons-imaging ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.9:prepare-agent (prepare-agent) @ commons-imaging ---
+[INFO] argLine set to -javaagent:/s/chopin/a/grad/mkshin/.m2/repository/org/jacoco/org.jacoco.agent/0.7.9/org.jacoco.agent-0.7.9-runtime.jar=destfile=/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/jacoco.exec
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:run (default-cli) > test-compile @ commons-imaging >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-imaging ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-imaging ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-imaging ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-imaging ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589860412930
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/smith)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 343 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.4.0:manifest (bundle-manifest) @ commons-imaging ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (checkAPIcompatibility) @ commons-imaging ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ commons-imaging ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:run (default-cli) < test-compile @ commons-imaging <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:run (default-cli) @ commons-imaging ---
+INFO: ALL(count): 623
+INFO: UNREACHED(count): 9
+INFO: STARTS:Nodes: 1321
+INFO: STARTS:Edges: 10798
+INFO: STARTS:AffectedTests: 82
+INFO: STARTS:TotalTests: 136
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ commons-imaging ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.imaging.common.BinaryFileFunctionsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 s - in org.apache.commons.imaging.common.BinaryFileFunctionsTest
+[INFO] Running org.apache.commons.imaging.common.RationalNumberTest
+[INFO] Tests run: 65, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in org.apache.commons.imaging.common.RationalNumberTest
+[INFO] Running org.apache.commons.imaging.common.bytesource.ByteSourceDataTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 s - in org.apache.commons.imaging.common.bytesource.ByteSourceDataTest
+[INFO] Running org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
+[INFO] Tests run: 164, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.785 s - in org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
+[INFO] Running org.apache.commons.imaging.palette.PaletteQuantizationTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in org.apache.commons.imaging.palette.PaletteQuantizationTest
+[INFO] Running org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.448 s - in org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
+[INFO] Running org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.712 s - in org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
+[INFO] Running org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
+[INFO] Running org.apache.commons.imaging.roundtrip.GrayscaleRountripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.025 s - in org.apache.commons.imaging.roundtrip.GrayscaleRountripTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.354 s - in org.apache.commons.imaging.formats.tiff.TiffRoundtripTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffTagIntegrityTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.imaging.formats.tiff.TiffTagIntegrityTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.write.TiffOutputDirectoryTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.write.TiffOutputDirectoryTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.write.TiffOutputSetTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.write.TiffOutputSetTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.datareaders.DataReaderStripsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.tiff.datareaders.DataReaderStripsTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 s - in org.apache.commons.imaging.formats.tiff.TiffReadTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffReadWriteTagsTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.TiffReadWriteTagsTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffSubImageTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.tiff.TiffSubImageTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffCcittTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.491 s - in org.apache.commons.imaging.formats.tiff.TiffCcittTest
+[INFO] Running org.apache.commons.imaging.formats.tiff.TiffLzwTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.308 s - in org.apache.commons.imaging.formats.tiff.TiffLzwTest
+[INFO] Running org.apache.commons.imaging.formats.pam.PamReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.pam.PamReadTest
+[INFO] Running org.apache.commons.imaging.formats.psd.PsdReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.commons.imaging.formats.psd.PsdReadTest
+[INFO] Running org.apache.commons.imaging.formats.xbm.XbmReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.imaging.formats.xbm.XbmReadTest
+[INFO] Running org.apache.commons.imaging.formats.icns.IcnsRoundTripTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.imaging.formats.icns.IcnsRoundTripTest
+[INFO] Running org.apache.commons.imaging.formats.icns.IcnsReadTest
+[WARNING] Tests run: 9, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.008 s - in org.apache.commons.imaging.formats.icns.IcnsReadTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngTextTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.png.PngTextTest
+[INFO] Running org.apache.commons.imaging.formats.png.ConvertPngToGifTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.424 s - in org.apache.commons.imaging.formats.png.ConvertPngToGifTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngWriteReadTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 s - in org.apache.commons.imaging.formats.png.PngWriteReadTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 s - in org.apache.commons.imaging.formats.png.PngReadTest
+[INFO] Running org.apache.commons.imaging.formats.png.PngMultipleRoundtripTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.315 s - in org.apache.commons.imaging.formats.png.PngMultipleRoundtripTest
+[INFO] Running org.apache.commons.imaging.formats.dcx.DcxReadTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.007 s - in org.apache.commons.imaging.formats.dcx.DcxReadTest
+[INFO] Running org.apache.commons.imaging.formats.pnm.PnmImageParserTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.pnm.PnmImageParserTest
+[INFO] Running org.apache.commons.imaging.formats.ico.IcoReadTest
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.004 s - in org.apache.commons.imaging.formats.ico.IcoReadTest
+[INFO] Running org.apache.commons.imaging.formats.ico.IcoRoundtripTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 s - in org.apache.commons.imaging.formats.ico.IcoRoundtripTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.ExifDumpTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.apache.commons.imaging.formats.jpeg.exif.ExifDumpTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.ExifRewriteTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 s - in org.apache.commons.imaging.formats.jpeg.exif.ExifRewriteTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.GpsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.imaging.formats.jpeg.exif.GpsTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.MicrosoftTagTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.apache.commons.imaging.formats.jpeg.exif.MicrosoftTagTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.WriteExifMetadataExampleTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.commons.imaging.formats.jpeg.exif.WriteExifMetadataExampleTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.AsciiFieldTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.jpeg.exif.AsciiFieldTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.TextFieldTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.imaging.formats.jpeg.exif.TextFieldTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.exif.MakerNoteFieldTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.imaging.formats.jpeg.exif.MakerNoteFieldTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.JpegReadTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.974 s - in org.apache.commons.imaging.formats.jpeg.JpegReadTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.JpegWithInvalidDhtSegmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.jpeg.JpegWithInvalidDhtSegmentTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.segments.NegSizeSegmentTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.imaging.formats.jpeg.segments.NegSizeSegmentTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcDumpTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcDumpTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.iptc.IptcUpdateTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.imaging.formats.jpeg.iptc.IptcUpdateTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpDumpTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpDumpTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpRewriteTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpRewriteTest
+[INFO] Running org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest
+[INFO] Running org.apache.commons.imaging.formats.bmp.BmpReadTest
+[WARNING] Tests run: 15, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.005 s - in org.apache.commons.imaging.formats.bmp.BmpReadTest
+[INFO] Running org.apache.commons.imaging.formats.bmp.BmpRoundtripTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in org.apache.commons.imaging.formats.bmp.BmpRoundtripTest
+[INFO] Running org.apache.commons.imaging.formats.xpm.XpmReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 s - in org.apache.commons.imaging.formats.xpm.XpmReadTest
+[INFO] Running org.apache.commons.imaging.formats.xmp.XmpUpdateTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.apache.commons.imaging.formats.xmp.XmpUpdateTest
+[INFO] Running org.apache.commons.imaging.formats.xmp.XmpDumpTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.imaging.formats.xmp.XmpDumpTest
+[INFO] Running org.apache.commons.imaging.formats.wbmp.WbmpReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.formats.wbmp.WbmpReadTest
+[INFO] Running org.apache.commons.imaging.formats.rgbe.RgbeReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.apache.commons.imaging.formats.rgbe.RgbeReadTest
+[INFO] Running org.apache.commons.imaging.formats.pcx.PcxReadTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.imaging.formats.pcx.PcxReadTest
+[INFO] Running org.apache.commons.imaging.formats.gif.GifReadTest
+[WARNING] Tests run: 6, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s - in org.apache.commons.imaging.formats.gif.GifReadTest
+[INFO] Running org.apache.commons.imaging.ImagingGuessFormatTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.imaging.ImagingGuessFormatTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 470, Failures: 0, Errors: 0, Skipped: 15
+[INFO] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (check-java-api) @ commons-imaging ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:starts (default-cli) < [starts]test @ commons-imaging <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:starts (default-cli) @ commons-imaging ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 44.682 s
+[INFO] Finished at: 2020-05-18T21:54:09-06:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,15 @@
+org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
+org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
+org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
+org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
+org.apache.commons.imaging.roundtrip.GrayscaleRountripTest
+org.apache.commons.imaging.formats.tiff.TiffRoundtripTest
+org.apache.commons.imaging.formats.tiff.TiffReadTest
+org.apache.commons.imaging.formats.png.PngTextTest
+org.apache.commons.imaging.formats.png.PngWriteReadTest
+org.apache.commons.imaging.formats.png.PngReadTest
+org.apache.commons.imaging.formats.pnm.PnmImageParserTest
+org.apache.commons.imaging.formats.ico.IcoReadTest
+org.apache.commons.imaging.formats.ico.IcoRoundtripTest
+org.apache.commons.imaging.formats.bmp.BmpReadTest
+org.apache.commons.imaging.formats.bmp.BmpRoundtripTest

@@ -1,0 +1,129 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.asteriskjava:asterisk-java:jar:3.0.2-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 150, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ line 160, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:starts (default-cli) > [starts]test @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:run (default-cli) > test-compile @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:run (default-cli) < test-compile @ asterisk-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:run (default-cli) @ asterisk-java ---
+INFO: ALL(count): 856
+INFO: UNREACHED(count): 232
+INFO: STARTS:Nodes: 3002
+INFO: STARTS:Edges: 21881
+INFO: STARTS:AffectedTests: 1
+INFO: STARTS:TotalTests: 46
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ asterisk-java ---
+[INFO] Surefire report directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/asterisk/workingDir/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.asteriskjava.pbx.internal.core.ListenerManagerTest
+20:56:56.424 [main] INFO  org.asteriskjava.util.ReflectionUtil - Loaded 39
+20:56:56.427 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.UnparkedCallEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.UnparkedCallEvent
+20:56:56.428 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.QueueCallerLeaveEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.QueueCallerLeaveEvent
+20:56:56.428 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ExtensionStatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ExtensionStatusEvent
+20:56:56.429 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ReloadEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ReloadEvent
+20:56:56.429 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DbGetResponseEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DbGetResponseEvent
+20:56:56.430 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.StatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusEvent
+20:56:56.430 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.LinkEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.LinkEvent
+20:56:56.430 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DndStateEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DndStateEvent
+20:56:56.431 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.RenameEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.RenameEvent
+20:56:56.431 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.AbstractMeetMeEvent
+20:56:56.431 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ConfbridgeListCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConfbridgeListCompleteEvent
+20:56:56.431 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.BridgeEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.BridgeEvent
+20:56:56.432 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.ConfbridgeListEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConfbridgeListEvent
+20:56:56.432 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialEvent
+20:56:56.432 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.OriginateResponseEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.OriginateResponseEvent
+20:56:56.433 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MasqueradeEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MasqueradeEvent
+20:56:56.433 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.AbstractParkedCallEvent
+20:56:56.433 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewStateEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewStateEvent
+20:56:56.434 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MeetMeLeaveEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MeetMeLeaveEvent
+20:56:56.434 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.PeerStatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerStatusEvent
+20:56:56.434 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ParkedCallEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ParkedCallEvent
+20:56:56.435 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.HangupEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.HangupEvent
+20:56:56.435 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.UnlinkEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.UnlinkEvent
+20:56:56.435 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.AgentConnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.AgentConnectEvent
+20:56:56.436 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.StatusCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusCompleteEvent
+20:56:56.436 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.PeerlistCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerlistCompleteEvent
+20:56:56.436 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialBeginEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialBeginEvent
+20:56:56.436 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ConnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConnectEvent
+20:56:56.437 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.ResponseEvent
+20:56:56.437 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DisconnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DisconnectEvent
+20:56:56.437 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.PeerEntryEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerEntryEvent
+20:56:56.438 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.VarSetEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.VarSetEvent
+20:56:56.438 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.ManagerEvent
+20:56:56.438 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MeetMeJoinEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MeetMeJoinEvent
+20:56:56.438 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialEndEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialEndEvent
+20:56:56.439 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.BlindTransferEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.BlindTransferEvent
+20:56:56.439 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.AgentCalledEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.AgentCalledEvent
+20:56:56.440 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewChannelEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewChannelEvent
+20:56:56.440 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewExtenEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewExtenEvent
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec - in org.asteriskjava.pbx.internal.core.ListenerManagerTest
+
+Results :
+
+
+
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:starts (default-cli) < [starts]test @ asterisk-java <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:starts (default-cli) @ asterisk-java ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.975 s
+[INFO] Finished at: 2020-05-18T20:56:56-06:00
+[INFO] ------------------------------------------------------------------------

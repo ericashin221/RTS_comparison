@@ -1,0 +1,82 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-net:commons-net >-----------------------
+[INFO] Building Apache Commons Net 3.6-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:setup (default-cli) @ commons-net ---
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 209 files (29 packages).
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 61 files (14 packages).
+[INFO] 299 test methods detected.
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:optimize (default-cli) @ commons-net ---
+[INFO] Adding fileset: directory=/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/target/clover/src-test-instrumented, includes=[**/Test*.java, **/*Test.java, **/*TestCase.java], excludes=[**/*FunctionalTest.java, **/POP3*Test.java]
+[INFO] Clover estimates having saved around 1 minute on this optimized test run. The full test run takes approx. 1 minute
+[INFO] Clover included 0 test classes in this run (total # test classes : 43)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-net ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-net ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-net ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-net ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-net ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589888110605
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-net ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-net ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 189 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:manifest (bundle-manifest) @ commons-net ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (checkAPIcompatibility) @ commons-net ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-net ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ commons-net ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 61 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/target/test-classes
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/target/clover/src-test-instrumented/org/apache/commons/net/nntp/TestThreader.java: Some input files use or override a deprecated API.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/target/clover/src-test-instrumented/org/apache/commons/net/nntp/TestThreader.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ commons-net ---
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:snapshot (default-cli) @ commons-net ---
+[INFO] No span specified, using span of: 14s
+[INFO] Saving snapshot to: /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/.clover/clover.snapshot
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating snapshot '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/.clover/clover.snapshot' against Clover database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonsNet/workingDir/target/clover/clover.db'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.903 s
+[INFO] Finished at: 2020-05-19T05:35:19-06:00
+[INFO] ------------------------------------------------------------------------

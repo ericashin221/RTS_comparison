@@ -1,0 +1,5 @@
+org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterAverageTest
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterAverageTest:<init>:()V
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterAverageTest:testUnfilterWithNull:()V
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterAverage:<init>:(I)V
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterAverage:unfilter:([B[B[B)V

@@ -1,0 +1,3 @@
+org.asteriskjava.pbx.internal.asterisk.MeetmeRoom 
+org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl 
+org.asteriskjava.pbx.internal.core.ChannelProxy 

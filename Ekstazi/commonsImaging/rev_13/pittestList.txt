@@ -1,0 +1,4 @@
+<param> org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest </param>
+<param> org.apache.commons.imaging.roundtrip.BitmapRoundtripTest </param>
+<param> org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest </param>
+<param> org.apache.commons.imaging.roundtrip.GrayscaleRountripTest </param>

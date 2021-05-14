@@ -1,0 +1,11 @@
+org.asteriskjava.manager.event.SkypeChatMessageEventTest
+org/asteriskjava/manager/event/SkypeChatMessageEventTest:<init>:()V
+org/asteriskjava/manager/event/SkypeChatMessageEventTest:testGetDecodedMessage:()V
+org/asteriskjava/manager/event/SkypeChatMessageEvent:<init>:(Ljava/lang/Object;)V
+org/asteriskjava/manager/event/SkypeChatMessageEvent:setMessage:(Ljava/lang/String;)V
+org/asteriskjava/manager/event/SkypeChatMessageEvent:getDecodedMessage:()Ljava/lang/String;
+org/asteriskjava/manager/event/ManagerEvent:<init>:(Ljava/lang/Object;)V
+org/asteriskjava/util/Base64:<clinit>:()V
+org/asteriskjava/util/Base64:base64ToByteArray:(Ljava/lang/String;)[B
+org/asteriskjava/util/Base64:base64ToByteArray:(Ljava/lang/String;Z)[B
+org/asteriskjava/util/Base64:base64toInt:(C[B)I

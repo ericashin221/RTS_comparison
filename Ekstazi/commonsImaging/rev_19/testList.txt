@@ -1,0 +1,4 @@
+org.apache.commons.imaging.formats.tiff.taginfos.TagInfoUnknownTest
+org.apache.commons.imaging.formats.psd.dataparsers.DataParserIndexedTest
+org.apache.commons.imaging.formats.png.chunks.PngChunkTextTest
+org.apache.commons.imaging.formats.jpeg.segments.JfifSegmentTest

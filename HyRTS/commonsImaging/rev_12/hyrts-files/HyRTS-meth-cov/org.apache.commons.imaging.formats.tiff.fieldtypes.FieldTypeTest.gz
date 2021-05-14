@@ -1,0 +1,15 @@
+org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeTest
+org/apache/commons/imaging/ImageReadException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeTest:testGetFieldTypeWithNegative:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType:getType:()I
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType:getFieldType:(I)Lorg/apache/commons/imaging/formats/tiff/fieldtypes/FieldType;
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeDouble:getType:()I
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLong:getType:()I
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeShort:getType:()I
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeFloat:getType:()I
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeAscii:getType:()I
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeRational:getType:()I
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeByte:getType:()I

@@ -1,0 +1,5 @@
+org.asteriskjava.pbx.asterisk.wrap.response.CommandResponse 
+org.asteriskjava.pbx.asterisk.wrap.response.ManagerError 
+org.asteriskjava.pbx.asterisk.wrap.response.ManagerResponse 
+org.asteriskjava.pbx.internal.core.AsteriskPBX 
+org.asteriskjava.pbx.internal.core.CoherentEventFactory 

@@ -1,0 +1,85 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-net:commons-net >-----------------------
+[INFO] Building Apache Commons Net 3.6-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- pitest-maven:1.5.0:mutationCoverage (default-cli) @ commons-net ---
+[INFO] Found plugin : Default csv report plugin
+[INFO] Found plugin : Default xml report plugin
+[INFO] Found plugin : Default html report plugin
+[INFO] Found plugin : Static initializer code detector plugin
+[INFO] Found plugin : Static initializer filter plugin
+[INFO] Found plugin : Excluded annotations plugin
+[INFO] Found plugin : Try with resources filter
+[INFO] Found plugin : Inlined finally block filter plugin
+[INFO] Found plugin : Implicit null check filter
+[INFO] Found plugin : Method reference null check filter
+[INFO] Found plugin : For each loop filter
+[INFO] Found plugin : Enum constructor filter
+[INFO] Found plugin : Logging calls filter
+[INFO] Found plugin : Infinite for loop filter
+[INFO] Found plugin : Long running iterator loop filter
+[INFO] Found plugin : For loop counter filter
+[INFO] Found plugin : Kotlin junk mutations filter
+[INFO] Found plugin : Max mutations per class limit
+[INFO] Found plugin : Equals shortcut equivalent mutant filter
+[INFO] Found plugin : Trivial return vals equivalence filter
+[INFO] Found plugin : Mutant export plugin
+[INFO] Found shared classpath plugin : Default mutation engine
+[INFO] Found shared classpath plugin : JUnit plugin
+[INFO] Found shared classpath plugin : TestNG plugin
+[INFO] Adding org.pitest:pitest to SUT classpath
+[INFO] Mutating from /s/smith/b/nobackup/mkshin/Spring2020/Research/pitestWork4/target/classes
+/-\|/-\|stderr  : Exception in thread "Thread-15" Exception in thread "Thread-11" Exception in thread "Thread-13" java.lang.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.Telnestderr  : tInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStrstderr  : eam.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(Tstderr  : elnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+stderr  : Exception in thread "Thread-21" stderr  : Exception in thread "Thread-23" stderr  : java.lang.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+stderr  : java.lang.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+stderr  : Exception in thread "Thread-29" Exception in thread "Thread-31" stderr  : java.lang.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+java.langstderr  : .NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+stderr  : Exception in thread "Thread-39" stderr  : Exception in thread "Thread-35" java.lang.NullPointerExceptionstderr  : 
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+Exception in thread "Thread-37" java.lastderr  : ng.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.NullPostderr  : interException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thread.java:748)
+stderr  : Exception in thread "Thread-43" stderr  : java.lang.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:650)
+	at java.lang.Thread.run(Thread.java:748)
+stderr  : Exception in thread "Thread-47" stderr  : Exception in thread "Thread-45" java.lang.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Threastderr  : d.run(Thread.java:748)
+java.lang.NullPointerException
+	at org.apache.commons.net.telnet.TelnetClient.notifyInputListener(TelnetClient.java:420)
+	at org.apache.commons.net.telnet.TelnetInputStream.run(TelnetInputStream.java:660)
+	at java.lang.Thread.run(Thrstderr  : ead.java:748)

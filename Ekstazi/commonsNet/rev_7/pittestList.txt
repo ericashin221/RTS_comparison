@@ -1,0 +1,16 @@
+<param> org.apache.commons.net.SocketClientTest </param>
+<param> org.apache.commons.net.ftp.FTPClientConfigTest </param>
+<param> org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest </param>
+<param> org.apache.commons.net.ftp.parser.MVSFTPEntryParserTest </param>
+<param> org.apache.commons.net.ftp.parser.OS400FTPEntryParserAdditionalTest </param>
+<param> org.apache.commons.net.ftp.parser.UnixFTPEntryParserTest </param>
+<param> org.apache.commons.net.ftp.parser.NetwareFTPEntryParserTest </param>
+<param> org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactoryTest </param>
+<param> org.apache.commons.net.ftp.parser.MacOsPeterFTPEntryParserTest </param>
+<param> org.apache.commons.net.ftp.parser.OS400FTPEntryParserTest </param>
+<param> org.apache.commons.net.ftp.parser.VMSFTPEntryParserTest </param>
+<param> org.apache.commons.net.ftp.parser.FTPTimestampParserImplTest </param>
+<param> org.apache.commons.net.ftp.parser.NTFTPEntryParserTest </param>
+<param> org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest </param>
+<param> org.apache.commons.net.ftp.TestConnectTimeout </param>
+<param> org.apache.commons.net.ftp.FTPClientTest </param>

@@ -1,0 +1,5 @@
+org.apache.commons.imaging.formats.bmp.BmpImageParser 
+org.apache.commons.imaging.formats.ico.IcoImageParser 
+org.apache.commons.imaging.formats.png.PngImageParser 
+org.apache.commons.imaging.formats.pnm.PnmImageParser 
+org.apache.commons.imaging.formats.tiff.TiffImageParser 

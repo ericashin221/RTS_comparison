@@ -1,0 +1,6 @@
+org.apache.commons.net.SocketClientTest
+org.apache.commons.net.ftp.TestConnectTimeout
+org.apache.commons.net.ftp.FTPClientTest
+org.apache.commons.net.tftp.TFTPTest
+org.apache.commons.net.tftp.TFTPServerPathTest
+org.apache.commons.net.telnet.TelnetClientTest

@@ -1,0 +1,14 @@
+<param> org.asteriskjava.live.internal.AsteriskQueueMemberImpl  </param>
+<param> org.asteriskjava.manager.event.BridgeEvent  </param>
+<param> org.asteriskjava.manager.event.DtmfEvent  </param>
+<param> org.asteriskjava.manager.event.ReloadEvent  </param>
+<param> org.asteriskjava.manager.event.SkypeChatMessageEvent  </param>
+<param> org.asteriskjava.pbx.internal.activity.DialActivityImpl  </param>
+<param> org.asteriskjava.pbx.internal.activity.DialToAgiActivityImpl  </param>
+<param> org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl  </param>
+<param> org.asteriskjava.pbx.internal.core.ChannelImpl  </param>
+<param> org.asteriskjava.pbx.internal.managerAPI.Dial  </param>
+<param> org.asteriskjava.pbx.internal.managerAPI.DialToAgi  </param>
+<param> org.asteriskjava.pbx.internal.managerAPI.OriginateBaseClass  </param>
+<param> org.asteriskjava.pbx.internal.managerAPI.OriginateToExtension  </param>
+<param> org.asteriskjava.util.internal.FileTrace  </param>

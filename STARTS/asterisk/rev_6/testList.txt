@@ -1,0 +1,8 @@
+org.asteriskjava.util.internal.streamreader.FastScannerDeterministicTest
+org.asteriskjava.util.internal.streamreader.FastScannerSpeedTest
+org.asteriskjava.util.internal.streamreader.FastScannerRandomTest
+org.asteriskjava.manager.event.RtcpReceivedEventTest
+org.asteriskjava.manager.internal.ManagerReaderImplTest
+org.asteriskjava.manager.internal.ManagerConnectionImplTest
+org.asteriskjava.fastagi.DefaultAgiServerTest
+org.asteriskjava.pbx.internal.core.ListenerManagerTest

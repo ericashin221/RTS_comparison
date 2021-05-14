@@ -1,0 +1,2 @@
+<param> org.apache.commons.cli.PatternOptionBuilderTest </param>
+<param> org.apache.commons.cli.DisablePartialMatchingTest </param>

@@ -1,0 +1,2 @@
+org.asteriskjava.pbx.internal.activity.DialToAgiActivityImpl
+org.asteriskjava.pbx.internal.managerAPI.OriginateBaseClass

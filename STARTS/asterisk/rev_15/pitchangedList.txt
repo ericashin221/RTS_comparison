@@ -1,0 +1,5 @@
+<param> org.asteriskjava.pbx.asterisk.wrap.response.CommandResponse  </param>
+<param> org.asteriskjava.pbx.asterisk.wrap.response.ManagerError  </param>
+<param> org.asteriskjava.pbx.asterisk.wrap.response.ManagerResponse  </param>
+<param> org.asteriskjava.pbx.internal.core.AsteriskPBX  </param>
+<param> org.asteriskjava.pbx.internal.core.CoherentEventFactory  </param>

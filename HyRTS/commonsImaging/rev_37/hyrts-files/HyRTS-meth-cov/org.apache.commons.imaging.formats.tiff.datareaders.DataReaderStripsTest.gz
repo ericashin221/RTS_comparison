@@ -1,0 +1,9 @@
+org.apache.commons.imaging.formats.tiff.datareaders.DataReaderStripsTest
+org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStripsTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStripsTest:testApplyPredictor:()V
+org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStrips:<init>:(Lorg/apache/commons/imaging/formats/tiff/TiffDirectory;Lorg/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreter;I[IIIIIILjava/nio/ByteOrder;ILorg/apache/commons/imaging/formats/tiff/TiffImageData$Strips;)V
+org/apache/commons/imaging/formats/tiff/datareaders/ImageDataReader:<init>:(Lorg/apache/commons/imaging/formats/tiff/TiffDirectory;Lorg/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreter;[IIIII)V
+org/apache/commons/imaging/formats/tiff/datareaders/ImageDataReader:resetPredictor:()V
+org/apache/commons/imaging/formats/tiff/datareaders/ImageDataReader:applyPredictor:([I)[I
+org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStrips:resetPredictor:()V
+org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStrips:applyPredictor:([I)[I

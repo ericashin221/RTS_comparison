@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.net.ftp.FTPClientTest" time="0.045" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.242-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsNet/workingDir"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="STARTS_EXCLUDES" value="[examples/MainTest.*, org/apache/commons/net/SubnetUtilsTest.*, org/apache/commons/net/ftp/FTPClientConfigTest.*, org/apache/commons/net/ftp/FTPCommandTest.*, org/apache/commons/net/ftp/parser/DefaultFTPFileEntryParserFactoryTest.*, org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParserTest.*, org/apache/commons/net/ftp/parser/FTPConfigEntryParserTest.*, org/apache/commons/net/ftp/parser/FTPTimestampParserImplTest.*, org/apache/commons/net/ftp/parser/MLSxEntryParserTest.*, org/apache/commons/net/ftp/parser/MVSFTPEntryParserTest.*, org/apache/commons/net/ftp/parser/MacOsPeterFTPEntryParserTest.*, org/apache/commons/net/ftp/parser/NTFTPEntryParserTest.*, org/apache/commons/net/ftp/parser/NetwareFTPEntryParserTest.*, org/apache/commons/net/ftp/parser/OS2FTPEntryParserTest.*, org/apache/commons/net/ftp/parser/OS400FTPEntryParserAdditionalTest.*, org/apache/commons/net/ftp/parser/OS400FTPEntryParserTest.*, org/apache/commons/net/ftp/parser/UnixFTPEntryParserTest.*, org/apache/commons/net/ftp/parser/VMSFTPEntryParserTest.*, org/apache/commons/net/imap/IMAPTest.*, org/apache/commons/net/io/DotTerminatedMessageReaderTest.*, org/apache/commons/net/io/ToNetASCIIInputStreamTest.*, org/apache/commons/net/nntp/TestThreader.*, org/apache/commons/net/ntp/TestNtpClient.*, org/apache/commons/net/ntp/TestNtpPacket.*, org/apache/commons/net/ntp/TestTimeInfo.*, org/apache/commons/net/ntp/TimeStampTest.*, org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase.*, org/apache/commons/net/telnet/EchoOptionHandlerTest.*, org/apache/commons/net/telnet/InvalidTelnetOptionExceptionTest.*, org/apache/commons/net/telnet/SimpleOptionHandlerTest.*, org/apache/commons/net/telnet/SuppressGAOptionHandlerTest.*, org/apache/commons/net/telnet/TelnetClientTest.*, org/apache/commons/net/telnet/TelnetOptionTest.*, org/apache/commons/net/telnet/TerminalTypeOptionHandlerTest.*, org/apache/commons/net/telnet/WindowSizeOptionHandlerTest.*, org/apache/commons/net/tftp/TFTPServerPathTest.*, org/apache/commons/net/tftp/TFTPTest.*, org/apache/commons/net/time/TimeTCPClientTest.*, org/apache/commons/net/util/Base64Test.*, org/apache/commons/net/util/UtilTest.*]"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsNet/workingDir"/>
+    <property name="java.runtime.version" value="1.8.0_242-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="edu.illinois.starts.maven.AgentLoader Initialized" value=""/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value=":/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.5.10-100.fc30.x86_64"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/s/chopin/a/grad/mkshin"/>
+    <property name="user.timezone" value="America/Denver"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="mkshin"/>
+    <property name="java.class.path" value="/usr/share/java/plexus-classworlds.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher starts:starts -Pstartsp -Drat.skip=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_242"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc30.x86_64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="rat.skip" value="true"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="STARTS57964663" value="STARTS-invoked"/>
+    <property name="[PROFILE] END-OF-RUN-MOJO: " value="1589862778022"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testParsePassiveModeReplyForLocalAddressWithoutNatWorkaroundStrategy" classname="org.apache.commons.net.ftp.FTPClientTest" time="0"/>
+  <testcase name="testParseClient" classname="org.apache.commons.net.ftp.FTPClientTest" time="0"/>
+  <testcase name="testParsePassiveModeReplyForNonLocalAddressWithoutNatWorkaroundStrategy" classname="org.apache.commons.net.ftp.FTPClientTest" time="0"/>
+  <testcase name="testParserCachingWithKey" classname="org.apache.commons.net.ftp.FTPClientTest" time="0.032"/>
+  <testcase name="testParsePassiveModeReplyForLocalAddressWithNatWorkaround" classname="org.apache.commons.net.ftp.FTPClientTest" time="0"/>
+  <testcase name="testParsePassiveModeReplyForNonLocalAddressWithNatWorkaround" classname="org.apache.commons.net.ftp.FTPClientTest" time="0"/>
+  <testcase name="testParsePassiveModeReplyForLocalAddressWithSimpleNatWorkaroundStrategy" classname="org.apache.commons.net.ftp.FTPClientTest" time="0.001"/>
+  <testcase name="testParserCachingNullKey" classname="org.apache.commons.net.ftp.FTPClientTest" time="0.002"/>
+  <testcase name="testUnparseableFiles" classname="org.apache.commons.net.ftp.FTPClientTest" time="0.005"/>
+  <testcase name="testParsePassiveModeReplyForNonLocalAddressWithNatWorkaroundDisabled" classname="org.apache.commons.net.ftp.FTPClientTest" time="0"/>
+  <testcase name="testParsePassiveModeReplyForLocalAddressWithNatWorkaroundDisabled" classname="org.apache.commons.net.ftp.FTPClientTest" time="0.001"/>
+</testsuite>

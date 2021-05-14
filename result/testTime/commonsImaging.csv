@@ -1,0 +1,51 @@
+rev, All, STARTS, Ekstazi, HyRTS, Clover
+rev_1, Binary file ../original_source/commonsImaging/rev_1/mvnRunOutput.txt match, Binary file ../STARTS/commonsImaging/rev_1/StartsRTSOutput.txt match, Binary file ../Ekstazi/commonsImaging/rev_1/EkstaziRTSOutput.txt match, Binary file ../HyRTS/commonsImaging/rev_1/HyRTSOutput.txt match, Binary file ../Clover/commonsImaging/rev_1/CloverOutput.txt match
+rev_2, Binary file ../original_source/commonsImaging/rev_2/mvnRunOutput.txt match, 14.098, 11.694, 11.446, 40.173
+rev_3, Binary file ../original_source/commonsImaging/rev_3/mvnRunOutput.txt match, 15.937, 12.084, 11.464, 39.419
+rev_4, Binary file ../original_source/commonsImaging/rev_4/mvnRunOutput.txt match, 13.340, 15.309, 11.040, 39.631
+rev_5, Binary file ../original_source/commonsImaging/rev_5/mvnRunOutput.txt match, 45.489, 28.146, 12.828, 192
+rev_6, Binary file ../original_source/commonsImaging/rev_6/mvnRunOutput.txt match, 46.307, 17.936, 17.128, 101
+rev_7, Binary file ../original_source/commonsImaging/rev_7/mvnRunOutput.txt match, Binary file ../STARTS/commonsImaging/rev_7/StartsRTSOutput.txt match, Binary file ../Ekstazi/commonsImaging/rev_7/EkstaziRTSOutput.txt match, Binary file ../HyRTS/commonsImaging/rev_7/HyRTSOutput.txt match, Binary file ../Clover/commonsImaging/rev_7/CloverOutput.txt match
+rev_8, Binary file ../original_source/commonsImaging/rev_8/mvnRunOutput.txt match, 45.828, 44.303, 43.627, 224
+rev_9, Binary file ../original_source/commonsImaging/rev_9/mvnRunOutput.txt match, 46.126, 44.619, 40.612, 208
+rev_10, Binary file ../original_source/commonsImaging/rev_10/mvnRunOutput.txt match, 11.735, 11.572, 11.191, 39.371
+rev_11, Binary file ../original_source/commonsImaging/rev_11/mvnRunOutput.txt match, 11.609, 11.186, 10.757, 36.904
+rev_12, Binary file ../original_source/commonsImaging/rev_12/mvnRunOutput.txt match, 44.560, 13.958, 13.501, 
+rev_13, Binary file ../original_source/commonsImaging/rev_13/mvnRunOutput.txt match, 44.682, 23.715, 22.320, 36.480
+rev_14, Binary file ../original_source/commonsImaging/rev_14/mvnRunOutput.txt match, 44.317, 44.368, 23.080, 211
+rev_15, Binary file ../original_source/commonsImaging/rev_15/mvnRunOutput.txt match, 11.752, 11.525, 10.890, 38.685
+rev_16, Binary file ../original_source/commonsImaging/rev_16/mvnRunOutput.txt match, 11.438, 11.006, 10.638, 203
+rev_17, Binary file ../original_source/commonsImaging/rev_17/mvnRunOutput.txt match, 49.474, 47.834, 23.170, 204
+rev_18, Binary file ../original_source/commonsImaging/rev_18/mvnRunOutput.txt match, 14.348, 11.745, 10.747, 39.543
+rev_19, Binary file ../original_source/commonsImaging/rev_19/mvnRunOutput.txt match, 13.878, 11.329, 10.769, 37.406
+rev_20, 43.993, 44.230, 44.081, 45.498, 285
+rev_21, 44.873, 11.706, 11.465, 13.638, 38.562
+rev_22, 45.262, 12.013, 11.433, 10.684, 39.657
+rev_23, 46.090, 11.468, 11.286, 10.649, 44.786
+rev_24, 45.202, 13.933, 11.146, 10.722, 209
+rev_25, 44.658, 11.730, 11.105, 10.768, 200
+rev_26, 52.811, 11.502, 11.869, 11.045, 217
+rev_27, 54.624, 45.729, 46.203, 46.017, 244
+rev_28, 47.670, 11.598, 11.532, 10.829, 180
+rev_29, 44.611, 11.613, 11.002, 10.569, 194
+rev_30, 46.314, 11.804, 11.349, 10.931, 40.575
+rev_31, 44.877, 11.744, 11.446, 10.761, 37.802
+rev_32, 43.160, 44.148, 13.887, 13.687, 66
+rev_33, 44.550, 11.741, 11.348, 11.075, 38.417
+rev_34, 44.361, 11.745, 11.193, 11.008, 37.508
+rev_35, 43.929, 44.621, 14.779, 13.331, 
+rev_36, 44.993, 11.864, 11.423, 10.698, 38.618
+rev_37, 44.026, 11.771, 11.747, 10.710, 36.937
+rev_38, 47.677, 11.433, 12.256, 10.968, 38.191
+rev_39, 47.944, 12.161, 11.277, 10.962, 37.542
+rev_40, 44.346, 11.442, 11.764, 13.841, 46.737
+rev_41, 43.606, 11.773, 11.226, 11.243, 36.958
+rev_42, 44.285, 12.037, 11.305, 10.707, 38.243
+rev_43, 44.052, 45.068, 43.727, 12.117, 204
+rev_44, 43.625, 11.453, 11.757, 10.867, 38.345
+rev_45, 44.905, 15.413, 11.225, 10.966, 39.261
+rev_46, 45.379, 11.763, 11.166, 10.678, 37.904
+rev_47, 46.615, 15.431, 12.382, 11.905, 40.900
+rev_48, 45.826, 45.849, 47.414, 47.365, 38.399
+rev_49, 45.652, 12.819, 12.165, 11.924, 38.964
+rev_50, 46.417, 16.772, 13.660, 13.129, 43.989

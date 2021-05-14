@@ -1,0 +1,2 @@
+<param> org.asteriskjava.manager.internal.ManagerReaderImplTest </param>
+<param> org.asteriskjava.manager.internal.ResponseBuilderImplTest </param>

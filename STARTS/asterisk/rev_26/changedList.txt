@@ -1,0 +1,16 @@
+org.asteriskjava.live.internal.AsteriskQueueMemberImpl 
+org.asteriskjava.manager.event.BridgeEvent 
+org.asteriskjava.manager.event.DtmfEvent 
+org.asteriskjava.manager.event.QueueMemberEvent 
+org.asteriskjava.manager.event.ReloadEvent 
+org.asteriskjava.manager.event.SkypeChatMessageEvent 
+org.asteriskjava.pbx.internal.activity.BlindTransferActivityImpl 
+org.asteriskjava.pbx.internal.activity.DialActivityImpl 
+org.asteriskjava.pbx.internal.activity.DialToAgiActivityImpl 
+org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl 
+org.asteriskjava.pbx.internal.core.ChannelImpl 
+org.asteriskjava.pbx.internal.managerAPI.Dial 
+org.asteriskjava.pbx.internal.managerAPI.DialToAgi 
+org.asteriskjava.pbx.internal.managerAPI.OriginateBaseClass 
+org.asteriskjava.pbx.internal.managerAPI.OriginateToExtension 
+org.asteriskjava.util.internal.FileTrace 

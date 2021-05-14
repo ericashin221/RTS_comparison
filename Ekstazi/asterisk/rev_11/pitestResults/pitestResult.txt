@@ -1,0 +1,128 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.0.0-SNAP-SHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- pitest-maven:1.5.0:mutationCoverage (default-cli) @ asterisk-java ---
+[INFO] Found plugin : Default csv report plugin
+[INFO] Found plugin : Default xml report plugin
+[INFO] Found plugin : Default html report plugin
+[INFO] Found plugin : Static initializer code detector plugin
+[INFO] Found plugin : Static initializer filter plugin
+[INFO] Found plugin : Excluded annotations plugin
+[INFO] Found plugin : Try with resources filter
+[INFO] Found plugin : Inlined finally block filter plugin
+[INFO] Found plugin : Implicit null check filter
+[INFO] Found plugin : Method reference null check filter
+[INFO] Found plugin : For each loop filter
+[INFO] Found plugin : Enum constructor filter
+[INFO] Found plugin : Logging calls filter
+[INFO] Found plugin : Infinite for loop filter
+[INFO] Found plugin : Long running iterator loop filter
+[INFO] Found plugin : For loop counter filter
+[INFO] Found plugin : Kotlin junk mutations filter
+[INFO] Found plugin : Max mutations per class limit
+[INFO] Found plugin : Equals shortcut equivalent mutant filter
+[INFO] Found plugin : Trivial return vals equivalence filter
+[INFO] Found plugin : Mutant export plugin
+[INFO] Found shared classpath plugin : Default mutation engine
+[INFO] Found shared classpath plugin : JUnit plugin
+[INFO] Found shared classpath plugin : TestNG plugin
+[INFO] Adding org.pitest:pitest to SUT classpath
+[INFO] Mutating from /s/smith/b/nobackup/mkshin/Spring2020/Research/pitestWork2/target/classes
+/-\|/-\|/-\|/-\|/-\|/-stderr  : Exception in thread "Thread-410" java.lang.ClassCastException: org.asteriskjava.manager.event.ProtocolIdentifierReceivedEvent cannot be cast to org.asteriskjava.manager.event.DialBeginEvent
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatstderr  : chLegacyEventIfNeeded(ManagerConnectionImpl.java:1308)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.dispatchEvent(ManagerConnectionImpl.java:1195)
+	at org.asteriskjava.manager.internal.ManagerWriterMock$1.run(ManagerWriterMock.java:104)
+	at stderr  : java.lang.Thread.run(Thread.java:748)
+stderr  : Exception in thread "Asterisk-Java ManagerConnection-278-Reconnect-0" stderr  : java.lang.AssertionError: 
+  Unexpected method call SocketConnectionFacade.close():
+	at org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:44)
+	at org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:94)
+	at stderr  : com.sun.proxy.$Proxy4.close(Unknown Source)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.disconnect(ManagerConnectionImpl.java:808)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.doLogin(ManagerConnectionImpl.java:567)
+	at org.astderr  : steriskjava.manager.internal.ManagerConnectionImplTest$MockedManagerConnectionImpl.doLogin(ManagerConnectionImplTest.java:726)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.reconnect(ManagerConnectionImpl.java:1432)
+	at org.asteriskjava.managstderr  : er.internal.ManagerConnectionImpl.access$100(ManagerConnectionImpl.java:85)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl$1.run(ManagerConnectionImpl.java:1264)
+	at java.lang.Thread.run(Thread.java:748)
+/================================================================================
+- Mutators
+================================================================================
+> org.pitest.mutationtest.engine.gregor.mutators.BooleanTrueReturnValsMutator
+>> Generated 4 Killed 1 (25%)
+> KILLED 1 SURVIVED 2 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 1 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsMutator
+>> Generated 6 Killed 2 (33%)
+> KILLED 2 SURVIVED 1 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 3 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator
+>> Generated 3 Killed 0 (0%)
+> KILLED 0 SURVIVED 1 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator
+>> Generated 2 Killed 0 (0%)
+> KILLED 0 SURVIVED 1 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 1 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator
+>> Generated 91 Killed 30 (33%)
+> KILLED 29 SURVIVED 29 TIMED_OUT 1 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 32 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NullReturnValsMutator
+>> Generated 18 Killed 3 (17%)
+> KILLED 3 SURVIVED 1 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 14 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.BooleanFalseReturnValsMutator
+>> Generated 7 Killed 2 (29%)
+> KILLED 2 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 5 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator
+>> Generated 87 Killed 48 (55%)
+> KILLED 48 SURVIVED 13 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 26 
+--------------------------------------------------------------------------------
+> org.pitest.mutationtest.engine.gregor.mutators.PrimitiveReturnsMutator
+>> Generated 3 Killed 1 (33%)
+> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 
+> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 
+> NO_COVERAGE 2 
+--------------------------------------------------------------------------------
+================================================================================
+- Timings
+================================================================================
+> scan classpath : < 1 second
+> coverage and dependency analysis : 4 seconds
+> build mutation tests : < 1 second
+> run mutation analysis : 3 minutes and 8 seconds
+--------------------------------------------------------------------------------
+> Total  : 3 minutes and 13 seconds
+--------------------------------------------------------------------------------
+================================================================================
+- Statistics
+================================================================================
+>> Generated 221 mutations Killed 87 (39%)
+>> Ran 408 tests (1.85 tests per mutation)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:15 min
+[INFO] Finished at: 2020-05-24T18:23:03-06:00
+[INFO] ------------------------------------------------------------------------

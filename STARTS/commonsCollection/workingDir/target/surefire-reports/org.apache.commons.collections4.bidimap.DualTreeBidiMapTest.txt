@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.collections4.bidimap.DualTreeBidiMapTest
+-------------------------------------------------------------------------------
+Tests run: 818, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.16 s - in org.apache.commons.collections4.bidimap.DualTreeBidiMapTest

@@ -1,0 +1,688 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< org.apache.commons:commons-imaging >-----------------
+[INFO] Building Apache Commons Imaging 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:diff (default-cli) > test-compile @ commons-imaging >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-imaging ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-imaging ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-imaging ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-imaging ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-imaging ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589861534217
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/smith)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 362 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.1.0:manifest (bundle-manifest) @ commons-imaging ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.17:check (checkAPIcompatibility) @ commons-imaging ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 150 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:diff (default-cli) < test-compile @ commons-imaging <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:diff (default-cli) @ commons-imaging ---
+INFO: 
+INFO: ********** ChangedClasses **********
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ColorTools.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/FormatCompliance.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImageDump.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImageFormat.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImageFormats.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImageInfo$ColorType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImageInfo$CompressionAlgorithm.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImageInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImageReadException.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImageWriteException.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/Imaging.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImagingConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/ImagingException.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/PixelDensity.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorCieLab.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorCieLch.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorCieLuv.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorCmy.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorCmyk.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorConversions.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorHsl.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorHsv.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorHunterLab.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/color/ColorXyz.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/BasicCParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/BinaryConstant.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/BinaryFileParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/BinaryFunctions.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/BinaryOutputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/BufferedImageFactory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/ByteConversions.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/FastByteArrayOutputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/GenericImageMetadata$GenericImageMetadataItem.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/GenericImageMetadata.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/ImageBuilder.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/ImageMetadata$ImageMetadataItem.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/ImageMetadata.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/PackBits.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/RationalNumber$Option.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/RationalNumber.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/RgbBufferedImageFactory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/SimpleBufferedImageFactory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/bytesource/ByteSource.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/bytesource/ByteSourceArray.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/bytesource/ByteSourceFile.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/bytesource/ByteSourceInputStream$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/bytesource/ByteSourceInputStream$CacheBlock.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/bytesource/ByteSourceInputStream$CacheReadingInputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/bytesource/ByteSourceInputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/itu_t4/BitArrayOutputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/itu_t4/BitInputStreamFlexible.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/itu_t4/HuffmanTree$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/itu_t4/HuffmanTree$Node.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/itu_t4/HuffmanTree.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/itu_t4/HuffmanTreeException.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/itu_t4/T4AndT6Compression.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/itu_t4/T4_T6_Tables$Entry.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/itu_t4/T4_T6_Tables.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/mylzw/BitsToByteInputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/mylzw/MyBitInputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/mylzw/MyBitOutputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/mylzw/MyLzwCompressor$ByteArray.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/mylzw/MyLzwCompressor$Listener.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/mylzw/MyLzwCompressor.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/mylzw/MyLzwDecompressor$Listener.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/common/mylzw/MyLzwDecompressor.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/BmpHeaderInfo$ColorSpace.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/BmpHeaderInfo$ColorSpaceCoordinate.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/BmpHeaderInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/BmpImageContents.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/BmpImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/BmpWriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/BmpWriterPalette.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/BmpWriterRgb.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/PixelParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/PixelParserBitFields.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/PixelParserRgb.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/PixelParserRle.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/bmp/PixelParserSimple.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/dcx/DcxImageParser$DcxHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/dcx/DcxImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/gif/GenericGifBlock.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/gif/GifBlock.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/gif/GifHeaderInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/gif/GifImageContents.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/gif/GifImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/gif/GraphicControlExtension.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/gif/ImageDescriptor.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/icns/IcnsDecoder.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/icns/IcnsImageParser$IcnsContents.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/icns/IcnsImageParser$IcnsElement.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/icns/IcnsImageParser$IcnsHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/icns/IcnsImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/icns/IcnsType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/icns/Rle24Compression.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/ico/IcoImageParser$BitmapHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/ico/IcoImageParser$BitmapIconData.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/ico/IcoImageParser$FileHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/ico/IcoImageParser$IconData.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/ico/IcoImageParser$IconInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/ico/IcoImageParser$ImageContents.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/ico/IcoImageParser$PNGIconData.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/ico/IcoImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegImageMetadata.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegImageParser$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegImageParser$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegImageParser$3.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegImageParser$4.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegImageParser$5.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegPhotoshopMetadata.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegUtils$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegUtils$Visitor.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/JpegUtils.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/decoder/Block.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/decoder/Dct.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoder.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/decoder/YCbCrConverter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/decoder/ZigZag.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$ExifOverflowException.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPiece.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieceImageData.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieceSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieceSegmentExif.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieces.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcBlock.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcParser$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcRecord$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcRecord.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcTypeLookup.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcTypes$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcTypes.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/JpegIptcRewriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/iptc/PhotoshopApp13Data.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/App13Segment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/App14Segment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/App2Segment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/AppnSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/ComSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/DhtSegment$HuffmanTable.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/DhtSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/DqtSegment$QuantizationTable.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/DqtSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/GenericSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/JfifSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/Segment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/SofnSegment$Component.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/SofnSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/SosSegment$Component.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/SosSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/segments/UnknownSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$3.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$4.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPiece.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPieceImageData.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPieceSegment.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPieces.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JpegSegmentOverflowException.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$SegmentFilter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpRewriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pcx/PcxConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pcx/PcxImageParser$PcxHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pcx/PcxImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pcx/PcxWriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pcx/RleReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pcx/RleWriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/BitParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/ChunkType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/FilterType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/GammaCorrection.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/InterlaceMethod.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PhysicalScale.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngColorType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngCrc.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngImageInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngImageParser$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngText$Itxt.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngText$Text.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngText$Ztxt.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngText.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngWriter$ImageHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngWriter$TransparentPalette.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/PngWriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/ScanExpediter$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/ScanExpediter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/ScanExpediterInterlaced.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/ScanExpediterSimple.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunk.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkGama.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkIccp.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkIdat.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkIhdr.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkItxt.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkPhys.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkPlte.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkScal.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkText.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngChunkZtxt.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/chunks/PngTextChunk.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterAverage.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterNone.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterPaeth.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterSub.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterUp.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterGrayscale.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColor.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterTrueColor.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/FileInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PamFileInfo$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PamFileInfo$ColorTupleReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PamFileInfo$GrayscaleTupleReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PamFileInfo$TupleReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PamFileInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PamWriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PbmFileInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PbmWriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PgmFileInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PgmWriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PnmConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PnmImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PnmWriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PpmFileInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/PpmWriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/pnm/WhiteSpaceReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/ImageResourceBlock.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/ImageResourceType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/PsdHeaderInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/PsdImageContents.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/PsdImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserBitmap.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserCmyk.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserGrayscale.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserIndexed.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserLab.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserRgb.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/datareaders/CompressedDataReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/datareaders/DataReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/psd/datareaders/UncompressedDataReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/rgbe/InfoHeaderReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/rgbe/RgbeImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/rgbe/RgbeInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/JpegImageData.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffContents.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffDirectory$ImageDataElement.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffDirectory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffElement$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffElement$DataElement.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffElement$Stub.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffElement.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffField$OversizeValueElement.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffField.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageData$ByteSourceData.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageData$Data.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageData$Strips.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageData$Tiles.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageData.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageMetadata$Directory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageMetadata$GPSInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageMetadata$TiffMetadataItem.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageMetadata.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffReader$Collector.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffReader$FirstDirectoryCollector.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffReader$Listener.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/TiffTags.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/AdobePageMaker6TagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/AdobePhotoshopTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/AliasSketchbookProTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/DcfTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/DngTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/ExifTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/GdalLibraryTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/GeoTiffTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/GpsTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/HylaFaxTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/MicrosoftHdPhotoTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/MicrosoftTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/MolecularDynamicsGelTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/OceScanjobTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/Rfc2301TagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/Tiff4TagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/TiffConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/TiffEpTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/TiffTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/constants/WangTagConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/datareaders/BitInputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStrips.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/datareaders/DataReaderTiled.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/datareaders/ImageDataReader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeAscii.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeByte.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeDouble.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeFloat.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLong.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeRational.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeShort.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterBiLevel.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterCieLab.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterCmyk.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterPalette.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterRgb.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterYCbCr.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoAny.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoAscii.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoAsciiOrByte.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoAsciiOrRational.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByte.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteOrShort.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoBytes.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoDirectory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoDouble.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoDoubles.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoFloat.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoFloats.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoGpsText$TextEncoding.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoGpsText.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoLong.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoLongOrIFD.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoLongs.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoRational.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoRationals.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSByte.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSBytes.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLong.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLongs.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSRational.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSRationals.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShort.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShorts.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShort.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShortOrLong.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShortOrLongOrRational.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShortOrRational.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShorts.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUndefined.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUndefineds.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknown.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknowns.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoXpString.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/ImageDataOffsets.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffImageWriterBase.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless$BufferOutputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossy.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputDirectory$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputDirectory$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputDirectory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputField.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputItem$Value.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputItem.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputSet.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputSummary$OffsetItem.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputSummary.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/wbmp/WbmpImageParser$WbmpHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/wbmp/WbmpImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/xbm/XbmImageParser$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/xbm/XbmImageParser$XbmHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/xbm/XbmImageParser$XbmParseResult.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/xbm/XbmImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/xpm/XpmImageParser$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/xpm/XpmImageParser$PaletteEntry.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/xpm/XpmImageParser$XpmHeader.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/xpm/XpmImageParser$XpmParseResult.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/formats/xpm/XpmImageParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/CachingInputStream.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccProfileInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccProfileParser.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTag.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTagDataType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTagDataTypes$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTagDataTypes$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTagDataTypes$3.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTagDataTypes$4.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTagDataTypes$5.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTagDataTypes.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTagType.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/icc/IccTagTypes.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/internal/Debug.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/ColorComponent.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/ColorCount.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/ColorGroup.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/ColorGroupCut.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/ColorSpaceSubset$RgbComparator.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/ColorSpaceSubset.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/Dithering.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/LongestAxisMedianCut$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/LongestAxisMedianCut$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/LongestAxisMedianCut$3.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/LongestAxisMedianCut.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/MedianCut.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/MedianCutPalette.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/MedianCutQuantizer.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/MostPopulatedBoxesMedianCut$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/MostPopulatedBoxesMedianCut$ColorComparer.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/MostPopulatedBoxesMedianCut.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/Palette.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/PaletteFactory$DivisionCandidate.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/PaletteFactory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/QuantizedPalette.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/classes/org/apache/commons/imaging/palette/SimplePalette.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/ImageDumpTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/ImagingGuessFormatTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/ImagingTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/ImagingTest$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/ImagingTest$ImageFilter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/ImagingTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/ImagingTestConstants.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorCieLabTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorCieLchTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorCieLuvTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorCmyTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorCmykTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorConversionsTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorHslTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorHsvTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorHunterLabTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/color/ColorXyzTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/BinaryFileFunctionsTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/RationalNumberTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/RgbBufferedImageFactoryTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$ByteSourceFactory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$ByteSourceFileFactory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$ByteSourceInputStreamFileFactory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$ByteSourceInputStreamRawFactory.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/bytesource/ByteSourceDataTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/bytesource/ByteSourceImageTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/bytesource/ByteSourceTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/itu_t4/HuffmanTreeExceptionTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/common/itu_t4/T4_T6_TablesTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/examples/ApacheImagingSpeedAndMemoryTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/examples/WriteExifMetadataExample.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/bmp/BmpBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/bmp/BmpBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/bmp/BmpReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/bmp/BmpRoundtripTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/bmp/BmpWriterRgbTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/dcx/DcxBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/dcx/DcxBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/dcx/DcxReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/gif/GifBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/gif/GifBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/gif/GifReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/icns/IcnsBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/icns/IcnsBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/icns/IcnsReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/icns/IcnsRoundTripTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoRoundtripTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoRoundtripTest$BitmapGenerator.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor16BitBitmaps.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor1BitBitmaps.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor24BitBitmaps.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor32BitBitmaps.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor4BitBitmaps.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor8BitBitmaps.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/ico/IcoRoundtripTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/JpegBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/JpegBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/JpegReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/JpegWithInvalidDhtSegmentTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/JpegWithJpegThumbnailTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/decoder/DctTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoderTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/AsciiFieldTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/ExifBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/ExifBaseTest$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/ExifBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/ExifDumpTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest$Rewriter.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/GpsTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/MakerNoteFieldTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/MicrosoftTagTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/SpecificExifTagTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/TextFieldTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/exif/WriteExifMetadataExampleTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcAddTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcBaseTest$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcDumpTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcFullDiscardTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcTypeLookupTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/iptc/IptcUpdateTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/segments/AppnSegmentTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/segments/JfifSegmentTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/segments/NegSizeSegmentTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/segments/SosSegmentTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpDumpTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParserTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpRewriteTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pam/PamBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pam/PamBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pam/PamReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pcx/PcxBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pcx/PcxBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pcx/PcxReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pcx/RleReaderTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/ConvertPngToGifTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/PhysicalScaleTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/PngBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/PngBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/PngCrcTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/PngMultipleRoundtripTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/PngReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/PngTextTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/PngWriteReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/chunks/PngChunkTextTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterAverageTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterPaethTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterUpTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColorTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pnm/PbmFileInfoTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pnm/PnmImageParserTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/pnm/WhiteSpaceReaderTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/psd/ImageResourceBlockTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/psd/ImageResourceTypeTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/psd/PsdBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/psd/PsdBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/psd/PsdReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserCmykTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserGrayscaleTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserIndexedTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/psd/dataparsers/DataParserLabTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/rgbe/RgbeBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/rgbe/RgbeBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/rgbe/RgbeReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/JpegImageDataTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffCcittTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffLzwTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffLzwTest$2.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffLzwTest$3.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffLzwTest$4.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffLzwTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffReadWriteTagsTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffRoundtripTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffSubImageTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffTagIntegrityTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/TiffTagsTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStripsTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeByteTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLongTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeShortTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSByteTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSBytesTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLongTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShortTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShortsTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknownTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputDirectoryTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/tiff/write/TiffOutputSetTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/wbmp/WbmpBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/wbmp/WbmpBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/wbmp/WbmpReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/xbm/XbmBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/xbm/XbmBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/xbm/XbmReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/xmp/XmpDumpTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/xmp/XmpUpdateTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/xpm/XpmBaseTest$1.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/xpm/XpmBaseTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/formats/xpm/XpmReadTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/palette/PaletteQuantizationTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/palette/SimplePaletteTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/roundtrip/BitmapRoundtripTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/roundtrip/FormatInfo.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/roundtrip/GrayscaleRountripTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/roundtrip/ImageAsserts.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/roundtrip/LimitedColorRoundtripTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/roundtrip/NullParametersRoundtripTest.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/roundtrip/RoundtripBase.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/roundtrip/TestImages.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/test/util/FileSystemTraversal$Visitor.class
+INFO: file:/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonsImaging/workingDir/target/test-classes/org/apache/commons/imaging/test/util/FileSystemTraversal.class
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.777 s
+[INFO] Finished at: 2020-05-18T22:12:20-06:00
+[INFO] ------------------------------------------------------------------------

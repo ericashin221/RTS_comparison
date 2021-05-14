@@ -1,0 +1,8 @@
+org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
+org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
+org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
+org.apache.commons.imaging.roundtrip.GrayscaleRountripTest
+org.apache.commons.imaging.formats.tiff.taginfos.TagInfoUnknownTest
+org.apache.commons.imaging.formats.psd.dataparsers.DataParserIndexedTest
+org.apache.commons.imaging.formats.png.chunks.PngChunkTextTest
+org.apache.commons.imaging.formats.jpeg.segments.JfifSegmentTest

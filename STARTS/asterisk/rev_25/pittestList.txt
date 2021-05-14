@@ -1,0 +1,5 @@
+<param> org.asteriskjava.manager.AbstractManagerEventListenerTest </param>
+<param> org.asteriskjava.live.QueueMemberStateTest </param>
+<param> org.asteriskjava.live.internal.AsteriskChannelImplTest </param>
+<param> org.asteriskjava.live.internal.AsteriskQueueMemberImplTest </param>
+<param> org.asteriskjava.live.internal.AsteriskAgentImplTest </param>

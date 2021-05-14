@@ -1,0 +1,3 @@
+<param> org.apache.commons.net.SocketClientTest </param>
+<param> org.apache.commons.net.ftp.TestConnectTimeout </param>
+<param> org.apache.commons.net.ftp.FTPClientTest </param>

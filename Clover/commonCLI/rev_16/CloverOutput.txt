@@ -1,0 +1,112 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-cli:commons-cli >-----------------------
+[INFO] Building Apache Commons CLI 1.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:setup (default-cli) @ commons-cli ---
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 23 files (1 package).
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 27 files (2 packages).
+[INFO] 269 test methods detected.
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:optimize (default-cli) @ commons-cli ---
+[INFO] Adding fileset: directory=/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/clover/src-test-instrumented, includes=[**/Test*.java, **/*Test.java, **/*TestCase.java], excludes=null
+[INFO] Clover estimates having saved around 1 second on this optimized test run. The full test run takes approx. 1 second
+[INFO] Clover included 3 test classes in this run (total # test classes : 27)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-cli ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-cli ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-cli ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589868114442
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/classes
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/clover/src-instrumented/org/apache/commons/cli/Parser.java: Some input files use unchecked or unsafe operations.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/clover/src-instrumented/org/apache/commons/cli/Parser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:manifest (bundle-manifest) @ commons-cli ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (checkAPIcompatibility) @ commons-cli ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ commons-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 27 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/test-classes
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/clover/src-test-instrumented/org/apache/commons/cli/bug/BugCLI71Test.java: Some input files use or override a deprecated API.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/clover/src-test-instrumented/org/apache/commons/cli/bug/BugCLI71Test.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ commons-cli ---
+[INFO] argLine set to -javaagent:/s/chopin/a/grad/mkshin/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ commons-cli ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.cli.CommandLineTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 sec - in org.apache.commons.cli.CommandLineTest
+Running org.apache.commons.cli.PatternOptionBuilderTest
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec <<< FAILURE! - in org.apache.commons.cli.PatternOptionBuilderTest
+testExistingFilePattern(org.apache.commons.cli.PatternOptionBuilderTest)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: f value expected:<test.properties> but was:<null>
+	at org.apache.commons.cli.PatternOptionBuilderTest.__CLR4_4_16e64im2hx(PatternOptionBuilderTest.java:166)
+	at org.apache.commons.cli.PatternOptionBuilderTest.testExistingFilePattern(PatternOptionBuilderTest.java:161)
+
+
+Results :
+
+Failed tests: 
+  PatternOptionBuilderTest.testExistingFilePattern:161->__CLR4_4_16e64im2hx:166 f value expected:<test.properties> but was:<null>
+
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.114 s
+[INFO] Finished at: 2020-05-19T00:02:00-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project commons-cli: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/commonCLI/workingDir/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,82 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< org.apache.commons:commons-imaging >-----------------
+[INFO] Building Apache Commons Imaging 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> hyrts-maven-plugin:1.0.1:HyRTS (default-cli) > test-compile @ commons-imaging >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-imaging ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-imaging ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-imaging ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /s/smith/b/nobackup/mkshin/Spring2020/Research/HyRTS/commonsImaging/workingDir/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-imaging ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-imaging ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/HyRTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/HyRTS/commonsImaging/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589893170536
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/smith)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/HyRTS/commonsImaging/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/HyRTS/commonsImaging/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 362 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/HyRTS/commonsImaging/workingDir/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.1.0:manifest (bundle-manifest) @ commons-imaging ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.17:check (checkAPIcompatibility) @ commons-imaging ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 150 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/HyRTS/commonsImaging/workingDir/target/test-classes
+[INFO] 
+[INFO] <<< hyrts-maven-plugin:1.0.1:HyRTS (default-cli) < test-compile @ commons-imaging <<<
+[INFO] 
+[INFO] 
+[INFO] --- hyrts-maven-plugin:1.0.1:HyRTS (default-cli) @ commons-imaging ---
+[HyRTS] Extracted changes: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[HyRTS] RTS excluded 114 out of 114 test classes using 311ms 
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.924 s
+[INFO] Finished at: 2020-05-19T06:59:38-06:00
+[INFO] ------------------------------------------------------------------------

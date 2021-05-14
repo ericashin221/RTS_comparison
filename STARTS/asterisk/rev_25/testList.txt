@@ -1,0 +1,5 @@
+org.asteriskjava.manager.AbstractManagerEventListenerTest
+org.asteriskjava.live.QueueMemberStateTest
+org.asteriskjava.live.internal.AsteriskChannelImplTest
+org.asteriskjava.live.internal.AsteriskQueueMemberImplTest
+org.asteriskjava.live.internal.AsteriskAgentImplTest

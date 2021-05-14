@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.imaging.formats.gif.GifReadTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.018 s - in org.apache.commons.imaging.formats.gif.GifReadTest

@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 2.0.4-SNAP-SHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:setup (default-cli) @ asterisk-java ---
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 728 files (37 packages).
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 58 files (16 packages).
+[INFO] 261 test methods detected.
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:optimize (default-cli) @ asterisk-java ---
+[INFO] Adding fileset: directory=/s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-test-instrumented, includes=[**/Test*.java, **/*Test.java, **/*TestCase.java], excludes=null
+[INFO] Clover estimates having saved around 25 seconds on this optimized test run. The full test run takes approx. 30 seconds
+[INFO] Clover included 21 test classes in this run (total # test classes : 46)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/src/main/resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 739 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/pbx/asterisk/wrap/events/BlindTransferEvent.java:[79,62] cannot find symbol
+  symbol:   method getBridgevideosourcemode()
+  location: variable rawEvent of type org.asteriskjava.manager.event.BlindTransferEvent
+[ERROR] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/pbx/asterisk/wrap/events/DialEndEvent.java:[72,62] cannot find symbol
+  symbol:   method getForward()
+  location: variable rawEvent of type org.asteriskjava.manager.event.DialEndEvent
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.012 s
+[INFO] Finished at: 2020-05-24T15:50:51-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project asterisk-java: Compilation failure: Compilation failure: 
+[ERROR] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/pbx/asterisk/wrap/events/BlindTransferEvent.java:[79,62] cannot find symbol
+[ERROR]   symbol:   method getBridgevideosourcemode()
+[ERROR]   location: variable rawEvent of type org.asteriskjava.manager.event.BlindTransferEvent
+[ERROR] /s/smith/b/nobackup/mkshin/Spring2020/Research/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/pbx/asterisk/wrap/events/DialEndEvent.java:[72,62] cannot find symbol
+[ERROR]   symbol:   method getForward()
+[ERROR]   location: variable rawEvent of type org.asteriskjava.manager.event.DialEndEvent
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

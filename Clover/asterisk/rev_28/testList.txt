@@ -1,0 +1,7 @@
+org.asteriskjava.manager.event.SkypeChatMessageEventTest
+org.asteriskjava.manager.internal.ManagerReaderImplTest
+org.asteriskjava.manager.internal.ResponseBuilderImplTest
+org.asteriskjava.fastagi.ResourceBundleMappingStrategyTest
+org.asteriskjava.fastagi.CompositeMappingStrategyTest
+org.asteriskjava.fastagi.ClassNameMappingStrategyTest
+org.asteriskjava.pbx.internal.core.ListenerManagerTest

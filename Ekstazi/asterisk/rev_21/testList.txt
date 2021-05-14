@@ -1,0 +1,5 @@
+org.asteriskjava.manager.event.SkypeChatMessageEventTest
+org.asteriskjava.manager.internal.ManagerReaderImplTest
+org.asteriskjava.manager.internal.EventBuilderImplTest
+org.asteriskjava.live.internal.AsteriskQueueMemberImplTest
+org.asteriskjava.pbx.internal.core.ListenerManagerTest

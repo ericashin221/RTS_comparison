@@ -1,0 +1,13 @@
+org.apache.commons.imaging.common.itu_t4.T4_T6_TablesTest
+org/apache/commons/imaging/common/itu_t4/T4_T6_TablesTest:<init>:()V
+org/apache/commons/imaging/common/itu_t4/T4_T6_TablesTest:testCreatesT4_T6_TablesTakingNoArgumentsAndCallsWriteBits:()V
+org/apache/commons/imaging/common/itu_t4/BitArrayOutputStream:<init>:(I)V
+org/apache/commons/imaging/common/itu_t4/BitArrayOutputStream:size:()I
+org/apache/commons/imaging/common/itu_t4/BitArrayOutputStream:toByteArray:()[B
+org/apache/commons/imaging/common/itu_t4/BitArrayOutputStream:flush:()V
+org/apache/commons/imaging/common/itu_t4/BitArrayOutputStream:writeBit:(I)V
+org/apache/commons/imaging/common/itu_t4/BitArrayOutputStream:writeByte:(I)V
+org/apache/commons/imaging/common/itu_t4/T4_T6_Tables:<clinit>:()V
+org/apache/commons/imaging/common/itu_t4/T4_T6_Tables$Entry:<clinit>:()V
+org/apache/commons/imaging/common/itu_t4/T4_T6_Tables$Entry:<init>:(Ljava/lang/String;I)V
+org/apache/commons/imaging/common/itu_t4/T4_T6_Tables$Entry:writeBits:(Lorg/apache/commons/imaging/common/itu_t4/BitArrayOutputStream;)V

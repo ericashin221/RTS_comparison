@@ -1,0 +1,17 @@
+org.apache.commons.imaging.formats.png.chunks.PngChunkScalTest
+org/apache/commons/imaging/ImageReadException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest:<init>:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest:testConstructMeters:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest:testConstructRadians:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest:testConstruct_InvalidUnitSpecifier:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest:testConstruct_MissingSeparator:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest:testConstruct_InvalidDblValue:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest:testConstruct_MissingXValue:()V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest:testConstruct_MissingYValue:()V
+org/apache/commons/imaging/common/BinaryFileParser:<init>:()V
+org/apache/commons/imaging/common/BinaryFunctions:findNull:([B)I
+org/apache/commons/imaging/common/BinaryFunctions:findNull:([BI)I
+org/apache/commons/imaging/formats/png/chunks/PngChunk:<init>:(III[B)V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScal:<init>:(III[B)V
+org/apache/commons/imaging/formats/png/chunks/PngChunkScal:toDouble:(Ljava/lang/String;)D

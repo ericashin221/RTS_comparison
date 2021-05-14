@@ -1,0 +1,13 @@
+<param> org.asteriskjava.util.internal.streamreader.FastScannerDeterministicTest </param>
+<param> org.asteriskjava.util.internal.streamreader.FastScannerSpeedTest </param>
+<param> org.asteriskjava.util.internal.streamreader.FastScannerRandomTest </param>
+<param> org.asteriskjava.manager.AbstractManagerEventListenerTest </param>
+<param> org.asteriskjava.manager.event.SkypeChatMessageEventTest </param>
+<param> org.asteriskjava.manager.internal.ManagerReaderImplTest </param>
+<param> org.asteriskjava.manager.internal.ManagerConnectionImplTest </param>
+<param> org.asteriskjava.live.QueueMemberStateTest </param>
+<param> org.asteriskjava.live.internal.AsteriskChannelImplTest </param>
+<param> org.asteriskjava.live.internal.AsteriskQueueMemberImplTest </param>
+<param> org.asteriskjava.live.internal.AsteriskAgentImplTest </param>
+<param> org.asteriskjava.fastagi.DefaultAgiServerTest </param>
+<param> org.asteriskjava.pbx.internal.core.ListenerManagerTest </param>

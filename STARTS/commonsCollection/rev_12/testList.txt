@@ -1,0 +1,4 @@
+org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest
+org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMapTest
+org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest
+org.apache.commons.collections4.multimap.HashSetValuedHashMapTest

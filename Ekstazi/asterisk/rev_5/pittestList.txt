@@ -1,0 +1,4 @@
+<param> org.asteriskjava.util.internal.streamreader.FastScannerDeterministicTest </param>
+<param> org.asteriskjava.util.internal.streamreader.FastScannerSpeedTest </param>
+<param> org.asteriskjava.util.internal.streamreader.FastScannerRandomTest </param>
+<param> org.asteriskjava.fastagi.DefaultAgiServerTest </param>

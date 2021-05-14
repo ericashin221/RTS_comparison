@@ -1,0 +1,8 @@
+org.apache.commons.imaging.formats.png.PngCrcTest
+org/apache/commons/imaging/formats/png/PngCrcTest:<init>:()V
+org/apache/commons/imaging/formats/png/PngCrcTest:testCrc:()V
+org/apache/commons/imaging/formats/png/PngCrc:<init>:()V
+org/apache/commons/imaging/formats/png/PngCrc:make_crc_table:()V
+org/apache/commons/imaging/formats/png/PngCrc:update_crc:(J[B)J
+org/apache/commons/imaging/formats/png/PngCrc:crc:([BI)I
+org/apache/commons/imaging/formats/png/PngCrc:start_partial_crc:([BI)J

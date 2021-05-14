@@ -1,0 +1,146 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-cli:commons-cli >-----------------------
+[INFO] Building Apache Commons CLI 1.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:starts (default-cli) > [starts]test @ commons-cli >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-cli ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-cli ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-cli ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589858107639
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/smith)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/target/classes
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/java/org/apache/commons/cli/DefaultParser.java: Some input files use unchecked or unsafe operations.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/java/org/apache/commons/cli/DefaultParser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:manifest (bundle-manifest) @ commons-cli ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (checkAPIcompatibility) @ commons-cli ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ commons-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/target/test-classes
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/test/java/org/apache/commons/cli/bug/BugsTest.java: Some input files use or override a deprecated API.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/test/java/org/apache/commons/cli/bug/BugsTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ commons-cli ---
+[INFO] argLine set to -javaagent:/s/chopin/a/grad/mkshin/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/target/jacoco.exec
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:run (default-cli) > test-compile @ commons-cli >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-cli ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-cli ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-cli ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589858111213
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/smith)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/target/classes
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/java/org/apache/commons/cli/DefaultParser.java: Some input files use unchecked or unsafe operations.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/java/org/apache/commons/cli/DefaultParser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:manifest (bundle-manifest) @ commons-cli ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (checkAPIcompatibility) @ commons-cli ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ commons-cli ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:run (default-cli) < test-compile @ commons-cli <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:run (default-cli) @ commons-cli ---
+INFO: ALL(count): 61
+INFO: UNREACHED(count): 0
+INFO: STARTS:Nodes: 525
+INFO: STARTS:Edges: 3553
+INFO: STARTS:AffectedTests: 1
+INFO: STARTS:TotalTests: 29
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ commons-cli ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.cli.DisablePartialMatchingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec - in org.apache.commons.cli.DisablePartialMatchingTest
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:starts (default-cli) < [starts]test @ commons-cli <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:starts (default-cli) @ commons-cli ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.599 s
+[INFO] Finished at: 2020-05-18T21:15:14-06:00
+[INFO] ------------------------------------------------------------------------

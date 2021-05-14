@@ -1,0 +1,173 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-cli:commons-cli >-----------------------
+[INFO] Building Apache Commons CLI 1.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:starts (default-cli) > [starts]test @ commons-cli >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-cli ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-cli ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-cli ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589857540756
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/target/classes
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/java/org/apache/commons/cli/DefaultParser.java: Some input files use unchecked or unsafe operations.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/java/org/apache/commons/cli/DefaultParser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:manifest (bundle-manifest) @ commons-cli ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (checkAPIcompatibility) @ commons-cli ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ commons-cli ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.7.201606060606:prepare-agent (prepare-agent) @ commons-cli ---
+[INFO] argLine set to -javaagent:/s/chopin/a/grad/mkshin/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/target/jacoco.exec
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:run (default-cli) > test-compile @ commons-cli >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-cli ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.10:parse-version (parse-version) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-cli ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-cli ---
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1589857543920
+[INFO] Executing: /bin/sh -c cd '/s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ commons-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/target/classes
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/java/org/apache/commons/cli/DefaultParser.java: Some input files use unchecked or unsafe operations.
+[INFO] /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/main/java/org/apache/commons/cli/DefaultParser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:manifest (bundle-manifest) @ commons-cli ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (checkAPIcompatibility) @ commons-cli ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/smith/b/nobackup/mkshin/Spring2020/Research/STARTS/commonCLI/workingDir/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ commons-cli ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:run (default-cli) < test-compile @ commons-cli <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:run (default-cli) @ commons-cli ---
+INFO: ALL(count): 57
+INFO: UNREACHED(count): 0
+INFO: STARTS:Nodes: 520
+INFO: STARTS:Edges: 3521
+INFO: STARTS:AffectedTests: 21
+INFO: STARTS:TotalTests: 27
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ commons-cli ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.cli.CommandLineTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec - in org.apache.commons.cli.CommandLineTest
+Running org.apache.commons.cli.DefaultParserTest
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.apache.commons.cli.DefaultParserTest
+Running org.apache.commons.cli.OptionGroupTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.apache.commons.cli.OptionGroupTest
+Running org.apache.commons.cli.ValueTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.apache.commons.cli.ValueTest
+Running org.apache.commons.cli.ValuesTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.apache.commons.cli.ValuesTest
+Running org.apache.commons.cli.PosixParserTest
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 0.036 sec - in org.apache.commons.cli.PosixParserTest
+Running org.apache.commons.cli.OptionsTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.cli.OptionsTest
+Running org.apache.commons.cli.PatternOptionBuilderTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec - in org.apache.commons.cli.PatternOptionBuilderTest
+Running org.apache.commons.cli.BasicParserTest
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 24, Time elapsed: 0.034 sec - in org.apache.commons.cli.BasicParserTest
+Running org.apache.commons.cli.ArgumentIsOptionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.cli.ArgumentIsOptionTest
+Running org.apache.commons.cli.bug.BugCLI71Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.cli.bug.BugCLI71Test
+Running org.apache.commons.cli.bug.BugCLI252Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.cli.bug.BugCLI252Test
+Running org.apache.commons.cli.bug.BugCLI13Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.apache.commons.cli.bug.BugCLI13Test
+Running org.apache.commons.cli.bug.BugCLI133Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.apache.commons.cli.bug.BugCLI133Test
+Running org.apache.commons.cli.bug.BugCLI148Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.cli.bug.BugCLI148Test
+Running org.apache.commons.cli.bug.BugCLI265Test
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.apache.commons.cli.bug.BugCLI265Test
+Running org.apache.commons.cli.bug.BugsTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.apache.commons.cli.bug.BugsTest
+Running org.apache.commons.cli.ApplicationTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.apache.commons.cli.ApplicationTest
+Running org.apache.commons.cli.GnuParserTest
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 21, Time elapsed: 0.024 sec - in org.apache.commons.cli.GnuParserTest
+Running org.apache.commons.cli.OptionTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.apache.commons.cli.OptionTest
+
+Results :
+
+Tests run: 346, Failures: 0, Errors: 0, Skipped: 54
+
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:starts (default-cli) < [starts]test @ commons-cli <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:starts (default-cli) @ commons-cli ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.605 s
+[INFO] Finished at: 2020-05-18T21:05:47-06:00
+[INFO] ------------------------------------------------------------------------

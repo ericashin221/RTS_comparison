@@ -1,0 +1,3 @@
+org.apache.commons.collections4.CollectionUtils 
+org.apache.commons.collections4.CollectionUtilsTest 
+org.apache.commons.collections4.queue.CircularFifoQueueTest 

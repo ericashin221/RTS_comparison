@@ -1,0 +1,3 @@
+<param> org.asteriskjava.manager.internal.ManagerReaderImplTest </param>
+<param> org.asteriskjava.manager.internal.ManagerConnectionImplTest </param>
+<param> org.asteriskjava.pbx.internal.core.ListenerManagerTest </param>
