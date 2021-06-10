@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.commons.net.util.Base64Test
--------------------------------------------------------------------------------
-Tests run: 28, Failures: 0, Errors: 0, Skipped: 19, Time elapsed: 0.006 sec - in org.apache.commons.net.util.Base64Test

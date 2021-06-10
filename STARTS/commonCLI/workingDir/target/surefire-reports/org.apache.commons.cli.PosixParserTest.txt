@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.commons.cli.PosixParserTest
--------------------------------------------------------------------------------
-Tests run: 58, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 0.034 sec - in org.apache.commons.cli.PosixParserTest
