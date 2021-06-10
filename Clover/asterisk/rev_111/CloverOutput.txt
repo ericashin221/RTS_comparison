@@ -1,0 +1,164 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.asteriskjava:asterisk-java:jar:3.1.0
+[WARNING] 'version' contains an expression but should be a constant. @ org.asteriskjava:asterisk-java:${releaseVersion}, /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/pom.xml, line 8, column 11
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:setup (default-cli) @ asterisk-java ---
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 743 files (37 packages).
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 58 files (16 packages).
+[INFO] 256 test methods detected.
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:optimize (default-cli) @ asterisk-java ---
+[INFO] Adding fileset: directory=/s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented, includes=[**/Test*.java, **/*Test.java, **/*TestCase.java], excludes=null
+[INFO] Clover estimates having saved around 25 seconds on this optimized test run. The full test run takes approx. 30 seconds
+[INFO] Clover included 11 test classes in this run (total # test classes : 46)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/src/main/resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 743 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/manager/AbstractManagerEventListener.java: /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/manager/AbstractManagerEventListener.java uses or overrides a deprecated API.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/manager/AbstractManagerEventListener.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 58 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/test-classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ActionBuilderImplTest.java: Some input files use or override a deprecated API.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ActionBuilderImplTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ManagerConnectionImplTest.java: /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ManagerConnectionImplTest.java uses unchecked or unsafe operations.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ManagerConnectionImplTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ asterisk-java ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.asteriskjava.manager.AbstractManagerEventListenerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.249 s - in org.asteriskjava.manager.AbstractManagerEventListenerTest
+[INFO] Running org.asteriskjava.manager.internal.ResponseBuilderImplTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in org.asteriskjava.manager.internal.ResponseBuilderImplTest
+[INFO] Running org.asteriskjava.manager.internal.EventBuilderImplTest
+10:54:28.904 [main] INFO  org.reflections.Reflections - Reflections took 504 ms to scan 2 urls, producing 32 keys and 418 values 
+10:54:29.037 [main] ERROR o.a.m.internal.EventBuilderImpl - No event type in properties
+10:54:29.232 [main] INFO  o.a.m.internal.EventBuilderImpl - No event class registered for event type 'nonexisting', attributes: {event=Nonexisting}. Please report at https://github.com/asterisk-java/asterisk-java/issues
+[INFO] Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.921 s - in org.asteriskjava.manager.internal.EventBuilderImplTest
+[INFO] Running org.asteriskjava.manager.internal.ManagerConnectionImplTest
+10:54:29.342 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:29.343 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+10:54:29.344 [Asterisk-Java ManagerConnection-0-Reconnect-0] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - TimeoutException while trying to log in after reconnect.
+10:54:29.395 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:29.396 [Thread-2] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:29.396 [Thread-2] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:29.445 [Thread-4] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:29.446 [Thread-4] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:29.452 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+10:54:29.452 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+10:54:29.453 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully reconnected.
+10:54:30.304 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:30.355 [Thread-8] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:30.355 [Thread-8] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:30.402 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+10:54:30.402 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+10:54:30.511 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:30.562 [Thread-12] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:30.562 [Thread-12] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:30.736 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:30.786 [Thread-14] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:30.787 [Thread-14] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:30.813 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:30.813 [Asterisk-Java ManagerConnection-7-Reconnect-0] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Exception while trying to reconnect: IOException
+10:54:30.863 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:30.914 [Thread-18] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:30.914 [Thread-18] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:30.955 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+10:54:30.955 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+10:54:30.955 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully reconnected.
+10:54:31.766 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:31.772 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:31.796 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+10:54:31.801 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to retrieve internalActionId from response: actionId 'null':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=112302969
+10:54:31.804 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:31.823 [Thread-22] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:31.823 [Thread-22] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:31.855 [Thread-25] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:31.855 [Thread-25] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:31.896 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+10:54:32.003 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:32.053 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+10:54:32.075 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to dispatch null response. This should never happen. Please file a bug.
+10:54:32.081 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to retrieve internalActionId from response: actionId '123_0-abc':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1139700454
+10:54:32.084 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:32.135 [Thread-30] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:32.135 [Thread-30] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:32.335 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+10:54:32.402 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:32.453 [Thread-33] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:32.453 [Thread-33] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+10:54:32.494 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+10:54:32.495 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+10:54:32.495 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully reconnected.
+10:54:33.355 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+10:54:33.361 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to retrieve internalActionId from response: actionId 'abc':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1340565491
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.109 s - in org.asteriskjava.manager.internal.ManagerConnectionImplTest
+[INFO] Running org.asteriskjava.manager.internal.ManagerReaderImplTest
+10:54:33.395 [main] INFO  o.a.m.internal.ManagerReaderImpl - Terminating reader thread: Something happened to the network...
+10:54:33.406 [Thread-37] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+10:54:33.406 [Thread-37] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in org.asteriskjava.manager.internal.ManagerReaderImplTest
+[INFO] Running org.asteriskjava.manager.internal.ActionBuilderImplTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 s - in org.asteriskjava.manager.internal.ActionBuilderImplTest
+[INFO] Running org.asteriskjava.manager.internal.backwardsCompatibility.bridge.BridgeEnterEventComparatorTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in org.asteriskjava.manager.internal.backwardsCompatibility.bridge.BridgeEnterEventComparatorTest
+[INFO] Running org.asteriskjava.manager.event.NewStateEventTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.asteriskjava.manager.event.NewStateEventTest
+[INFO] Running org.asteriskjava.manager.event.AsyncAgiEventTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.asteriskjava.manager.event.AsyncAgiEventTest
+[INFO] Running org.asteriskjava.manager.event.T38FaxStatusEventTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.asteriskjava.manager.event.T38FaxStatusEventTest
+[INFO] Running org.asteriskjava.manager.event.SkypeChatMessageEventTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.asteriskjava.manager.event.SkypeChatMessageEventTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 117, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:snapshot (default-cli) @ asterisk-java ---
+[INFO] No span specified, using span of: 42s
+[INFO] Saving snapshot to: /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/.clover/clover.snapshot
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating snapshot '/s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/.clover/clover.snapshot' against Clover database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/clover.db'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  43.371 s
+[INFO] Finished at: 2021-06-10T10:54:34-06:00
+[INFO] ------------------------------------------------------------------------

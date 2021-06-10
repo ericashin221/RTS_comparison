@@ -1,0 +1,121 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-cli:commons-cli >-----------------------
+[INFO] Building Apache Commons CLI 1.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:setup (default-cli) @ commons-cli ---
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 23 files (1 package).
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 29 files (2 packages).
+[INFO] 289 test methods detected.
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:optimize (default-cli) @ commons-cli ---
+[INFO] Adding fileset: directory=/s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/clover/src-test-instrumented, includes=[**/Test*.java, **/*Test.java, **/*TestCase.java], excludes=null
+[INFO] Clover estimates having saved around 1 second on this optimized test run. The full test run takes approx. 1 second
+[INFO] Clover included 9 test classes in this run (total # test classes : 29)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-cli ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-cli ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-cli ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-cli ---
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1623337220038
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/chopin)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/clover/src-instrumented/org/apache/commons/cli/Parser.java: Some input files use unchecked or unsafe operations.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/clover/src-instrumented/org/apache/commons/cli/Parser.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.1.0:manifest (bundle-manifest) @ commons-cli ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.17:check (checkAPIcompatibility) @ commons-cli ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-cli ---
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/test-classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/clover/src-test-instrumented/org/apache/commons/cli/bug/BugCLI148Test.java: Some input files use or override a deprecated API.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/clover/src-test-instrumented/org/apache/commons/cli/bug/BugCLI148Test.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.3:prepare-agent (prepare-agent) @ commons-cli ---
+[INFO] argLine set to -javaagent:/s/chopin/a/grad/mkshin/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ commons-cli ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.cli.PosixParserTest
+[WARNING] Tests run: 58, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 0.388 s - in org.apache.commons.cli.PosixParserTest
+[INFO] Running org.apache.commons.cli.DefaultParserTest
+[INFO] Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.205 s - in org.apache.commons.cli.DefaultParserTest
+[INFO] Running org.apache.commons.cli.bug.BugCLI252Test
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.cli.bug.BugCLI252Test
+[INFO] Running org.apache.commons.cli.bug.BugCLI265Test
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.cli.bug.BugCLI265Test
+[INFO] Running org.apache.commons.cli.DisablePartialMatchingTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.cli.DisablePartialMatchingTest
+[INFO] Running org.apache.commons.cli.BasicParserTest
+[WARNING] Tests run: 58, Failures: 0, Errors: 0, Skipped: 24, Time elapsed: 0.136 s - in org.apache.commons.cli.BasicParserTest
+[INFO] Running org.apache.commons.cli.GnuParserTest
+[WARNING] Tests run: 58, Failures: 0, Errors: 0, Skipped: 21, Time elapsed: 0.136 s - in org.apache.commons.cli.GnuParserTest
+[INFO] Running org.apache.commons.cli.CommandLineTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 s - in org.apache.commons.cli.CommandLineTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 247, Failures: 0, Errors: 0, Skipped: 54
+[INFO] 
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:snapshot (default-cli) @ commons-cli ---
+[INFO] No span specified, using span of: 13s
+[INFO] Saving snapshot to: /s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/.clover/clover.snapshot
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating snapshot '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/.clover/clover.snapshot' against Clover database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonCLI/workingDir/target/clover/clover.db'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.234 s
+[INFO] Finished at: 2021-06-10T09:00:29-06:00
+[INFO] ------------------------------------------------------------------------

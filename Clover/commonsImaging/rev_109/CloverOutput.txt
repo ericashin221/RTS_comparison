@@ -1,0 +1,166 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< org.apache.commons:commons-imaging >-----------------
+[INFO] Building Apache Commons Imaging 1.0-alpha2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:setup (default-cli) @ commons-imaging ---
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 356 files (40 packages).
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 151 files (39 packages).
+[INFO] 216 test methods detected.
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:optimize (default-cli) @ commons-imaging ---
+[INFO] Adding fileset: directory=/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented, includes=[**/Test*.java, **/*Test.java, **/*TestCase.java], excludes=null
+[INFO] Clover estimates having saved around 46 seconds on this optimized test run. The full test run takes approx. 3 minutes
+[INFO] Clover included 36 test classes in this run (total # test classes : 139)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-imaging ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-imaging ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-imaging ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-imaging ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-imaging ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-imaging ---
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3
+[INFO] Storing buildNumber: ?????? at timestamp: 1623342447617
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/chopin)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 360 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.1.0:manifest (bundle-manifest) @ commons-imaging ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.17:check (checkAPIcompatibility) @ commons-imaging ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-imaging ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-imaging ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 152 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[25,100] cannot find symbol
+  symbol:   class TristimulusValues
+  location: class org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[59,76] cannot find symbol
+  symbol:   method getTristimulusValues(int,int,int)
+  location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[60,76] cannot find symbol
+  symbol:   method getTristimulusValues(int,int,int)
+  location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[61,76] cannot find symbol
+  symbol:   method getTristimulusValues(int,int,int)
+  location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[63,80] cannot find symbol
+  symbol:   method getTristimulusValues(int,int,int)
+  location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[64,80] cannot find symbol
+  symbol:   method getTristimulusValues(int,int,int)
+  location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[65,80] cannot find symbol
+  symbol:   method getTristimulusValues(int,int,int)
+  location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[67,81] cannot find symbol
+  symbol:   method getTristimulusValues(int,int,int)
+  location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[68,81] cannot find symbol
+  symbol:   method getTristimulusValues(int,int,int)
+  location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[69,80] cannot find symbol
+  symbol:   method getTristimulusValues(int,int,int)
+  location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[75,47] cannot find symbol
+  symbol:   class TristimulusValues
+  location: class org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuvTest
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[75,81] cannot find symbol
+  symbol:   class TristimulusValues
+  location: class org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuvTest
+[INFO] 12 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  29.132 s
+[INFO] Finished at: 2021-06-10T10:27:46-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile (default-testCompile) on project commons-imaging: Compilation failure: Compilation failure: 
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[25,100] cannot find symbol
+[ERROR]   symbol:   class TristimulusValues
+[ERROR]   location: class org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[59,76] cannot find symbol
+[ERROR]   symbol:   method getTristimulusValues(int,int,int)
+[ERROR]   location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[60,76] cannot find symbol
+[ERROR]   symbol:   method getTristimulusValues(int,int,int)
+[ERROR]   location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[61,76] cannot find symbol
+[ERROR]   symbol:   method getTristimulusValues(int,int,int)
+[ERROR]   location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[63,80] cannot find symbol
+[ERROR]   symbol:   method getTristimulusValues(int,int,int)
+[ERROR]   location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[64,80] cannot find symbol
+[ERROR]   symbol:   method getTristimulusValues(int,int,int)
+[ERROR]   location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[65,80] cannot find symbol
+[ERROR]   symbol:   method getTristimulusValues(int,int,int)
+[ERROR]   location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[67,81] cannot find symbol
+[ERROR]   symbol:   method getTristimulusValues(int,int,int)
+[ERROR]   location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[68,81] cannot find symbol
+[ERROR]   symbol:   method getTristimulusValues(int,int,int)
+[ERROR]   location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[69,80] cannot find symbol
+[ERROR]   symbol:   method getTristimulusValues(int,int,int)
+[ERROR]   location: variable p of type org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuv
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[75,47] cannot find symbol
+[ERROR]   symbol:   class TristimulusValues
+[ERROR]   location: class org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuvTest
+[ERROR] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsImaging/workingDir3/target/clover/src-test-instrumented/org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.java:[75,81] cannot find symbol
+[ERROR]   symbol:   class TristimulusValues
+[ERROR]   location: class org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuvTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

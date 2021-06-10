@@ -1,0 +1,129 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-net:commons-net >-----------------------
+[INFO] Building Apache Commons Net 3.7-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:setup (default-cli) @ commons-net ---
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 211 files (29 packages).
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 61 files (14 packages).
+[INFO] 303 test methods detected.
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:optimize (default-cli) @ commons-net ---
+[INFO] Adding fileset: directory=/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/target/clover/src-test-instrumented, includes=[**/Test*.java, **/*Test.java, **/*TestCase.java], excludes=[**/*FunctionalTest.java, **/POP3*Test.java]
+[INFO] Clover estimates having saved around 59 seconds on this optimized test run. The full test run takes approx. 1 minute
+[INFO] Clover included 19 test classes in this run (total # test classes : 44)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-net ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-net ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-net ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-net ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-net ---
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1623340531997
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-net ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ commons-net ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 224 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.4.0:manifest (bundle-manifest) @ commons-net ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (checkAPIcompatibility) @ commons-net ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-net ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ commons-net ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 62 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/target/test-classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/target/clover/src-test-instrumented/org/apache/commons/net/ftp/FTPClientTest.java: Some input files use or override a deprecated API.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/target/clover/src-test-instrumented/org/apache/commons/net/ftp/FTPClientTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ commons-net ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.net.telnet.WindowSizeOptionHandlerTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in org.apache.commons.net.telnet.WindowSizeOptionHandlerTest
+[INFO] Running org.apache.commons.net.ftp.TestConnectTimeout
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s - in org.apache.commons.net.ftp.TestConnectTimeout
+[INFO] Running org.apache.commons.net.ftp.FTPClientTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in org.apache.commons.net.ftp.FTPClientTest
+[INFO] Running org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactoryTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in org.apache.commons.net.ftp.parser.DefaultFTPFileEntryParserFactoryTest
+[INFO] Running org.apache.commons.net.ftp.parser.VMSFTPEntryParserTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in org.apache.commons.net.ftp.parser.VMSFTPEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.UnixFTPEntryParserTest
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in org.apache.commons.net.ftp.parser.UnixFTPEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.NetwareFTPEntryParserTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.commons.net.ftp.parser.NetwareFTPEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParserTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.commons.net.ftp.parser.EnterpriseUnixFTPEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.OS400FTPEntryParserAdditionalTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.commons.net.ftp.parser.OS400FTPEntryParserAdditionalTest
+[INFO] Running org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.net.ftp.parser.FTPConfigEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.OS400FTPEntryParserTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.commons.net.ftp.parser.OS400FTPEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.MVSFTPEntryParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in org.apache.commons.net.ftp.parser.MVSFTPEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.MLSxEntryParserTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.apache.commons.net.ftp.parser.MLSxEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.NTFTPEntryParserTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 s - in org.apache.commons.net.ftp.parser.NTFTPEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.apache.commons.net.ftp.parser.OS2FTPEntryParserTest
+[INFO] Running org.apache.commons.net.ftp.parser.MacOsPeterFTPEntryParserTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.apache.commons.net.ftp.parser.MacOsPeterFTPEntryParserTest
+[INFO] Running org.apache.commons.net.io.DotTerminatedMessageReaderTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s - in org.apache.commons.net.io.DotTerminatedMessageReaderTest
+[INFO] Running org.apache.commons.net.SocketClientTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.net.SocketClientTest
+[INFO] Running org.apache.commons.net.util.Base64Test
+[WARNING] Tests run: 28, Failures: 0, Errors: 0, Skipped: 19, Time elapsed: 0.057 s - in org.apache.commons.net.util.Base64Test
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 163, Failures: 0, Errors: 0, Skipped: 19
+[INFO] 
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:snapshot (default-cli) @ commons-net ---
+[INFO] No span specified, using span of: 20s
+[INFO] Saving snapshot to: /s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/.clover/clover.snapshot
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating snapshot '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/.clover/clover.snapshot' against Clover database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/commonsNet/workingDir/target/clover/clover.db'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.624 s
+[INFO] Finished at: 2021-06-10T09:55:44-06:00
+[INFO] ------------------------------------------------------------------------

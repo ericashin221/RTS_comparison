@@ -1,0 +1,476 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.asteriskjava:asterisk-java:jar:3.5.0
+[WARNING] 'version' contains an expression but should be a constant. @ org.asteriskjava:asterisk-java:${releaseVersion}, /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/pom.xml, line 8, column 11
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.5.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:setup (default-cli) @ asterisk-java ---
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 746 files (37 packages).
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Updating existing database at '/s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/clover.db'.
+[INFO] Processing files at 1.8 source level.
+[INFO] Clover all over. Instrumented 58 files (16 packages).
+[INFO] 256 test methods detected.
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:optimize (default-cli) @ asterisk-java ---
+[INFO] Adding fileset: directory=/s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented, includes=[**/Test*.java, **/*Test.java, **/*TestCase.java], excludes=null
+[INFO] Clover is not optimizing this test run so as to increase the accuracy of subsequent optimized runs (threshold of 80 consecutive optimized builds met). Total number of builds so far: 81
+[INFO] Clover was unable to save any time on this optimized test run.
+[INFO] Clover included 46 test classes in this run (total # test classes : 46)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/src/main/resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 746 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/manager/AbstractManagerEventListener.java: /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/manager/AbstractManagerEventListener.java uses or overrides a deprecated API.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-instrumented/org/asteriskjava/manager/AbstractManagerEventListener.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- bnd-maven-plugin:3.2.0:bnd-process (default) @ asterisk-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asterisk-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 58 source files to /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/test-classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ActionBuilderImplTest.java: Some input files use or override a deprecated API.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ActionBuilderImplTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ManagerConnectionImplTest.java: /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ManagerConnectionImplTest.java uses unchecked or unsafe operations.
+[INFO] /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/target/clover/src-test-instrumented/org/asteriskjava/manager/internal/ManagerConnectionImplTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ asterisk-java ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.asteriskjava.live.CallerIdTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 s - in org.asteriskjava.live.CallerIdTest
+[INFO] Running org.asteriskjava.live.QueueMemberStateTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.asteriskjava.live.QueueMemberStateTest
+[INFO] Running org.asteriskjava.live.internal.AsteriskAgentImplTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.174 s - in org.asteriskjava.live.internal.AsteriskAgentImplTest
+[INFO] Running org.asteriskjava.live.internal.AsteriskChannelImplTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.asteriskjava.live.internal.AsteriskChannelImplTest
+[INFO] Running org.asteriskjava.live.internal.AsteriskQueueMemberImplTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.asteriskjava.live.internal.AsteriskQueueMemberImplTest
+[INFO] Running org.asteriskjava.live.HangupCauseTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.asteriskjava.live.HangupCauseTest
+[INFO] Running org.asteriskjava.config.ConfigFileParserTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.asteriskjava.config.ConfigFileParserTest
+[INFO] Running org.asteriskjava.pbx.internal.core.ListenerManagerTest
+11:14:37.883 [main] INFO  org.asteriskjava.util.ReflectionUtil - Loaded 39
+11:14:37.886 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ReloadEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ReloadEvent
+11:14:37.887 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.StatusCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusCompleteEvent
+11:14:37.887 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ConnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConnectEvent
+11:14:37.890 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialEndEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialEndEvent
+11:14:37.891 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.UnlinkEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.UnlinkEvent
+11:14:37.891 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.PeerlistCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerlistCompleteEvent
+11:14:37.892 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.ResponseEvent
+11:14:37.893 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MeetMeLeaveEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MeetMeLeaveEvent
+11:14:37.893 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DbGetResponseEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DbGetResponseEvent
+11:14:37.894 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ParkedCallEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ParkedCallEvent
+11:14:37.894 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.AbstractMeetMeEvent
+11:14:37.895 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.HangupEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.HangupEvent
+11:14:37.896 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.UnparkedCallEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.UnparkedCallEvent
+11:14:37.896 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.QueueCallerLeaveEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.QueueCallerLeaveEvent
+11:14:37.898 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.AgentConnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.AgentConnectEvent
+11:14:37.899 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ExtensionStatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ExtensionStatusEvent
+11:14:37.899 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.OriginateResponseEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.OriginateResponseEvent
+11:14:37.900 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.PeerStatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerStatusEvent
+11:14:37.900 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.BridgeEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.BridgeEvent
+11:14:37.901 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.StatusEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.StatusEvent
+11:14:37.901 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewExtenEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewExtenEvent
+11:14:37.902 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.ConfbridgeListEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConfbridgeListEvent
+11:14:37.903 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.BlindTransferEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.BlindTransferEvent
+11:14:37.904 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.RenameEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.RenameEvent
+11:14:37.904 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.AbstractParkedCallEvent
+11:14:37.904 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MeetMeJoinEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MeetMeJoinEvent
+11:14:37.905 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DisconnectEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DisconnectEvent
+11:14:37.905 [main] INFO  o.a.p.i.core.CoherentEventFactory - Skipping abstract class class org.asteriskjava.manager.event.ManagerEvent
+11:14:37.905 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewStateEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewStateEvent
+11:14:37.906 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.VarSetEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.VarSetEvent
+11:14:37.907 [main] INFO  o.a.p.i.core.CoherentEventFactory - Response Event Added class org.asteriskjava.manager.event.PeerEntryEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.PeerEntryEvent
+11:14:37.907 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.LinkEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.LinkEvent
+11:14:37.907 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialEvent
+11:14:37.908 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.NewChannelEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.NewChannelEvent
+11:14:37.910 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.MasqueradeEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.MasqueradeEvent
+11:14:37.910 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DialBeginEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DialBeginEvent
+11:14:37.911 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.AgentCalledEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.AgentCalledEvent
+11:14:37.912 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.DndStateEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.DndStateEvent
+11:14:37.913 [main] INFO  o.a.p.i.core.CoherentEventFactory - Manager Event Added class org.asteriskjava.manager.event.ConfbridgeListCompleteEvent --> class org.asteriskjava.pbx.asterisk.wrap.events.ConfbridgeListCompleteEvent
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 s - in org.asteriskjava.pbx.internal.core.ListenerManagerTest
+[INFO] Running org.asteriskjava.pbx.agi.RateLimiterTest
+1623345277966
+1623345278067
+1623345278167
+1623345278966
+1623345279067
+1623345279167
+1623345279966
+1623345280067
+1623345280167
+1623345280966
+1623345281067
+1623345281167
+1623345281966
+1623345282067
+1623345282167
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.302 s - in org.asteriskjava.pbx.agi.RateLimiterTest
+[INFO] Running org.asteriskjava.fastagi.CompositeMappingStrategyTest
+11:14:42.292 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript
+11:14:42.292 [main] WARN  o.a.f.ResourceBundleMappingStrategy - Unable to create AgiScript instance of type java.lang.String: Class does not implement the AgiScript interface
+11:14:42.295 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript
+11:14:42.296 [main] WARN  o.a.f.ResourceBundleMappingStrategy - Unable to create AgiScript instance of type java.lang.String: Class does not implement the AgiScript interface
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.asteriskjava.fastagi.CompositeMappingStrategyTest
+[INFO] Running org.asteriskjava.fastagi.ClassNameMappingStrategyTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.asteriskjava.fastagi.ClassNameMappingStrategyTest
+[INFO] Running org.asteriskjava.fastagi.internal.AgiReplyImplTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.asteriskjava.fastagi.internal.AgiReplyImplTest
+[INFO] Running org.asteriskjava.fastagi.internal.AgiReaderImplTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.asteriskjava.fastagi.internal.AgiReaderImplTest
+[INFO] Running org.asteriskjava.fastagi.internal.AgiChannelImplTest
+11:14:42.425 [main] WARN  o.a.fastagi.internal.AgiChannelImpl - Request is null, I assume you're testing...
+11:14:42.432 [main] WARN  o.a.fastagi.internal.AgiChannelImpl - Request is null, I assume you're testing...
+11:14:42.435 [main] WARN  o.a.fastagi.internal.AgiChannelImpl - Request is null, I assume you're testing...
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.asteriskjava.fastagi.internal.AgiChannelImplTest
+[INFO] Running org.asteriskjava.fastagi.internal.AgiWriterImplTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.asteriskjava.fastagi.internal.AgiWriterImplTest
+[INFO] Running org.asteriskjava.fastagi.internal.AgiRequestImplTest
+[INFO] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s - in org.asteriskjava.fastagi.internal.AgiRequestImplTest
+[INFO] Running org.asteriskjava.fastagi.ResourceBundleMappingStrategyTest
+11:14:42.564 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript
+11:14:42.564 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'string.agi' to class java.lang.String
+11:14:42.564 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'nonexisting.agi' to class org.asteriskjava.fastagi.NonExistingAgiScript
+11:14:42.568 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Resource bundle 'net.sf.asterisk.fastagi.unavailable' not found.
+11:14:42.573 [main] INFO  o.a.f.ResourceBundleMappingStrategy - Added mapping for 'hello.agi' to class org.asteriskjava.fastagi.HelloAgiScript
+11:14:42.573 [main] WARN  o.a.f.ResourceBundleMappingStrategy - Unable to create AgiScript instance of type java.lang.String: Class does not implement the AgiScript interface
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.asteriskjava.fastagi.ResourceBundleMappingStrategyTest
+[INFO] Running org.asteriskjava.fastagi.ScriptEngineMappingStrategyTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s - in org.asteriskjava.fastagi.ScriptEngineMappingStrategyTest
+[INFO] Running org.asteriskjava.fastagi.command.AbstractAgiCommandTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.asteriskjava.fastagi.command.AbstractAgiCommandTest
+[INFO] Running org.asteriskjava.fastagi.command.GetDataCommandTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.asteriskjava.fastagi.command.GetDataCommandTest
+[INFO] Running org.asteriskjava.fastagi.command.ExecCommandTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in org.asteriskjava.fastagi.command.ExecCommandTest
+[INFO] Running org.asteriskjava.fastagi.DefaultAgiServerTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.asteriskjava.fastagi.DefaultAgiServerTest
+[INFO] Running org.asteriskjava.manager.response.SipShowPeerResponseTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 s - in org.asteriskjava.manager.response.SipShowPeerResponseTest
+[INFO] Running org.asteriskjava.manager.response.CoreStatusResponseTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.asteriskjava.manager.response.CoreStatusResponseTest
+[INFO] Running org.asteriskjava.manager.AbstractManagerEventListenerTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.asteriskjava.manager.AbstractManagerEventListenerTest
+[INFO] Running org.asteriskjava.manager.internal.ResponseBuilderImplTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in org.asteriskjava.manager.internal.ResponseBuilderImplTest
+[INFO] Running org.asteriskjava.manager.internal.ManagerWriterImplTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in org.asteriskjava.manager.internal.ManagerWriterImplTest
+[INFO] Running org.asteriskjava.manager.internal.EventBuilderImplTest
+11:14:43.699 [main] INFO  org.reflections.Reflections - Reflections took 805 ms to scan 2 urls, producing 32 keys and 418 values 
+11:14:43.802 [main] ERROR o.a.m.internal.EventBuilderImpl - No event type in properties
+11:14:43.967 [main] INFO  o.a.m.internal.EventBuilderImpl - No event class registered for event type 'nonexisting', attributes: {event=Nonexisting}. Please report at https://github.com/asterisk-java/asterisk-java/issues
+[INFO] Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.141 s - in org.asteriskjava.manager.internal.EventBuilderImplTest
+[INFO] Running org.asteriskjava.manager.internal.ManagerConnectionImplTest
+11:14:44.058 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:44.059 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+11:14:44.060 [Asterisk-Java ManagerConnection-0-Reconnect-0] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - TimeoutException while trying to log in after reconnect.
+11:14:44.111 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:44.111 [Thread-3] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:44.111 [Thread-3] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:44.161 [Thread-5] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:44.162 [Thread-5] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:44.164 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+11:14:44.164 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+11:14:44.165 [Asterisk-Java ManagerConnection-0-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully reconnected.
+11:14:45.016 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:45.067 [Thread-9] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:45.067 [Thread-9] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:45.109 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+11:14:45.109 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+11:14:45.216 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:45.266 [Thread-13] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:45.267 [Thread-13] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:45.430 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:45.481 [Thread-15] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:45.481 [Thread-15] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:45.506 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:45.506 [Asterisk-Java ManagerConnection-7-Reconnect-0] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Exception while trying to reconnect: IOException
+11:14:45.610 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:45.661 [Thread-19] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:45.661 [Thread-19] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:45.702 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+11:14:45.702 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+11:14:45.702 [Asterisk-Java ManagerConnection-7-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully reconnected.
+11:14:46.461 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:46.465 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:46.486 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+11:14:46.492 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to retrieve internalActionId from response: actionId 'null':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1912960603
+11:14:46.496 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:46.515 [Thread-23] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:46.515 [Thread-23] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:46.546 [Thread-26] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:46.547 [Thread-26] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:46.588 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+11:14:46.693 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:46.743 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+11:14:46.765 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to dispatch null response. This should never happen. Please file a bug.
+11:14:46.771 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to retrieve internalActionId from response: actionId '123_0-abc':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=997055773
+11:14:46.774 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:46.825 [Thread-31] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:46.825 [Thread-31] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:47.025 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Closing socket.
+11:14:47.090 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:47.141 [Thread-34] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:47.141 [Thread-34] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+11:14:47.182 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully logged in
+11:14:47.182 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Determined Asterisk version: null
+11:14:47.182 [Asterisk-Java ManagerConnection-17-Reconnect-0] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Successfully reconnected.
+11:14:48.044 [main] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connecting to localhost:5038
+11:14:48.047 [main] ERROR o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unable to retrieve internalActionId from response: actionId 'abc':
+org.asteriskjava.manager.response.ManagerResponse: actionId='null'; message='null'; response='Success'; uniqueId='null'; systemHashcode=1628998132
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.064 s - in org.asteriskjava.manager.internal.ManagerConnectionImplTest
+[INFO] Running org.asteriskjava.manager.internal.ManagerReaderImplTest
+11:14:48.074 [main] INFO  o.a.m.internal.ManagerReaderImpl - Terminating reader thread: Something happened to the network...
+11:14:48.095 [Thread-38] INFO  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Connected via Asterisk Call Manager/1.0
+11:14:48.095 [Thread-38] WARN  o.a.m.i.ManagerConnectionImplTest$MockedManagerConnectionImpl - Unsupported protocol version 'Asterisk Call Manager/1.0'. Use at your own risk.
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.asteriskjava.manager.internal.ManagerReaderImplTest
+[INFO] Running org.asteriskjava.manager.internal.ActionBuilderImplTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in org.asteriskjava.manager.internal.ActionBuilderImplTest
+[INFO] Running org.asteriskjava.manager.internal.backwardsCompatibility.bridge.BridgeEnterEventComparatorTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in org.asteriskjava.manager.internal.backwardsCompatibility.bridge.BridgeEnterEventComparatorTest
+[INFO] Running org.asteriskjava.manager.event.ChannelReloadEventTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.asteriskjava.manager.event.ChannelReloadEventTest
+[INFO] Running org.asteriskjava.manager.event.NewStateEventTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.asteriskjava.manager.event.NewStateEventTest
+[INFO] Running org.asteriskjava.manager.event.AsyncAgiEventTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.asteriskjava.manager.event.AsyncAgiEventTest
+[INFO] Running org.asteriskjava.manager.event.T38FaxStatusEventTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.asteriskjava.manager.event.T38FaxStatusEventTest
+[INFO] Running org.asteriskjava.manager.event.CdrEventTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.asteriskjava.manager.event.CdrEventTest
+[INFO] Running org.asteriskjava.manager.event.RtcpReceivedEventTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in org.asteriskjava.manager.event.RtcpReceivedEventTest
+[INFO] Running org.asteriskjava.manager.event.SkypeBuddyStatusEventTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.asteriskjava.manager.event.SkypeBuddyStatusEventTest
+[INFO] Running org.asteriskjava.manager.event.SkypeChatMessageEventTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.asteriskjava.manager.event.SkypeChatMessageEventTest
+[INFO] Running org.asteriskjava.util.internal.streamreader.FastScannerSpeedTest
+Scanner 9:	51382	249 ms
+Scanner 8:	51382	227 ms
+Scanner 7:	51382	224 ms
+Scanner 6:	51382	224 ms
+Scanner 5:	51382	217 ms
+Scanner 4:	51382	217 ms
+Scanner 3:	51382	218 ms
+Scanner 2:	51382	217 ms
+Scanner 1:	51382	220 ms
+Scanner 0:	51382	220 ms
+
+Testing fast CrNlStream
+Fast 9:	51370	453 ms
+Fast 8:	51370	309 ms
+Fast 7:	51370	304 ms
+Fast 6:	51370	301 ms
+Fast 5:	51370	299 ms
+Fast 4:	51370	298 ms
+Fast 3:	51370	298 ms
+Fast 2:	51370	301 ms
+Fast 1:	51370	299 ms
+Fast 0:	51370	298 ms
+
+Testing fast NlStream
+Fast 9:	149631	286 ms
+Fast 8:	149631	200 ms
+Fast 7:	149631	194 ms
+Fast 6:	149631	195 ms
+Fast 5:	149631	195 ms
+Fast 4:	149631	194 ms
+Fast 3:	149631	194 ms
+Fast 2:	149631	200 ms
+Fast 1:	149631	195 ms
+Fast 0:	149631	193 ms
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.452 s - in org.asteriskjava.util.internal.streamreader.FastScannerSpeedTest
+[INFO] Running org.asteriskjava.util.internal.streamreader.FastScannerDeterministicTest
+
+Testing scanner class: class org.asteriskjava.util.internal.streamreader.FastScannerCrNl
+Done
+
+L: agi_network: yes 16
+L: agi_network_script: route?targ=7601&ctx=Pre-Handset 51
+L: agi_request: agi://10.10.0.41/route?targ=7601&ctx=Pre-Handset 61
+L: agi_channel: Local/7610@default-2df1,1 38
+L: agi_language: en 16
+L: agi_type: Local 15
+L: agi_uniqueid: 1530169476.16133 30
+L: agi_callerid: unknown 21
+L: agi_calleridname: unknown 25
+L: agi_callingpres: 0 18
+L: agi_callingani2: 0 18
+L: agi_callington: 0 17
+L: agi_callingtns: 0 17
+L: agi_dnid: unknown 17
+L: agi_rdnis: unknown 18
+L: agi_context: routesv2-handset 29
+L: agi_extension: 7601 19
+L: agi_priority: 1 15
+L: agi_enhanced: 0.0 17
+L: agi_accountcode:  17
+L:  0
+L: 200 result=0 12
+L: 200 result=1 () 15
+L: 200 result=0 12
+L: 200 result=1 12
+L: 200 result=0 12
+L: 200 result=0 12
+L: 200 result=0 12
+L: 200 result=0 12
+L: 200 result=1 () 15
+L: 200 result=1 12
+
+Testing scanner class: class org.asteriskjava.util.internal.streamreader.FastScannerNl
+Done
+
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 s - in org.asteriskjava.util.internal.streamreader.FastScannerDeterministicTest
+[INFO] Running org.asteriskjava.util.internal.streamreader.FastScannerRandomTest
+CR NL Completed 1MB
+CR NL Completed 2MB
+CR NL Completed 3MB
+CR NL Completed 4MB
+CR NL Completed 5MB
+CR NL Completed 6MB
+CR NL Completed 7MB
+CR NL Completed 8MB
+CR NL Completed 9MB
+CR NL Completed 10MB
+CR NL Completed 11MB
+CR NL Completed 12MB
+CR NL Completed 13MB
+CR NL Completed 14MB
+CR NL Completed 15MB
+CR NL Completed 16MB
+CR NL Completed 17MB
+CR NL Completed 18MB
+CR NL Completed 19MB
+CR NL Completed 20MB
+CR NL Completed 21MB
+CR NL Completed 22MB
+CR NL Completed 23MB
+CR NL Completed 24MB
+CR NL Completed 25MB
+CR NL Completed 26MB
+CR NL Completed 27MB
+CR NL Completed 28MB
+CR NL Completed 29MB
+CR NL Completed 30MB
+CR NL Completed 31MB
+CR NL Completed 32MB
+CR NL Completed 33MB
+CR NL Completed 34MB
+CR NL Completed 35MB
+CR NL Completed 36MB
+CR NL Completed 37MB
+CR NL Completed 38MB
+CR NL Completed 39MB
+CR NL Completed 40MB
+CR NL Completed 41MB
+CR NL Completed 42MB
+CR NL Completed 43MB
+CR NL Completed 44MB
+CR NL Completed 45MB
+CR NL Completed 46MB
+CR NL Completed 47MB
+CR NL Completed 48MB
+CR NL Completed 49MB
+CR NL Completed 50MB
+NL Completed 1MB
+NL Completed 2MB
+NL Completed 3MB
+NL Completed 4MB
+NL Completed 5MB
+NL Completed 6MB
+NL Completed 7MB
+NL Completed 8MB
+NL Completed 9MB
+NL Completed 10MB
+NL Completed 11MB
+NL Completed 12MB
+NL Completed 13MB
+NL Completed 14MB
+NL Completed 15MB
+NL Completed 16MB
+NL Completed 17MB
+NL Completed 18MB
+NL Completed 19MB
+NL Completed 20MB
+NL Completed 21MB
+NL Completed 22MB
+NL Completed 23MB
+NL Completed 24MB
+NL Completed 25MB
+NL Completed 26MB
+NL Completed 27MB
+NL Completed 28MB
+NL Completed 29MB
+NL Completed 30MB
+NL Completed 31MB
+NL Completed 32MB
+NL Completed 33MB
+NL Completed 34MB
+NL Completed 35MB
+NL Completed 36MB
+NL Completed 37MB
+NL Completed 38MB
+NL Completed 39MB
+NL Completed 40MB
+NL Completed 41MB
+NL Completed 42MB
+NL Completed 43MB
+NL Completed 44MB
+NL Completed 45MB
+NL Completed 46MB
+NL Completed 47MB
+NL Completed 48MB
+NL Completed 49MB
+NL Completed 50MB
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.166 s - in org.asteriskjava.util.internal.streamreader.FastScannerRandomTest
+[INFO] Running org.asteriskjava.util.DateUtilTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.asteriskjava.util.DateUtilTest
+[INFO] Running org.asteriskjava.util.AstUtilTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in org.asteriskjava.util.AstUtilTest
+[INFO] Running org.asteriskjava.AsteriskVersionTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s - in org.asteriskjava.AsteriskVersionTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 252, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- clover-maven-plugin:4.4.1:snapshot (default-cli) @ asterisk-java ---
+[INFO] No span specified, using span of: 67s
+[INFO] Saving snapshot to: /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/.clover/clover.snapshot
+[INFO] OpenClover Version 4.4.1, built on October 11 2019 (build-1020)
+[INFO] Snapshot file not found, creating new file at /s/chopin/a/grad/mkshin/newResearch2/Clover/asterisk/workingDir/.clover/clover.snapshot
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:08 min
+[INFO] Finished at: 2021-06-10T11:15:10-06:00
+[INFO] ------------------------------------------------------------------------
