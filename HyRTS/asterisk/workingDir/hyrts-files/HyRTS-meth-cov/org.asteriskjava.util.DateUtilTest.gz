@@ -1,8 +1,0 @@
-org.asteriskjava.util.DateUtilTest
-org/asteriskjava/util/DateUtilTest:<init>:()V
-org/asteriskjava/util/DateUtilTest:setUp:()V
-org/asteriskjava/util/DateUtilTest:tearDown:()V
-org/asteriskjava/util/DateUtilTest:testGetStartTimeAsDate:()V
-org/asteriskjava/util/DateUtilTest:testGetStartTimeAsDateWithTimeZone:()V
-org/asteriskjava/util/DateUtil:parseDateTime:(Ljava/lang/String;)Ljava/util/Date;
-org/asteriskjava/util/DateUtil:parseDateTime:(Ljava/lang/String;Ljava/util/TimeZone;)Ljava/util/Date;

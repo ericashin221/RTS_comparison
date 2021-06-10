@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.asteriskjava.manager.internal.ManagerConnectionImplTest
--------------------------------------------------------------------------------
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.376 sec - in org.asteriskjava.manager.internal.ManagerConnectionImplTest

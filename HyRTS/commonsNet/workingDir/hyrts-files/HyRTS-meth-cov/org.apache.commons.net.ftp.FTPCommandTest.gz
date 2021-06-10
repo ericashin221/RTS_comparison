@@ -1,5 +1,0 @@
-org.apache.commons.net.ftp.FTPCommandTest
-org/apache/commons/net/ftp/FTPCommandTest:<init>:(Ljava/lang/String;)V
-org/apache/commons/net/ftp/FTPCommandTest:testArray:()V
-org/apache/commons/net/ftp/FTPCommand:<clinit>:()V
-org/apache/commons/net/ftp/FTPCommand:checkArray:()V

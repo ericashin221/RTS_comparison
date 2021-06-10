@@ -1,6 +1,0 @@
-org.apache.commons.net.telnet.InvalidTelnetOptionExceptionTest
-org/apache/commons/net/telnet/InvalidTelnetOptionExceptionTest:<init>:()V
-org/apache/commons/net/telnet/InvalidTelnetOptionExceptionTest:setUp:()V
-org/apache/commons/net/telnet/InvalidTelnetOptionExceptionTest:testConstructors:()V
-org/apache/commons/net/telnet/InvalidTelnetOptionException:<init>:(Ljava/lang/String;I)V
-org/apache/commons/net/telnet/InvalidTelnetOptionException:getMessage:()Ljava/lang/String;

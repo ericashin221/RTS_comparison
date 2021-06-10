@@ -1,5 +1,0 @@
-org.asteriskjava.pbx.agi.RateLimiterTest
-org/asteriskjava/pbx/agi/RateLimiterTest:<init>:()V
-org/asteriskjava/pbx/agi/RateLimiterTest:test:()V
-org/asteriskjava/pbx/agi/RateLimiter:<init>:(I)V
-org/asteriskjava/pbx/agi/RateLimiter:acquire:()V

@@ -1,7 +1,0 @@
-org.apache.commons.collections4.iterators.IteratorEnumerationTest
-org/apache/commons/collections4/iterators/IteratorEnumerationTest:<init>:()V
-org/apache/commons/collections4/iterators/IteratorEnumerationTest:testEnumeration:()V
-org/apache/commons/collections4/iterators/IteratorEnumeration:<init>:(Ljava/util/Iterator;)V
-org/apache/commons/collections4/iterators/IteratorEnumeration:hasMoreElements:()Z
-org/apache/commons/collections4/iterators/IteratorEnumeration:nextElement:()Ljava/lang/Object;
-org/apache/commons/collections4/iterators/IteratorEnumeration:getIterator:()Ljava/util/Iterator;
