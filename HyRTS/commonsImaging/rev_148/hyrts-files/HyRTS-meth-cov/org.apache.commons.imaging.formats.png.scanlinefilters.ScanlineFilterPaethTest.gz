@@ -1,0 +1,6 @@
+org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterPaethTest
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterPaethTest:<init>:()V
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterPaethTest:testUnfilter:()V
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterPaeth:<init>:(I)V
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterPaeth:paethPredictor:(III)I
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterPaeth:unfilter:([B[B[B)V

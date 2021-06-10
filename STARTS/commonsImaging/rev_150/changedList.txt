@@ -1,0 +1,2 @@
+org.apache.commons.imaging.color.ColorCmyTest 
+org.apache.commons.imaging.color.ColorHslTest 

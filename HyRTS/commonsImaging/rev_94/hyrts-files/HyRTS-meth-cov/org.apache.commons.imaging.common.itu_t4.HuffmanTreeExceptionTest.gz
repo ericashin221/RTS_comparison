@@ -1,0 +1,5 @@
+org.apache.commons.imaging.common.itu_t4.HuffmanTreeExceptionTest
+org/apache/commons/imaging/common/itu_t4/HuffmanTreeExceptionTest:<init>:()V
+org/apache/commons/imaging/common/itu_t4/HuffmanTreeExceptionTest:testCreatesHuffmanTreeExceptionTakingString:()V
+org/apache/commons/imaging/common/itu_t4/HuffmanTreeException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/common/itu_t4/HuffmanTreeException:<init>:(Ljava/lang/String;Ljava/lang/Throwable;)V

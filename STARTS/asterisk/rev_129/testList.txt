@@ -1,0 +1,2 @@
+org.asteriskjava.pbx.internal.core.ListenerManagerTest
+org.asteriskjava.manager.internal.ManagerConnectionImplTest

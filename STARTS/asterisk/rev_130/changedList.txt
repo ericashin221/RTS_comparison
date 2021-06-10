@@ -1,0 +1,3 @@
+org.asteriskjava.manager.DefaultManagerConnection 
+org.asteriskjava.manager.ManagerConnection 
+org.asteriskjava.manager.internal.ManagerConnectionImpl 

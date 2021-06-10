@@ -1,0 +1,16 @@
+org.apache.commons.imaging.formats.jpeg.decoder.DctTest
+org/apache/commons/imaging/formats/jpeg/decoder/DctTest:<init>:()V
+org/apache/commons/imaging/formats/jpeg/decoder/DctTest:testVectors:()V
+org/apache/commons/imaging/formats/jpeg/decoder/DctTest:testMatrices:()V
+org/apache/commons/imaging/formats/jpeg/decoder/DctTest:REFERENCE_inverseDCT:([[F)[[F
+org/apache/commons/imaging/formats/jpeg/decoder/DctTest:REFERENCE_inverseDCT:([F)[F
+org/apache/commons/imaging/formats/jpeg/decoder/DctTest:REFERENCE_forwardDCT:([[F)[[F
+org/apache/commons/imaging/formats/jpeg/decoder/DctTest:REFERENCE_forwardDCT:([F)[F
+org/apache/commons/imaging/formats/jpeg/decoder/Dct:scaleQuantizationVector:([F)V
+org/apache/commons/imaging/formats/jpeg/decoder/Dct:scaleDequantizationVector:([F)V
+org/apache/commons/imaging/formats/jpeg/decoder/Dct:scaleQuantizationMatrix:([F)V
+org/apache/commons/imaging/formats/jpeg/decoder/Dct:scaleDequantizationMatrix:([F)V
+org/apache/commons/imaging/formats/jpeg/decoder/Dct:forwardDCT8:([F)V
+org/apache/commons/imaging/formats/jpeg/decoder/Dct:forwardDCT8x8:([F)V
+org/apache/commons/imaging/formats/jpeg/decoder/Dct:inverseDCT8:([F)V
+org/apache/commons/imaging/formats/jpeg/decoder/Dct:inverseDCT8x8:([F)V

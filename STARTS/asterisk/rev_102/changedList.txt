@@ -1,0 +1,2 @@
+org.asteriskjava.manager.AbstractManagerEventListener 
+org.asteriskjava.manager.AbstractManagerEventListenerTest$EventListener 

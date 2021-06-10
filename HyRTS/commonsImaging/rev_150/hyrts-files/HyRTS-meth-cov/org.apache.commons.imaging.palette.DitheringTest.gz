@@ -1,0 +1,15 @@
+org.apache.commons.imaging.palette.DitheringTest
+org/apache/commons/imaging/palette/DitheringTest:<init>:()V
+org/apache/commons/imaging/palette/DitheringTest:testApplyFloydSteinbergDitheringWithNonNullOne:()V
+org/apache/commons/imaging/palette/DitheringTest:testApplyFloydSteinbergDitheringWithNonNullTwo:()V
+org/apache/commons/imaging/palette/Palette:<clinit>:()V
+org/apache/commons/imaging/palette/ColorSpaceSubset:<clinit>:()V
+org/apache/commons/imaging/palette/ColorSpaceSubset:<init>:(II)V
+org/apache/commons/imaging/palette/ColorSpaceSubset:getIndex:()I
+org/apache/commons/imaging/palette/ColorSpaceSubset:setIndex:(I)V
+org/apache/commons/imaging/palette/ColorSpaceSubset$RgbComparator:<init>:()V
+org/apache/commons/imaging/palette/QuantizedPalette:<init>:(Ljava/util/List;I)V
+org/apache/commons/imaging/palette/QuantizedPalette:getPaletteIndex:(I)I
+org/apache/commons/imaging/palette/QuantizedPalette:getEntry:(I)I
+org/apache/commons/imaging/palette/Dithering:applyFloydSteinbergDithering:(Ljava/awt/image/BufferedImage;Lorg/apache/commons/imaging/palette/Palette;)V
+org/apache/commons/imaging/palette/Dithering:adjustPixel:(IIIIII)I

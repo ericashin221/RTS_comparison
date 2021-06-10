@@ -1,0 +1,9 @@
+org.apache.commons.imaging.formats.tiff.taginfos.TagInfoUnknownTest
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILjava/util/List;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILjava/util/List;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;Z)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknownTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknownTest:testCreatesTagInfoUnknown:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByte:<init>:(Ljava/lang/String;ILjava/util/List;Lorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknown:<init>:(Ljava/lang/String;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V

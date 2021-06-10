@@ -1,0 +1,3 @@
+org.asteriskjava.manager.internal.ManagerConnectionImpl$DefaultSendActionCallback 
+org.asteriskjava.manager.internal.ManagerConnectionImpl$ResponseEventHandler 
+org.asteriskjava.manager.internal.ManagerConnectionImpl 

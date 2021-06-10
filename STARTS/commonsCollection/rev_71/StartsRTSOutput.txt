@@ -1,0 +1,313 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.apache.commons:commons-collections4 >---------------
+[INFO] Building Apache Commons Collections 4.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:starts (default-cli) > [starts]test @ commons-collections4 >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-collections4 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-collections4 ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-collections4 ---
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1620932382253
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/chopin)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 326 source files to /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/target/classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/java/org/apache/commons/collections4/MapUtils.java: Some input files use or override a deprecated API.
+[INFO] /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/java/org/apache/commons/collections4/MapUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/java/org/apache/commons/collections4/functors/ExceptionTransformer.java: Some input files use unchecked or unsafe operations.
+[INFO] /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/java/org/apache/commons/collections4/functors/ExceptionTransformer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.1.0:manifest (bundle-manifest) @ commons-collections4 ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.17:check (checkAPIcompatibility) @ commons-collections4 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 179 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-collections4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.4:prepare-agent (prepare-agent) @ commons-collections4 ---
+[INFO] argLine set to -javaagent:/s/chopin/a/grad/mkshin/.m2/repository/org/jacoco/org.jacoco.agent/0.8.4/org.jacoco.agent-0.8.4-runtime.jar=destfile=/s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/target/jacoco.exec
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:run (default-cli) > test-compile @ commons-collections4 >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven-3) @ commons-collections4 ---
+[INFO] 
+[INFO] --- apache-rat-plugin:0.13:check (rat-check) @ commons-collections4 ---
+[INFO] RAT will not execute since it is configured to be skipped via system property 'rat.skip'.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-collections4 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-collections4 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-collections4 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-collections4 ---
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1620932392341
+[WARNING] Cannot get the branch information from the git repository: 
+Detecting the current branch failed: fatal: not a git repository (or any parent up to mount point /s/chopin)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir' && 'git' 'rev-parse' '--verify' 'HEAD'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ commons-collections4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 326 source files to /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/target/classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/java/org/apache/commons/collections4/MapUtils.java: Some input files use or override a deprecated API.
+[INFO] /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/java/org/apache/commons/collections4/MapUtils.java: Recompile with -Xlint:deprecation for details.
+[INFO] /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/java/org/apache/commons/collections4/functors/ExceptionTransformer.java: Some input files use unchecked or unsafe operations.
+[INFO] /s/chopin/a/grad/mkshin/newResearch/STARTS/commonsCollection/workingDir/src/main/java/org/apache/commons/collections4/functors/ExceptionTransformer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:4.1.0:manifest (bundle-manifest) @ commons-collections4 ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.17:check (checkAPIcompatibility) @ commons-collections4 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java18:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ commons-collections4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 179 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ commons-collections4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:run (default-cli) < test-compile @ commons-collections4 <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:run (default-cli) @ commons-collections4 ---
+INFO: ALL(count): 848
+INFO: UNREACHED(count): 14
+INFO: STARTS:Nodes: 2174
+INFO: STARTS:Edges: 18403
+INFO: STARTS:AffectedTests: 79
+INFO: STARTS:TotalTests: 171
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ commons-collections4 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.collections4.bag.PredicatedSortedBagTest
+[INFO] Tests run: 78, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 s - in org.apache.commons.collections4.bag.PredicatedSortedBagTest
+[INFO] Running org.apache.commons.collections4.bag.PredicatedBagTest
+[INFO] Tests run: 79, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.apache.commons.collections4.bag.PredicatedBagTest
+[INFO] Running org.apache.commons.collections4.map.UnmodifiableOrderedMapTest
+[INFO] Tests run: 56, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in org.apache.commons.collections4.map.UnmodifiableOrderedMapTest
+[INFO] Running org.apache.commons.collections4.map.FixedSizeMapTest
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.commons.collections4.map.FixedSizeMapTest
+[INFO] Running org.apache.commons.collections4.map.StaticBucketMapTest
+[INFO] Tests run: 155, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 s - in org.apache.commons.collections4.map.StaticBucketMapTest
+[INFO] Running org.apache.commons.collections4.map.Flat3MapTest
+[INFO] Tests run: 200, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 s - in org.apache.commons.collections4.map.Flat3MapTest
+[INFO] Running org.apache.commons.collections4.map.PredicatedSortedMapTest
+[INFO] Tests run: 54, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.apache.commons.collections4.map.PredicatedSortedMapTest
+[INFO] Running org.apache.commons.collections4.map.LazySortedMapTest
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s - in org.apache.commons.collections4.map.LazySortedMapTest
+[INFO] Running org.apache.commons.collections4.map.MultiKeyMapTest
+[INFO] Tests run: 167, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 s - in org.apache.commons.collections4.map.MultiKeyMapTest
+[INFO] Running org.apache.commons.collections4.map.UnmodifiableSortedMapTest
+[INFO] Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in org.apache.commons.collections4.map.UnmodifiableSortedMapTest
+[INFO] Running org.apache.commons.collections4.map.LRUMapTest
+[INFO] Tests run: 193, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.155 s - in org.apache.commons.collections4.map.LRUMapTest
+[INFO] Running org.apache.commons.collections4.map.TransformedMapTest
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in org.apache.commons.collections4.map.TransformedMapTest
+[INFO] Running org.apache.commons.collections4.map.FixedSizeSortedMapTest
+[INFO] Tests run: 555, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s - in org.apache.commons.collections4.map.FixedSizeSortedMapTest
+[INFO] Running org.apache.commons.collections4.map.HashedMapTest
+[INFO] Tests run: 158, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.commons.collections4.map.HashedMapTest
+[INFO] Running org.apache.commons.collections4.map.DefaultedMapTest
+[INFO] Tests run: 54, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.collections4.map.DefaultedMapTest
+[INFO] Running org.apache.commons.collections4.map.ListOrderedMap2Test
+[INFO] Tests run: 333, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 s - in org.apache.commons.collections4.map.ListOrderedMap2Test
+[INFO] Running org.apache.commons.collections4.map.ReferenceIdentityMapTest
+[INFO] Tests run: 159, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.183 s - in org.apache.commons.collections4.map.ReferenceIdentityMapTest
+[INFO] Running org.apache.commons.collections4.map.PredicatedMapTest
+[INFO] Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.collections4.map.PredicatedMapTest
+[INFO] Running org.apache.commons.collections4.map.SingletonMapTest
+[INFO] Tests run: 178, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.apache.commons.collections4.map.SingletonMapTest
+[INFO] Running org.apache.commons.collections4.map.TransformedSortedMapTest
+[INFO] Tests run: 558, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s - in org.apache.commons.collections4.map.TransformedSortedMapTest
+[INFO] Running org.apache.commons.collections4.map.PassiveExpiringMapTest
+[INFO] Tests run: 148, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.023 s - in org.apache.commons.collections4.map.PassiveExpiringMapTest
+[INFO] Running org.apache.commons.collections4.map.CompositeMapTest
+[INFO] Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in org.apache.commons.collections4.map.CompositeMapTest
+[INFO] Running org.apache.commons.collections4.map.ReferenceMapTest
+[INFO] Tests run: 159, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s - in org.apache.commons.collections4.map.ReferenceMapTest
+[INFO] Running org.apache.commons.collections4.map.LazyMapTest
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.collections4.map.LazyMapTest
+[INFO] Running org.apache.commons.collections4.map.ListOrderedMapTest
+[INFO] Tests run: 494, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 s - in org.apache.commons.collections4.map.ListOrderedMapTest
+[INFO] Running org.apache.commons.collections4.map.LinkedMapTest
+[INFO] Tests run: 337, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in org.apache.commons.collections4.map.LinkedMapTest
+[INFO] Running org.apache.commons.collections4.map.CaseInsensitiveMapTest
+[INFO] Tests run: 161, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.commons.collections4.map.CaseInsensitiveMapTest
+[INFO] Running org.apache.commons.collections4.map.MultiValueMapTest
+[INFO] Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in org.apache.commons.collections4.map.MultiValueMapTest
+[INFO] Running org.apache.commons.collections4.map.UnmodifiableMapTest
+[INFO] Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.collections4.map.UnmodifiableMapTest
+[INFO] Running org.apache.commons.collections4.IterableUtilsTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in org.apache.commons.collections4.IterableUtilsTest
+[INFO] Running org.apache.commons.collections4.queue.PredicatedQueueTest
+[INFO] Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 s - in org.apache.commons.collections4.queue.PredicatedQueueTest
+[INFO] Running org.apache.commons.collections4.EnumerationUtilsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.collections4.EnumerationUtilsTest
+[INFO] Running org.apache.commons.collections4.SplitMapUtilsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.collections4.SplitMapUtilsTest
+[INFO] Running org.apache.commons.collections4.MapUtilsTest
+[INFO] Tests run: 8480, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.839 s - in org.apache.commons.collections4.MapUtilsTest
+[INFO] Running org.apache.commons.collections4.QueueUtilsTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.collections4.QueueUtilsTest
+[INFO] Running org.apache.commons.collections4.bidimap.DualTreeBidiMap2Test
+[INFO] Tests run: 823, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.267 s - in org.apache.commons.collections4.bidimap.DualTreeBidiMap2Test
+[INFO] Running org.apache.commons.collections4.bidimap.UnmodifiableSortedBidiMapTest
+[INFO] Tests run: 820, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 s - in org.apache.commons.collections4.bidimap.UnmodifiableSortedBidiMapTest
+[INFO] Running org.apache.commons.collections4.bidimap.DualLinkedHashBidiMapTest
+[INFO] Tests run: 368, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in org.apache.commons.collections4.bidimap.DualLinkedHashBidiMapTest
+[INFO] Running org.apache.commons.collections4.bidimap.DualTreeBidiMapTest
+[INFO] Tests run: 818, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s - in org.apache.commons.collections4.bidimap.DualTreeBidiMapTest
+[INFO] Running org.apache.commons.collections4.bidimap.DualHashBidiMapTest
+[INFO] Tests run: 368, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in org.apache.commons.collections4.bidimap.DualHashBidiMapTest
+[INFO] Running org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest
+[INFO] Tests run: 391, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in org.apache.commons.collections4.bidimap.UnmodifiableOrderedBidiMapTest
+[INFO] Running org.apache.commons.collections4.bidimap.TreeBidiMapTest
+[INFO] Tests run: 389, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in org.apache.commons.collections4.bidimap.TreeBidiMapTest
+[INFO] Running org.apache.commons.collections4.bidimap.UnmodifiableBidiMapTest
+[INFO] Tests run: 370, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s - in org.apache.commons.collections4.bidimap.UnmodifiableBidiMapTest
+[INFO] Running org.apache.commons.collections4.MultiSetUtilsTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.collections4.MultiSetUtilsTest
+[INFO] Running org.apache.commons.collections4.FluentIterableTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.apache.commons.collections4.FluentIterableTest
+[INFO] Running org.apache.commons.collections4.MultiMapUtilsTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.collections4.MultiMapUtilsTest
+[INFO] Running org.apache.commons.collections4.iterators.IteratorChainTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.collections4.iterators.IteratorChainTest
+[INFO] Running org.apache.commons.collections4.iterators.LazyIteratorChainTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.collections4.iterators.LazyIteratorChainTest
+[INFO] Running org.apache.commons.collections4.iterators.ZippingIteratorTest
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.collections4.iterators.ZippingIteratorTest
+[INFO] Running org.apache.commons.collections4.iterators.ObjectGraphIteratorTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.collections4.iterators.ObjectGraphIteratorTest
+[INFO] Running org.apache.commons.collections4.list.SetUniqueListTest
+[INFO] Tests run: 76, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.apache.commons.collections4.list.SetUniqueListTest
+[INFO] Running org.apache.commons.collections4.list.Collections701Test
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.collections4.list.Collections701Test
+[INFO] Running org.apache.commons.collections4.list.PredicatedListTest
+[INFO] Tests run: 63, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.collections4.list.PredicatedListTest
+[INFO] Running org.apache.commons.collections4.trie.PatriciaTrieTest
+[INFO] Tests run: 562, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.275 s - in org.apache.commons.collections4.trie.PatriciaTrieTest
+[INFO] Running org.apache.commons.collections4.trie.PatriciaTrie2Test
+[INFO] Tests run: 177, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 s - in org.apache.commons.collections4.trie.PatriciaTrie2Test
+[INFO] Running org.apache.commons.collections4.trie.UnmodifiableTrieTest
+[INFO] Tests run: 557, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in org.apache.commons.collections4.trie.UnmodifiableTrieTest
+[INFO] Running org.apache.commons.collections4.IteratorUtilsTest
+[INFO] Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s - in org.apache.commons.collections4.IteratorUtilsTest
+[INFO] Running org.apache.commons.collections4.collection.IndexedCollectionTest
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.collections4.collection.IndexedCollectionTest
+[INFO] Running org.apache.commons.collections4.collection.CompositeCollectionTest
+[INFO] Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.apache.commons.collections4.collection.CompositeCollectionTest
+[INFO] Running org.apache.commons.collections4.collection.PredicatedCollectionBuilderTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.collections4.collection.PredicatedCollectionBuilderTest
+[INFO] Running org.apache.commons.collections4.collection.PredicatedCollectionTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.collections4.collection.PredicatedCollectionTest
+[INFO] Running org.apache.commons.collections4.CollectionUtilsTest
+[INFO] Tests run: 115, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in org.apache.commons.collections4.CollectionUtilsTest
+[INFO] Running org.apache.commons.collections4.set.ListOrderedSet2Test
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in org.apache.commons.collections4.set.ListOrderedSet2Test
+[INFO] Running org.apache.commons.collections4.set.CompositeSetTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.collections4.set.CompositeSetTest
+[INFO] Running org.apache.commons.collections4.set.PredicatedNavigableSetTest
+[INFO] Tests run: 207, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 s - in org.apache.commons.collections4.set.PredicatedNavigableSetTest
+[INFO] Running org.apache.commons.collections4.set.PredicatedSortedSetTest
+[INFO] Tests run: 120, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.apache.commons.collections4.set.PredicatedSortedSetTest
+[INFO] Running org.apache.commons.collections4.set.PredicatedSetTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.collections4.set.PredicatedSetTest
+[INFO] Running org.apache.commons.collections4.set.ListOrderedSetTest
+[INFO] Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in org.apache.commons.collections4.set.ListOrderedSetTest
+[INFO] Running org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest
+[INFO] Tests run: 349, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 s - in org.apache.commons.collections4.multimap.ArrayListValuedHashMapTest
+[INFO] Running org.apache.commons.collections4.multimap.HashSetValuedHashMapTest
+[INFO] Tests run: 345, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s - in org.apache.commons.collections4.multimap.HashSetValuedHashMapTest
+[INFO] Running org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest
+[INFO] Tests run: 342, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in org.apache.commons.collections4.multimap.TransformedMultiValuedMapTest
+[INFO] Running org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMapTest
+[INFO] Tests run: 352, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.apache.commons.collections4.multimap.UnmodifiableMultiValuedMapTest
+[INFO] Running org.apache.commons.collections4.ListUtilsTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in org.apache.commons.collections4.ListUtilsTest
+[INFO] Running org.apache.commons.collections4.BagUtilsTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in org.apache.commons.collections4.BagUtilsTest
+[INFO] Running org.apache.commons.collections4.SetUtilsTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in org.apache.commons.collections4.SetUtilsTest
+[INFO] Running org.apache.commons.collections4.multiset.PredicatedMultiSetTest
+[INFO] Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s - in org.apache.commons.collections4.multiset.PredicatedMultiSetTest
+[INFO] Running org.apache.commons.collections4.multiset.SynchronizedMultiSetTest
+[INFO] Tests run: 77, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.apache.commons.collections4.multiset.SynchronizedMultiSetTest
+[INFO] Running org.apache.commons.collections4.multiset.UnmodifiableMultiSetTest
+[INFO] Tests run: 83, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.collections4.multiset.UnmodifiableMultiSetTest
+[INFO] Running org.apache.commons.collections4.multiset.HashMultiSetTest
+[INFO] Tests run: 77, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.apache.commons.collections4.multiset.HashMultiSetTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 21669, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] <<< starts-maven-plugin:1.3:starts (default-cli) < [starts]test @ commons-collections4 <<<
+[INFO] 
+[INFO] 
+[INFO] --- starts-maven-plugin:1.3:starts (default-cli) @ commons-collections4 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.012 s
+[INFO] Finished at: 2020-05-18T13:00:18-06:00
+[INFO] ------------------------------------------------------------------------

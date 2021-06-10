@@ -1,0 +1,14 @@
+org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteOrShortTest
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteOrShortTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteOrShortTest:testEncodeValueTakingByteOrderAndByteArrayOne:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteOrShortTest:testEncodeValueTakingByteOrderAndByteArrayTwo:()V
+org/apache/commons/imaging/common/ByteConversions:toBytes:([SLjava/nio/ByteOrder;)[B
+org/apache/commons/imaging/common/ByteConversions:toBytes:([SIILjava/nio/ByteOrder;)[B
+org/apache/commons/imaging/common/ByteConversions:toBytes:(SLjava/nio/ByteOrder;[BI)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILjava/util/List;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILjava/util/List;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;Z)V
+org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteOrShort:<init>:(Ljava/lang/String;IILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteOrShort:encodeValue:(Ljava/nio/ByteOrder;[B)[B
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteOrShort:encodeValue:(Ljava/nio/ByteOrder;[S)[B

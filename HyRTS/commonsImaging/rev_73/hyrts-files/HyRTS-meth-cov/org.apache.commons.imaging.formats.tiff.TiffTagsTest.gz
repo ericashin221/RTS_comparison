@@ -1,0 +1,9 @@
+org.apache.commons.imaging.formats.tiff.TiffTagsTest
+org/apache/commons/imaging/formats/tiff/TiffTagsTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/TiffTagsTest:testGetTagWithNegativeAndPositive:()V
+org/apache/commons/imaging/formats/tiff/constants/TiffTagConstants:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType:isImageDirectory:()Z
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknowns:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/TiffTags:getTag:(II)Lorg/apache/commons/imaging/formats/tiff/taginfos/TagInfo;
+org/apache/commons/imaging/formats/tiff/TiffTags:getTag:(ILjava/util/List;)Lorg/apache/commons/imaging/formats/tiff/taginfos/TagInfo;

@@ -1,0 +1,76 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< commons-net:commons-net >-----------------------
+[INFO] Building Apache Commons Net 3.7-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> hyrts-maven-plugin:1.0.1:HyRTS (default-cli) > test-compile @ commons-net >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-3) @ commons-net ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ commons-net ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-net ---
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 2 files to /s/chopin/a/grad/mkshin/newResearch/HyRTS/commonsNet/workingDir/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ commons-net ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create (default) @ commons-net ---
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch/HyRTS/commonsNet/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch/HyRTS/commonsNet/workingDir
+[INFO] Storing buildNumber: ?????? at timestamp: 1620942634868
+[INFO] Executing: /bin/sh -c cd '/s/chopin/a/grad/mkshin/newResearch/HyRTS/commonsNet/workingDir' && 'svn' '--non-interactive' 'info'
+[INFO] Working directory: /s/chopin/a/grad/mkshin/newResearch/HyRTS/commonsNet/workingDir
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-net ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ commons-net ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 224 source files to /s/chopin/a/grad/mkshin/newResearch/HyRTS/commonsNet/workingDir/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.4.0:manifest (bundle-manifest) @ commons-net ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (checkAPIcompatibility) @ commons-net ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-net ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/chopin/a/grad/mkshin/newResearch/HyRTS/commonsNet/workingDir/src/test/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ commons-net ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 62 source files to /s/chopin/a/grad/mkshin/newResearch/HyRTS/commonsNet/workingDir/target/test-classes
+[INFO] 
+[INFO] <<< hyrts-maven-plugin:1.0.1:HyRTS (default-cli) < test-compile @ commons-net <<<
+[INFO] 
+[INFO] 
+[INFO] --- hyrts-maven-plugin:1.0.1:HyRTS (default-cli) @ commons-net ---
+[HyRTS] Extracted changes: 0 0 2 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 0 0 0 0 0 0 0 0 2 1
+[HyRTS] RTS excluded 42 out of 43 test classes using 405ms 
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.apache.commons.net.ftp.FTPClientTest
+[HyRTS-DEBUG] TestClassTransformer junit/framework/TestSuite-<init>
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 s - in org.apache.commons.net.ftp.FTPClientTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.184 s
+[INFO] Finished at: 2020-05-18T15:50:44-06:00
+[INFO] ------------------------------------------------------------------------

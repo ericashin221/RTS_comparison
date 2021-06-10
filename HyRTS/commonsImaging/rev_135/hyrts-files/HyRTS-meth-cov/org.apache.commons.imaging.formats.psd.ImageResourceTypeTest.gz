@@ -1,0 +1,8 @@
+org.apache.commons.imaging.formats.psd.ImageResourceTypeTest
+org/apache/commons/imaging/formats/psd/ImageResourceTypeTest:<init>:()V
+org/apache/commons/imaging/formats/psd/ImageResourceTypeTest:testGetDescriptionWithPositive:()V
+org/apache/commons/imaging/formats/psd/ImageResourceTypeTest:testGetDescriptionWithZero:()V
+org/apache/commons/imaging/formats/psd/ImageResourceType:<clinit>:()V
+org/apache/commons/imaging/formats/psd/ImageResourceType:getDescription:(I)Ljava/lang/String;
+org/apache/commons/imaging/formats/psd/ImageResourceType:<init>:(ILjava/lang/String;)V
+org/apache/commons/imaging/formats/psd/ImageResourceType:<init>:(IILjava/lang/String;)V

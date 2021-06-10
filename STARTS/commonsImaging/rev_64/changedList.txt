@@ -1,0 +1,2 @@
+org.apache.commons.imaging.formats.bmp.PixelParserBitFields 
+org.apache.commons.imaging.formats.bmp.BmpReadTest 

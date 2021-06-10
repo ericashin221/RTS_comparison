@@ -1,0 +1,3 @@
+org.apache.commons.collections4.properties.EmptyPropertiesTest
+org.apache.commons.collections4.properties.SortedPropertiesFactoryTest
+org.apache.commons.collections4.properties.PropertiesFactoryTest

@@ -1,0 +1,11 @@
+org.apache.commons.imaging.formats.png.PhysicalScaleTest
+org/apache/commons/imaging/formats/png/PhysicalScaleTest:<init>:()V
+org/apache/commons/imaging/formats/png/PhysicalScaleTest:createFromMeters:()V
+org/apache/commons/imaging/formats/png/PhysicalScaleTest:createFromRadians:()V
+org/apache/commons/imaging/formats/png/PhysicalScale:<init>:(IDD)V
+org/apache/commons/imaging/formats/png/PhysicalScale:createFromMeters:(DD)Lorg/apache/commons/imaging/formats/png/PhysicalScale;
+org/apache/commons/imaging/formats/png/PhysicalScale:createFromRadians:(DD)Lorg/apache/commons/imaging/formats/png/PhysicalScale;
+org/apache/commons/imaging/formats/png/PhysicalScale:isInMeters:()Z
+org/apache/commons/imaging/formats/png/PhysicalScale:isInRadians:()Z
+org/apache/commons/imaging/formats/png/PhysicalScale:getHorizontalUnitsPerPixel:()D
+org/apache/commons/imaging/formats/png/PhysicalScale:getVerticalUnitsPerPixel:()D

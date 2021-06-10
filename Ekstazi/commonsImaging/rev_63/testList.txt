@@ -1,0 +1,13 @@
+org.apache.commons.imaging.palette.PaletteQuantizationTest
+org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
+org.apache.commons.imaging.ImagingGuessFormatTest
+org.apache.commons.imaging.formats.jpeg.JpegReadTest
+org.apache.commons.imaging.formats.jpeg.exif.MakerNoteFieldTest
+org.apache.commons.imaging.formats.jpeg.exif.WriteExifMetadataExampleTest
+org.apache.commons.imaging.formats.jpeg.exif.ExifDumpTest
+org.apache.commons.imaging.formats.jpeg.exif.GpsTest
+org.apache.commons.imaging.formats.jpeg.exif.TextFieldTest
+org.apache.commons.imaging.formats.jpeg.exif.ExifRewriteTest
+org.apache.commons.imaging.formats.jpeg.iptc.IptcAddTest
+org.apache.commons.imaging.formats.jpeg.iptc.IptcDumpTest
+org.apache.commons.imaging.formats.jpeg.iptc.IptcUpdateTest

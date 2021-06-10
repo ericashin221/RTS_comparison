@@ -1,0 +1,3 @@
+org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher$Iterator 
+org.apache.commons.collections4.bloomfilter.hasher.DynamicHasher 
+org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherTest 

@@ -1,0 +1,14 @@
+org.apache.commons.collections4.bloomfilter.hasher.function.ObjectsHashIterativeTest
+org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity:<clinit>:()V
+org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity:prepareSignatureBuffer:(Lorg/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity;)[B
+org/apache/commons/collections4/bloomfilter/hasher/function/ObjectsHashIterativeTest:<init>:()V
+org/apache/commons/collections4/bloomfilter/hasher/function/ObjectsHashIterativeTest:applyTest:()V
+org/apache/commons/collections4/bloomfilter/hasher/function/ObjectsHashIterativeTest:signatureTest:()V
+org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity$Signedness:<clinit>:()V
+org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity$ProcessType:<clinit>:()V
+org/apache/commons/collections4/bloomfilter/hasher/function/ObjectsHashIterative:<init>:()V
+org/apache/commons/collections4/bloomfilter/hasher/function/ObjectsHashIterative:apply:([BI)J
+org/apache/commons/collections4/bloomfilter/hasher/function/ObjectsHashIterative:getName:()Ljava/lang/String;
+org/apache/commons/collections4/bloomfilter/hasher/function/ObjectsHashIterative:getSignedness:()Lorg/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity$Signedness;
+org/apache/commons/collections4/bloomfilter/hasher/function/ObjectsHashIterative:getProcessType:()Lorg/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity$ProcessType;
+org/apache/commons/collections4/bloomfilter/hasher/function/ObjectsHashIterative:getSignature:()J

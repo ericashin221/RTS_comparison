@@ -1,0 +1,16 @@
+org.apache.commons.imaging.formats.jpeg.segments.JfifSegmentTest
+org/apache/commons/imaging/ImageReadException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/jpeg/segments/JfifSegmentTest:<init>:()V
+org/apache/commons/imaging/formats/jpeg/segments/JfifSegmentTest:testCreatesJfifSegment:()V
+org/apache/commons/imaging/common/BinaryFileParser:<init>:()V
+org/apache/commons/imaging/common/BinaryFunctions:readBytes:(Ljava/lang/String;Ljava/io/InputStream;ILjava/lang/String;)[B
+org/apache/commons/imaging/common/BinaryFunctions:readBytes:(Ljava/io/InputStream;I)[B
+org/apache/commons/imaging/formats/jpeg/JpegConstants:<clinit>:()V
+org/apache/commons/imaging/common/BinaryConstant:<clinit>:()V
+org/apache/commons/imaging/common/BinaryConstant:equals:([B)Z
+org/apache/commons/imaging/common/BinaryConstant:size:()I
+org/apache/commons/imaging/formats/jpeg/segments/Segment:<init>:(II)V
+org/apache/commons/imaging/formats/jpeg/segments/JfifSegment:<clinit>:()V
+org/apache/commons/imaging/formats/jpeg/segments/JfifSegment:<init>:(I[B)V
+org/apache/commons/imaging/formats/jpeg/segments/JfifSegment:<init>:(IILjava/io/InputStream;)V

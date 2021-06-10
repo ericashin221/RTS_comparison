@@ -1,0 +1,7 @@
+org.apache.commons.collections4.properties.SortedPropertiesTest
+org/apache/commons/collections4/properties/SortedPropertiesTest:<init>:()V
+org/apache/commons/collections4/properties/SortedPropertiesTest:testKeys:()V
+org/apache/commons/collections4/properties/SortedProperties:<init>:()V
+org/apache/commons/collections4/properties/SortedProperties:keys:()Ljava/util/Enumeration;
+org/apache/commons/collections4/iterators/IteratorEnumeration:<init>:(Ljava/util/Iterator;)V
+org/apache/commons/collections4/iterators/IteratorEnumeration:nextElement:()Ljava/lang/Object;

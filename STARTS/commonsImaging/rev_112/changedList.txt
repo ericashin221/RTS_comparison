@@ -1,0 +1,4 @@
+org.apache.commons.imaging.formats.jpeg.JpegConstants 
+org.apache.commons.imaging.formats.jpeg.JpegUtils 
+org.apache.commons.imaging.formats.jpeg.decoder.JpegDecoder 
+org.apache.commons.imaging.formats.jpeg.decoder.JpegInputStream 

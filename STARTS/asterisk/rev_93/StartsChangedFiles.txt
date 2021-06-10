@@ -1,0 +1,46 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 2.0.4-SNAP-SHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> starts-maven-plugin:1.3:diff (default-cli) > test-compile @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/chopin/a/grad/mkshin/newResearch/STARTS/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 739 source files to /s/chopin/a/grad/mkshin/newResearch/STARTS/asterisk/workingDir/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/STARTS/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/asterisk/wrap/events/DialEndEvent.java:[72,24] cannot find symbol
+  symbol:   method getForward()
+  location: variable rawEvent of type org.asteriskjava.manager.event.DialEndEvent
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/STARTS/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/asterisk/wrap/events/BlindTransferEvent.java:[79,24] cannot find symbol
+  symbol:   method getBridgevideosourcemode()
+  location: variable rawEvent of type org.asteriskjava.manager.event.BlindTransferEvent
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.627 s
+[INFO] Finished at: 2020-05-18T11:58:00-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project asterisk-java: Compilation failure: Compilation failure: 
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/STARTS/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/asterisk/wrap/events/DialEndEvent.java:[72,24] cannot find symbol
+[ERROR]   symbol:   method getForward()
+[ERROR]   location: variable rawEvent of type org.asteriskjava.manager.event.DialEndEvent
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/STARTS/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/asterisk/wrap/events/BlindTransferEvent.java:[79,24] cannot find symbol
+[ERROR]   symbol:   method getBridgevideosourcemode()
+[ERROR]   location: variable rawEvent of type org.asteriskjava.manager.event.BlindTransferEvent
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

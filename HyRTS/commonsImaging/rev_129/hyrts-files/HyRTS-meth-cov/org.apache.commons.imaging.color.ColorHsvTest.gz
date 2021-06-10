@@ -1,0 +1,13 @@
+org.apache.commons.imaging.color.ColorHsvTest
+org/apache/commons/imaging/color/ColorHsvTest:<init>:()V
+org/apache/commons/imaging/color/ColorHsvTest:setUp:()V
+org/apache/commons/imaging/color/ColorHsvTest:testHAssignment:()V
+org/apache/commons/imaging/color/ColorHsvTest:testSAssignment:()V
+org/apache/commons/imaging/color/ColorHsvTest:testVAssignment:()V
+org/apache/commons/imaging/color/ColorHsvTest:testToString:()V
+org/apache/commons/imaging/color/ColorHsvTest:testHashCodeAndEquals:()V
+org/apache/commons/imaging/color/ColorHsv:<clinit>:()V
+org/apache/commons/imaging/color/ColorHsv:<init>:(DDD)V
+org/apache/commons/imaging/color/ColorHsv:toString:()Ljava/lang/String;
+org/apache/commons/imaging/color/ColorHsv:equals:(Ljava/lang/Object;)Z
+org/apache/commons/imaging/color/ColorHsv:hashCode:()I

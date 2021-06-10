@@ -1,0 +1,5 @@
+org.apache.commons.imaging.formats.png.scanlinefilters.ScanlineFilterUpTest
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterUpTest:<init>:()V
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterUpTest:testUnfilterWithNull:()V
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterUp:<init>:()V
+org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterUp:unfilter:([B[B[B)V

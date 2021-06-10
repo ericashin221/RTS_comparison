@@ -1,0 +1,2 @@
+org.apache.commons.collections4.bloomfilter.hasher.StaticHasherTest
+org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherTest

@@ -1,0 +1,10 @@
+org.apache.commons.imaging.formats.pnm.PgmFileInfoTest
+org/apache/commons/imaging/ImageReadException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/pnm/PgmFileInfoTest:<init>:()V
+org/apache/commons/imaging/formats/pnm/PgmFileInfoTest:testCreateThrowsImageReadExceptionOne:()V
+org/apache/commons/imaging/formats/pnm/PgmFileInfoTest:testCreateThrowsImageReadExceptionTwo:()V
+org/apache/commons/imaging/formats/pnm/PgmFileInfoTest:testGetBitDepth:()V
+org/apache/commons/imaging/formats/pnm/FileInfo:<init>:(IIZ)V
+org/apache/commons/imaging/formats/pnm/PgmFileInfo:<init>:(IIZI)V
+org/apache/commons/imaging/formats/pnm/PgmFileInfo:getBitDepth:()I

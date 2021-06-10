@@ -1,0 +1,9 @@
+org.apache.commons.imaging.formats.jpeg.iptc.IptcTypeLookupTest
+org/apache/commons/imaging/formats/jpeg/iptc/IptcType:<clinit>:()V
+org/apache/commons/imaging/formats/jpeg/iptc/IptcTypeLookupTest:<init>:()V
+org/apache/commons/imaging/formats/jpeg/iptc/IptcTypeLookupTest:testGetIptcTypeWithPositive:()V
+org/apache/commons/imaging/formats/jpeg/iptc/IptcTypeLookup:getIptcType:(I)Lorg/apache/commons/imaging/formats/jpeg/iptc/IptcType;
+org/apache/commons/imaging/formats/jpeg/iptc/IptcTypes:getUnknown:(I)Lorg/apache/commons/imaging/formats/jpeg/iptc/IptcType;
+org/apache/commons/imaging/formats/jpeg/iptc/IptcTypes$1:<init>:(I)V
+org/apache/commons/imaging/formats/jpeg/iptc/IptcTypes$1:getName:()Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/iptc/IptcTypes$1:getType:()I

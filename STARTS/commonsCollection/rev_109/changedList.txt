@@ -1,0 +1,2 @@
+org.apache.commons.collections4.bloomfilter.hasher.CommonComparatorTest 
+org.apache.commons.collections4.bloomfilter.hasher.DeepComparatorTest 

@@ -1,0 +1,2 @@
+org.apache.commons.imaging.formats.jpeg.JpegWithJpegThumbnailTest
+org.apache.commons.imaging.formats.jpeg.exif.AsciiFieldTest

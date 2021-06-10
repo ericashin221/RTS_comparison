@@ -1,0 +1,9 @@
+org.asteriskjava.AsteriskVersionTest
+org/asteriskjava/AsteriskVersionTest:<init>:()V
+org/asteriskjava/AsteriskVersionTest:testNullIfNoMatch:()V
+org/asteriskjava/AsteriskVersionTest:test13:()V
+org/asteriskjava/AsteriskVersionTest:test14:()V
+org/asteriskjava/AsteriskVersionTest:test15:()V
+org/asteriskjava/AsteriskVersion:<clinit>:()V
+org/asteriskjava/AsteriskVersion:equals:(Ljava/lang/Object;)Z
+org/asteriskjava/AsteriskVersion:getDetermineVersionFromString:(Ljava/lang/String;)Lorg/asteriskjava/AsteriskVersion;

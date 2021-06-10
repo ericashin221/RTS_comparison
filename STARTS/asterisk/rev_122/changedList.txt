@@ -1,0 +1,5 @@
+org.asteriskjava.pbx.PBX 
+org.asteriskjava.pbx.agi.AgiChannelActivityDial 
+org.asteriskjava.pbx.internal.activity.DialActivityImpl 
+org.asteriskjava.pbx.internal.core.AsteriskPBX 
+org.asteriskjava.pbx.internal.managerAPI.Dial 

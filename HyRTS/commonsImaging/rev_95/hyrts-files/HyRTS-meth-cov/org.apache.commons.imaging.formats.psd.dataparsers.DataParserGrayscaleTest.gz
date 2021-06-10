@@ -1,0 +1,6 @@
+org.apache.commons.imaging.formats.psd.dataparsers.DataParserGrayscaleTest
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserGrayscaleTest:<init>:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserGrayscaleTest:testGetBasicChannelsCount:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParser:<init>:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserGrayscale:<init>:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserGrayscale:getBasicChannelsCount:()I

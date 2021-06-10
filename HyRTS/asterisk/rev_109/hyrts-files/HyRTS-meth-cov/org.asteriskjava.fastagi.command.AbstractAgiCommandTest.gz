@@ -1,0 +1,13 @@
+org.asteriskjava.fastagi.command.AbstractAgiCommandTest
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest:<init>:()V
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest:testEscapeAndQuote:()V
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest:testEscapeAndQuoteWithNullString:()V
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest:testEscapeAndQuoteWithEmptyString:()V
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest:testEscapeAndQuoteWithStringContainingQuotes:()V
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest:testEscapeAndQuoteWithStringContainingNewline:()V
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest:testEscapedQuotesAJ192:()V
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest$MyCommand:<init>:(Lorg/asteriskjava/fastagi/command/AbstractAgiCommandTest;Ljava/lang/String;)V
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest$MyCommand:buildCommand:()Ljava/lang/String;
+org/asteriskjava/fastagi/command/AbstractAgiCommand:<init>:()V
+org/asteriskjava/fastagi/command/AbstractAgiCommand:escapeAndQuote:(Ljava/lang/String;)Ljava/lang/String;
+org/asteriskjava/fastagi/command/AbstractAgiCommandTest$MyCommand:escapeAndQuote:(Ljava/lang/String;)Ljava/lang/String;

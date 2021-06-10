@@ -1,0 +1,13 @@
+org.apache.commons.imaging.common.BinaryFileFunctionsTest
+org/apache/commons/imaging/ImagingTest:<init>:()V
+org/apache/commons/imaging/common/BinaryFileFunctionsTest:<init>:()V
+org/apache/commons/imaging/common/BinaryFileFunctionsTest:testFloatToByteConversion:()V
+org/apache/commons/imaging/common/BinaryFileFunctionsTest:testDoubleToByteConversion:()V
+org/apache/commons/imaging/common/ByteConversions:toBytes:(FLjava/nio/ByteOrder;)[B
+org/apache/commons/imaging/common/ByteConversions:toBytes:(FLjava/nio/ByteOrder;[BI)V
+org/apache/commons/imaging/common/ByteConversions:toBytes:(DLjava/nio/ByteOrder;)[B
+org/apache/commons/imaging/common/ByteConversions:toBytes:(DLjava/nio/ByteOrder;[BI)V
+org/apache/commons/imaging/common/ByteConversions:toFloat:([BLjava/nio/ByteOrder;)F
+org/apache/commons/imaging/common/ByteConversions:toFloat:([BILjava/nio/ByteOrder;)F
+org/apache/commons/imaging/common/ByteConversions:toDouble:([BLjava/nio/ByteOrder;)D
+org/apache/commons/imaging/common/ByteConversions:toDouble:([BILjava/nio/ByteOrder;)D

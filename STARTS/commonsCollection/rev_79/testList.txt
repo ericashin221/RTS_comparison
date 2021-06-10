@@ -1,0 +1,8 @@
+org.apache.commons.collections4.bloomfilter.SetOperationsTest
+org.apache.commons.collections4.bloomfilter.DefaultBloomFilterMethodsTest
+org.apache.commons.collections4.bloomfilter.hasher.StaticHasherTest
+org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherTest
+org.apache.commons.collections4.bloomfilter.hasher.function.MD5CyclicTest
+org.apache.commons.collections4.bloomfilter.hasher.function.Murmur128x86CyclicTest
+org.apache.commons.collections4.bloomfilter.hasher.ShapeTest
+org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherBuilderTest

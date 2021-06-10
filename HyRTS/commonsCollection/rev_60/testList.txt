@@ -1,0 +1,4 @@
+org.apache.commons.collections4.FluentIterableTest
+org.apache.commons.collections4.iterators.CollatingIteratorTest
+org.apache.commons.collections4.IteratorUtilsTest
+org.apache.commons.collections4.CollectionUtilsTest

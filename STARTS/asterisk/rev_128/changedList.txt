@@ -1,0 +1,2 @@
+org.asteriskjava.fastagi.internal.AgiChannelImpl 
+org.asteriskjava.manager.internal.backwardsCompatibility.bridge.BridgeState 

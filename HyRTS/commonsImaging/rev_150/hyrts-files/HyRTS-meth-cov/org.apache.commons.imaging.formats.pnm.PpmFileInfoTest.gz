@@ -1,0 +1,8 @@
+org.apache.commons.imaging.formats.pnm.PpmFileInfoTest
+org/apache/commons/imaging/ImageReadException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/pnm/PpmFileInfoTest:<init>:()V
+org/apache/commons/imaging/formats/pnm/PpmFileInfoTest:testCreatesPpmFileInfoOne:()V
+org/apache/commons/imaging/formats/pnm/PpmFileInfoTest:testCreatesPpmFileInfoThree:()V
+org/apache/commons/imaging/formats/pnm/PpmFileInfo:<init>:(IIZI)V
+org/apache/commons/imaging/formats/pnm/FileInfo:<init>:(IIZ)V

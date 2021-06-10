@@ -1,0 +1,11 @@
+org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuvTest
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest:setUp:()V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest:testConstructor:()V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest:testGetTristimulusValues:()V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv:<init>:(I[IIII)V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv:getTristimulusValues:(III)Lorg/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv$TristimulusValues;
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreter:<init>:(I[IIII)V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreter:getBitsPerSample:(I)I
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv$TristimulusValues:<init>:()V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv:getBitsPerSample:(I)I

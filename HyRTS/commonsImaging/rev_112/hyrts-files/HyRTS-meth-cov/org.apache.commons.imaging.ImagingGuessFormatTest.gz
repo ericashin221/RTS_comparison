@@ -1,0 +1,13 @@
+org.apache.commons.imaging.ImagingGuessFormatTest
+org/apache/commons/imaging/common/bytesource/ByteSource:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/common/bytesource/ByteSourceFile:<init>:(Ljava/io/File;)V
+org/apache/commons/imaging/common/bytesource/ByteSourceFile:getInputStream:()Ljava/io/InputStream;
+org/apache/commons/imaging/ImagingTest:<init>:()V
+org/apache/commons/imaging/ImagingGuessFormatTest:data:()Ljava/util/Collection;
+org/apache/commons/imaging/ImagingGuessFormatTest:<init>:(Lorg/apache/commons/imaging/ImageFormats;Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingGuessFormatTest:testGuessFormat:()V
+org/apache/commons/imaging/ImageFormats:<clinit>:()V
+org/apache/commons/imaging/Imaging:guessFormat:(Ljava/io/File;)Lorg/apache/commons/imaging/ImageFormat;
+org/apache/commons/imaging/Imaging:compareBytePair:([I[I)Z
+org/apache/commons/imaging/Imaging:guessFormat:(Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Lorg/apache/commons/imaging/ImageFormat;
+org/apache/commons/imaging/ImagingTestConstants:<clinit>:()V

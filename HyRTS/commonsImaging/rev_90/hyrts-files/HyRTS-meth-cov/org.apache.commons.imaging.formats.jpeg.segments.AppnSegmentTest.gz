@@ -1,0 +1,13 @@
+org.apache.commons.imaging.formats.jpeg.segments.AppnSegmentTest
+org/apache/commons/imaging/formats/jpeg/segments/AppnSegmentTest:<init>:()V
+org/apache/commons/imaging/formats/jpeg/segments/AppnSegmentTest:testCreatesAppnSegment:()V
+org/apache/commons/imaging/common/BinaryFileParser:<init>:()V
+org/apache/commons/imaging/common/BinaryFunctions:readBytes:(Ljava/lang/String;Ljava/io/InputStream;ILjava/lang/String;)[B
+org/apache/commons/imaging/formats/jpeg/segments/Segment:<init>:(II)V
+org/apache/commons/imaging/formats/jpeg/segments/Segment:toString:()Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/segments/Segment:getSegmentType:()Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/segments/AppnSegment:<init>:(IILjava/io/InputStream;)V
+org/apache/commons/imaging/formats/jpeg/segments/AppnSegment:getDescription:()Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/segments/GenericSegment:<init>:(IILjava/io/InputStream;)V
+org/apache/commons/imaging/formats/jpeg/segments/AppnSegment:toString:()Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/segments/AppnSegment:getSegmentType:()Ljava/lang/String;

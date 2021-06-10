@@ -1,0 +1,12 @@
+org.apache.commons.imaging.color.ColorCieLchTest
+org/apache/commons/imaging/color/ColorCieLchTest:<init>:()V
+org/apache/commons/imaging/color/ColorCieLchTest:setUp:()V
+org/apache/commons/imaging/color/ColorCieLchTest:testLAssignment:()V
+org/apache/commons/imaging/color/ColorCieLchTest:testCAssignment:()V
+org/apache/commons/imaging/color/ColorCieLchTest:testHAssignment:()V
+org/apache/commons/imaging/color/ColorCieLchTest:testToString:()V
+org/apache/commons/imaging/color/ColorCieLchTest:testHashCodeAndEquals:()V
+org/apache/commons/imaging/color/ColorCieLch:<init>:(DDD)V
+org/apache/commons/imaging/color/ColorCieLch:toString:()Ljava/lang/String;
+org/apache/commons/imaging/color/ColorCieLch:equals:(Ljava/lang/Object;)Z
+org/apache/commons/imaging/color/ColorCieLch:hashCode:()I

@@ -1,0 +1,14 @@
+org.apache.commons.imaging.color.ColorHslTest
+org/apache/commons/imaging/color/ColorHslTest:<init>:()V
+org/apache/commons/imaging/color/ColorHslTest:setUp:()V
+org/apache/commons/imaging/color/ColorHslTest:testHAssignment:()V
+org/apache/commons/imaging/color/ColorHslTest:testSAssignment:()V
+org/apache/commons/imaging/color/ColorHslTest:testLAssignment:()V
+org/apache/commons/imaging/color/ColorHslTest:testToString:()V
+org/apache/commons/imaging/color/ColorHslTest:testHashCodeAndEquals:()V
+org/apache/commons/imaging/color/ColorHslTest:testCreatesColorHslOne:()V
+org/apache/commons/imaging/color/ColorHsl:<clinit>:()V
+org/apache/commons/imaging/color/ColorHsl:<init>:(DDD)V
+org/apache/commons/imaging/color/ColorHsl:toString:()Ljava/lang/String;
+org/apache/commons/imaging/color/ColorHsl:equals:(Ljava/lang/Object;)Z
+org/apache/commons/imaging/color/ColorHsl:hashCode:()I

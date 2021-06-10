@@ -1,0 +1,13 @@
+org.asteriskjava.live.QueueMemberStateTest
+org.asteriskjava.live.internal.AsteriskAgentImplTest
+org.asteriskjava.live.internal.AsteriskChannelImplTest
+org.asteriskjava.live.internal.AsteriskQueueMemberImplTest
+org.asteriskjava.pbx.internal.core.ListenerManagerTest
+org.asteriskjava.manager.AbstractManagerEventListenerTest
+org.asteriskjava.manager.internal.ResponseBuilderImplTest
+org.asteriskjava.manager.internal.ManagerWriterImplTest
+org.asteriskjava.manager.internal.EventBuilderImplTest
+org.asteriskjava.manager.internal.ManagerConnectionImplTest
+org.asteriskjava.manager.internal.ManagerReaderImplTest
+org.asteriskjava.manager.internal.ActionBuilderImplTest
+org.asteriskjava.manager.event.AsyncAgiEventTest

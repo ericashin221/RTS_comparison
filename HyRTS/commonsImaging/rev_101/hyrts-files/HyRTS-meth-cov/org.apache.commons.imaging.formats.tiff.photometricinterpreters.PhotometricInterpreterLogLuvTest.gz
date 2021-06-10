@@ -1,0 +1,7 @@
+org.apache.commons.imaging.formats.tiff.photometricinterpreters.PhotometricInterpreterLogLuvTest
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest:testConstructor:()V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv:<init>:(I[IIII)V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreter:<init>:(I[IIII)V
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreter:getBitsPerSample:(I)I
+org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv:getBitsPerSample:(I)I

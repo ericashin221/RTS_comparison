@@ -1,0 +1,2 @@
+org.apache.commons.collections4.bloomfilter.BitSetBloomFilterTest
+org.apache.commons.collections4.bloomfilter.CountingBloomFilterTest

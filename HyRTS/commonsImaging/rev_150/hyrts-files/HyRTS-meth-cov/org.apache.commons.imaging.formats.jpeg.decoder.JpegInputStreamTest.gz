@@ -1,0 +1,10 @@
+org.apache.commons.imaging.formats.jpeg.decoder.JpegInputStreamTest
+org/apache/commons/imaging/ImageReadException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStreamTest:<init>:()V
+org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStreamTest:testNextBitThrowsImageReadExceptionOne:()V
+org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStreamTest:testNextBitThrowsImageReadExceptionTwo:()V
+org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStream:<init>:([I)V
+org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStream:hasNext:()Z
+org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStream:nextBit:()I
+org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStream:read:()I

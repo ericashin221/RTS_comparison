@@ -1,0 +1,9 @@
+org.apache.commons.collections4.bloomfilter.SetOperationsTest
+org.apache.commons.collections4.bloomfilter.BitSetBloomFilterTest
+org.apache.commons.collections4.bloomfilter.HasherBloomFilterTest
+org.apache.commons.collections4.bloomfilter.DefaultBloomFilterMethodsTest
+org.apache.commons.collections4.bloomfilter.hasher.StaticHasherTest
+org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherTest
+org.apache.commons.collections4.bloomfilter.hasher.ShapeTest
+org.apache.commons.collections4.bloomfilter.hasher.DynamicHasherBuilderTest
+org.apache.commons.collections4.bloomfilter.CountingBloomFilterTest

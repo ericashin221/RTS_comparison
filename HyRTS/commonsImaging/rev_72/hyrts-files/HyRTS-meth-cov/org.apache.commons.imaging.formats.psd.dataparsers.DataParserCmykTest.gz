@@ -1,0 +1,6 @@
+org.apache.commons.imaging.formats.psd.dataparsers.DataParserCmykTest
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserCmykTest:<init>:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserCmykTest:testGetBasicChannelsCount:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParser:<init>:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserCmyk:<init>:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserCmyk:getBasicChannelsCount:()I

@@ -1,0 +1,7 @@
+org.apache.commons.imaging.roundtrip.LimitedColorRoundtripTest
+org.apache.commons.imaging.roundtrip.BitmapRoundtripTest
+org.apache.commons.imaging.roundtrip.GrayscaleRountripTest
+org.apache.commons.imaging.roundtrip.NullParametersRoundtripTest
+org.apache.commons.imaging.common.bytesource.ByteSourceImageTest
+org.apache.commons.imaging.formats.gif.GifReadTest
+org.apache.commons.imaging.formats.xmp.XmpUpdateTest

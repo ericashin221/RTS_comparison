@@ -1,0 +1,6 @@
+org.apache.commons.imaging.palette.SimplePaletteTest
+org/apache/commons/imaging/palette/SimplePaletteTest:<init>:()V
+org/apache/commons/imaging/palette/SimplePaletteTest:testGetPaletteIndexReturningNegative:()V
+org/apache/commons/imaging/palette/SimplePalette:<init>:([I)V
+org/apache/commons/imaging/palette/SimplePalette:getPaletteIndex:(I)I
+org/apache/commons/imaging/palette/SimplePalette:length:()I

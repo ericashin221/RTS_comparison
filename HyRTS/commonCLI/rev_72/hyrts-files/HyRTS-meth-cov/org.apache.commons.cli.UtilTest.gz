@@ -1,0 +1,6 @@
+org.apache.commons.cli.UtilTest
+org/apache/commons/cli/UtilTest:<init>:()V
+org/apache/commons/cli/UtilTest:testStripLeadingHyphens:()V
+org/apache/commons/cli/UtilTest:testStripLeadingAndTrailingQuotes:()V
+org/apache/commons/cli/Util:stripLeadingHyphens:(Ljava/lang/String;)Ljava/lang/String;
+org/apache/commons/cli/Util:stripLeadingAndTrailingQuotes:(Ljava/lang/String;)Ljava/lang/String;

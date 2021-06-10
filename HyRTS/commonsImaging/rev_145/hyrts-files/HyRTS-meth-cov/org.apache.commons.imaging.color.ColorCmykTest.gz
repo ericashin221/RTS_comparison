@@ -1,0 +1,13 @@
+org.apache.commons.imaging.color.ColorCmykTest
+org/apache/commons/imaging/color/ColorCmykTest:<init>:()V
+org/apache/commons/imaging/color/ColorCmykTest:setUp:()V
+org/apache/commons/imaging/color/ColorCmykTest:testCAssignment:()V
+org/apache/commons/imaging/color/ColorCmykTest:testMAssignment:()V
+org/apache/commons/imaging/color/ColorCmykTest:testYAssignment:()V
+org/apache/commons/imaging/color/ColorCmykTest:testKAssignment:()V
+org/apache/commons/imaging/color/ColorCmykTest:testToString:()V
+org/apache/commons/imaging/color/ColorCmykTest:testHashCodeAndEquals:()V
+org/apache/commons/imaging/color/ColorCmyk:<init>:(DDDD)V
+org/apache/commons/imaging/color/ColorCmyk:toString:()Ljava/lang/String;
+org/apache/commons/imaging/color/ColorCmyk:equals:(Ljava/lang/Object;)Z
+org/apache/commons/imaging/color/ColorCmyk:hashCode:()I

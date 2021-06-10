@@ -1,0 +1,6 @@
+org.apache.commons.imaging.formats.psd.dataparsers.DataParserLabTest
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserLabTest:<init>:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserLabTest:testGetBasicChannelsCount:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParser:<init>:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserLab:<init>:()V
+org/apache/commons/imaging/formats/psd/dataparsers/DataParserLab:getBasicChannelsCount:()I

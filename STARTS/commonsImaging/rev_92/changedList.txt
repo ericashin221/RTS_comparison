@@ -1,0 +1,3 @@
+org.apache.commons.imaging.Imaging 
+org.apache.commons.imaging.common.bytesource.ByteSource 
+org.apache.commons.imaging.common.bytesource.ByteSourceInputStream 

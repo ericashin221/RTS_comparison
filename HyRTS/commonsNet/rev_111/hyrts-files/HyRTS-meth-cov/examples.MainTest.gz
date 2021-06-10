@@ -1,0 +1,8 @@
+examples.MainTest
+examples/MainTest:<init>:()V
+examples/MainTest:checkExamplesPropertiesIsComplete:()V
+examples/MainTest:scanClasses:()Ljava/util/Properties;
+examples/MainTest:scanForClasses:(ILjava/io/File;Ljava/util/Properties;)V
+examples/MainTest:processFileName:(Ljava/lang/String;Ljava/util/Properties;)V
+examples/MainTest:hasMainMethod:(Ljava/lang/String;)Z
+examples/Main:<clinit>:()V

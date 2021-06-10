@@ -1,0 +1,14 @@
+org.apache.commons.collections4.bloomfilter.hasher.function.MD5CyclicTest
+org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity:<clinit>:()V
+org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity:prepareSignatureBuffer:(Lorg/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity;)[B
+org/apache/commons/collections4/bloomfilter/hasher/function/MD5CyclicTest:<init>:()V
+org/apache/commons/collections4/bloomfilter/hasher/function/MD5CyclicTest:applyTest:()V
+org/apache/commons/collections4/bloomfilter/hasher/function/MD5CyclicTest:signatureTest:()V
+org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity$Signedness:<clinit>:()V
+org/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity$ProcessType:<clinit>:()V
+org/apache/commons/collections4/bloomfilter/hasher/function/MD5Cyclic:<init>:()V
+org/apache/commons/collections4/bloomfilter/hasher/function/MD5Cyclic:apply:([BI)J
+org/apache/commons/collections4/bloomfilter/hasher/function/MD5Cyclic:getName:()Ljava/lang/String;
+org/apache/commons/collections4/bloomfilter/hasher/function/MD5Cyclic:getSignedness:()Lorg/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity$Signedness;
+org/apache/commons/collections4/bloomfilter/hasher/function/MD5Cyclic:getProcessType:()Lorg/apache/commons/collections4/bloomfilter/hasher/HashFunctionIdentity$ProcessType;
+org/apache/commons/collections4/bloomfilter/hasher/function/MD5Cyclic:getSignature:()J

@@ -1,0 +1,10 @@
+org.apache.commons.imaging.palette.DitheringTest
+org.apache.commons.imaging.formats.pnm.PpmFileInfoTest
+org.apache.commons.imaging.formats.pnm.PgmFileInfoTest
+org.apache.commons.imaging.formats.jpeg.segments.App2SegmentTest
+org.apache.commons.imaging.formats.jpeg.decoder.JpegInputStreamTest
+org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeRationalTest
+org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeAsciiTest
+org.apache.commons.imaging.formats.tiff.taginfos.TagInfoByteOrShortTest
+org.apache.commons.imaging.color.ColorCmyTest
+org.apache.commons.imaging.color.ColorHslTest

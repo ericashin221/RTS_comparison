@@ -1,0 +1,12 @@
+org.apache.commons.imaging.color.ColorXyzTest
+org/apache/commons/imaging/color/ColorXyzTest:<init>:()V
+org/apache/commons/imaging/color/ColorXyzTest:setUp:()V
+org/apache/commons/imaging/color/ColorXyzTest:testXAssignment:()V
+org/apache/commons/imaging/color/ColorXyzTest:testYAssignment:()V
+org/apache/commons/imaging/color/ColorXyzTest:testZAssignment:()V
+org/apache/commons/imaging/color/ColorXyzTest:testToString:()V
+org/apache/commons/imaging/color/ColorXyzTest:testHashCodeAndEquals:()V
+org/apache/commons/imaging/color/ColorXyz:<init>:(DDD)V
+org/apache/commons/imaging/color/ColorXyz:toString:()Ljava/lang/String;
+org/apache/commons/imaging/color/ColorXyz:equals:(Ljava/lang/Object;)Z
+org/apache/commons/imaging/color/ColorXyz:hashCode:()I

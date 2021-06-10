@@ -1,0 +1,16 @@
+org.apache.commons.imaging.formats.jpeg.xmp.JpegXmpParserTest
+org/apache/commons/imaging/ImageReadException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParserTest:<init>:()V
+org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParserTest:testCreatesJpegXmpParserAndCallsParseXmpJpegSegment:()V
+org/apache/commons/imaging/common/BinaryFileParser:<init>:()V
+org/apache/commons/imaging/common/BinaryFileParser:setByteOrder:(Ljava/nio/ByteOrder;)V
+org/apache/commons/imaging/common/BinaryFunctions:startsWith:([BLorg/apache/commons/imaging/common/BinaryConstant;)Z
+org/apache/commons/imaging/formats/jpeg/JpegConstants:<clinit>:()V
+org/apache/commons/imaging/common/BinaryConstant:<clinit>:()V
+org/apache/commons/imaging/common/BinaryConstant:size:()I
+org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParser:<clinit>:()V
+org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParser:<init>:()V
+org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParser:isXmpJpegSegment:([B)Z
+org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParser:parseXmpJpegSegment:([B)Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParser:setByteOrder:(Ljava/nio/ByteOrder;)V

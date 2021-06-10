@@ -1,0 +1,9 @@
+org.apache.commons.imaging.formats.tiff.fieldtypes.FieldTypeLongTest
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImageWriteException:<init>:(Ljava/lang/String;Ljava/lang/Object;)V
+org/apache/commons/imaging/ImageWriteException:getType:(Ljava/lang/Object;)Ljava/lang/String;
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLongTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLongTest:testWriteDataWithNonNull:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLong:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLong:writeData:(Ljava/lang/Object;Ljava/nio/ByteOrder;)[B

@@ -1,0 +1,12 @@
+org.apache.commons.imaging.formats.png.transparencyfilters.TransparencyFilterIndexedColorTest
+org/apache/commons/imaging/ImageReadException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/ImagingException:<init>:(Ljava/lang/String;)V
+org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColorTest:<init>:()V
+org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColorTest:testFilterWithNegativeAndNegative:()V
+org/apache/commons/imaging/common/BinaryFileParser:<init>:()V
+org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilter:<init>:([B)V
+org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilter:getLength:()I
+org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColor:<clinit>:()V
+org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColor:<init>:([B)V
+org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColor:filter:(II)I
+org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColor:getLength:()I

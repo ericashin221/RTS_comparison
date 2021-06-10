@@ -1,0 +1,2 @@
+org.apache.commons.imaging.formats.tiff.TiffContents 
+org.apache.commons.imaging.formats.tiff.TiffReader$Collector 

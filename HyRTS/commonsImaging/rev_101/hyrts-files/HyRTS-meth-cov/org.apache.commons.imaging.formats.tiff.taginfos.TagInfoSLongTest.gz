@@ -1,0 +1,13 @@
+org.apache.commons.imaging.formats.tiff.taginfos.TagInfoSLongTest
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILorg/apache/commons/imaging/formats/tiff/fieldtypes/FieldType;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILjava/util/List;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfo:<init>:(Ljava/lang/String;ILjava/util/List;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;Z)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLongTest:<init>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLongTest:testEncodeValue:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLong:<clinit>:()V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLong:<init>:(Ljava/lang/String;ILorg/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType;)V
+org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLong:encodeValue:(Ljava/nio/ByteOrder;I)[B
+org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType:<clinit>:()V
+org/apache/commons/imaging/common/ByteConversions:toBytes:(ILjava/nio/ByteOrder;)[B
+org/apache/commons/imaging/common/ByteConversions:toBytes:(ILjava/nio/ByteOrder;[BI)V

@@ -1,0 +1,2 @@
+org.apache.commons.imaging.formats.jpeg.decoder.JpegDecoder 
+org.apache.commons.imaging.formats.jpeg.decoder.JpegInputStream 

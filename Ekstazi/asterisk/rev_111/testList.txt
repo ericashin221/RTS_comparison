@@ -1,0 +1,5 @@
+org.asteriskjava.pbx.internal.core.ListenerManagerTest
+org.asteriskjava.manager.internal.ResponseBuilderImplTest
+org.asteriskjava.manager.internal.EventBuilderImplTest
+org.asteriskjava.manager.internal.ManagerReaderImplTest
+org.asteriskjava.manager.event.AsyncAgiEventTest

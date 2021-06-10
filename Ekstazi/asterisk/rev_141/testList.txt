@@ -1,0 +1,8 @@
+org.asteriskjava.fastagi.CompositeMappingStrategyTest
+org.asteriskjava.fastagi.ClassNameMappingStrategyTest
+org.asteriskjava.fastagi.internal.AgiChannelImplTest
+org.asteriskjava.fastagi.internal.AgiRequestImplTest
+org.asteriskjava.fastagi.ResourceBundleMappingStrategyTest
+org.asteriskjava.manager.internal.ManagerWriterImplTest
+org.asteriskjava.manager.internal.ActionBuilderImplTest
+org.asteriskjava.AsteriskVersionTest

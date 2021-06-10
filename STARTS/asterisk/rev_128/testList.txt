@@ -1,0 +1,5 @@
+org.asteriskjava.pbx.internal.core.ListenerManagerTest
+org.asteriskjava.fastagi.internal.AgiChannelImplTest
+org.asteriskjava.fastagi.DefaultAgiServerTest
+org.asteriskjava.manager.internal.ManagerConnectionImplTest
+org.asteriskjava.manager.internal.ManagerReaderImplTest

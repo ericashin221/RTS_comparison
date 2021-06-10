@@ -1,0 +1,476 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.asteriskjava:asterisk-java:jar:3.5.0
+[WARNING] 'version' contains an expression but should be a constant. @ org.asteriskjava:asterisk-java:${releaseVersion}, /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/pom.xml, line 8, column 11
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< org.asteriskjava:asterisk-java >-------------------
+[INFO] Building Asterisk-Java 3.5.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> ekstazi-maven-plugin:4.6.3:ekstazi (default-cli) > [ekstazi]test @ asterisk-java >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asterisk-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ asterisk-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 746 source files to /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/target/classes
+[INFO] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/manager/AbstractManagerEventListener.java: /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/manager/AbstractManagerEventListener.java uses or overrides a deprecated API.
+[INFO] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/manager/AbstractManagerEventListener.java: Recompile with -Xlint:deprecation for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[5,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[6,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[16,33] cannot find symbol
+  symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/EventListenerBaseClass.java:[3,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/EventListenerBaseClass.java:[13,54] cannot find symbol
+  symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/OriginateBaseClass.java:[11,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[10,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[10,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[11,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[12,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[63,41] cannot find symbol
+  symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/ActivityHelper.java:[6,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/ActivityHelper.java:[22,66] cannot find symbol
+  symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[72,19] cannot find symbol
+  symbol:   class LockableList
+  location: class org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/ListenerManager.java:[9,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/ListenerManager.java:[14,38] cannot find symbol
+  symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[7,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[8,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[33,5] cannot find symbol
+  symbol:   class LockableList
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[5,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[6,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[35,19] cannot find symbol
+  symbol:   class LockableList
+  location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/SplitActivityImpl.java:[10,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[11,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.java:[8,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[14,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[15,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[52,13] cannot find symbol
+  symbol:   class LockableSet
+  location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/PeerMonitor.java:[8,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/PeerMonitor.java:[9,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/PeerMonitor.java:[39,5] cannot find symbol
+  symbol:   class LockableList
+  location: class org.asteriskjava.pbx.internal.core.PeerMonitor
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/ParkActivityImpl.java:[8,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityHoldForBridge.java:[11,8] org.asteriskjava.pbx.agi.AgiChannelActivityHoldForBridge is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityHoldForBridge.java:[42,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[50,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoom
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[50,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[67,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoom
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[67,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[75,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoom
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[75,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[115,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoom
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[115,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/OriginateBaseClass.java:[298,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.managerAPI.OriginateBaseClass
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/OriginateBaseClass.java:[298,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[578,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.AsteriskPBX
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[578,51] cannot find symbol
+  symbol:   method withLock()
+  location: variable liveChannels of type org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[610,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.AsteriskPBX
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[610,51] cannot find symbol
+  symbol:   method withLock()
+  location: variable liveChannels of type org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[72,66] cannot find symbol
+  symbol:   class LockableList
+  location: class org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[126,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityPlayMessage.java:[10,8] org.asteriskjava.pbx.agi.AgiChannelActivityPlayMessage is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityPlayMessage.java:[52,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityQueue.java:[19,8] org.asteriskjava.pbx.agi.AgiChannelActivityQueue is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityQueue.java:[62,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityHold.java:[14,8] org.asteriskjava.pbx.agi.AgiChannelActivityHold is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityHold.java:[67,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityMeetme.java:[18,8] org.asteriskjava.pbx.agi.AgiChannelActivityMeetme is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityMeetme.java:[64,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[33,53] cannot find symbol
+  symbol:   class LockableList
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[61,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[85,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[109,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[126,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[138,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[166,18] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[178,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[188,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[35,60] cannot find symbol
+  symbol:   class LockableList
+  location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[54,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[79,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[213,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[236,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[248,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[264,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[305,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/SplitActivityImpl.java:[121,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.activity.SplitActivityImpl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/SplitActivityImpl.java:[121,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityVoicemail.java:[8,8] org.asteriskjava.pbx.agi.AgiChannelActivityVoicemail is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityVoicemail.java:[23,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[108,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[108,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[176,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[176,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[194,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[194,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[355,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[355,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.java:[236,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.activity.BlindTransferActivityImpl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.java:[236,38] cannot find symbol
+  symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[52,76] cannot find symbol
+  symbol:   class LockableSet
+  location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[81,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[200,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[200,48] cannot find symbol
+  symbol:   method withLock()
+  location: variable listeners of type org.asteriskjava.pbx.internal.core.ListenerManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[286,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[286,48] cannot find symbol
+  symbol:   method withLock()
+  location: variable listeners of type org.asteriskjava.pbx.internal.core.ListenerManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[289,18] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[326,18] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[326,52] cannot find symbol
+  symbol:   method withLock()
+  location: variable listeners of type org.asteriskjava.pbx.internal.core.ListenerManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[333,22] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[357,14] cannot find symbol
+  symbol:   class LockCloser
+  location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.389 s
+[INFO] Finished at: 2020-05-18T13:00:18-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project asterisk-java: Compilation failure: Compilation failure: 
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[5,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[6,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[16,33] cannot find symbol
+[ERROR]   symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/EventListenerBaseClass.java:[3,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/EventListenerBaseClass.java:[13,54] cannot find symbol
+[ERROR]   symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/OriginateBaseClass.java:[11,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[10,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[10,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[11,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[12,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[63,41] cannot find symbol
+[ERROR]   symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/ActivityHelper.java:[6,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/ActivityHelper.java:[22,66] cannot find symbol
+[ERROR]   symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[72,19] cannot find symbol
+[ERROR]   symbol:   class LockableList
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/ListenerManager.java:[9,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/ListenerManager.java:[14,38] cannot find symbol
+[ERROR]   symbol: class Lockable
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[7,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[8,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[33,5] cannot find symbol
+[ERROR]   symbol:   class LockableList
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[5,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[6,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[35,19] cannot find symbol
+[ERROR]   symbol:   class LockableList
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/SplitActivityImpl.java:[10,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[11,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.java:[8,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[14,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[15,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[52,13] cannot find symbol
+[ERROR]   symbol:   class LockableSet
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/PeerMonitor.java:[8,29] package org.asteriskjava.lock does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/PeerMonitor.java:[9,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/PeerMonitor.java:[39,5] cannot find symbol
+[ERROR]   symbol:   class LockableList
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.PeerMonitor
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/ParkActivityImpl.java:[8,36] package org.asteriskjava.lock.Locker does not exist
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityHoldForBridge.java:[11,8] org.asteriskjava.pbx.agi.AgiChannelActivityHoldForBridge is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityHoldForBridge.java:[42,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[50,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoom
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[50,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[67,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoom
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[67,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[75,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoom
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[75,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[115,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoom
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.java:[115,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/OriginateBaseClass.java:[298,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.managerAPI.OriginateBaseClass
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/managerAPI/OriginateBaseClass.java:[298,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[578,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.AsteriskPBX
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[578,51] cannot find symbol
+[ERROR]   symbol:   method withLock()
+[ERROR]   location: variable liveChannels of type org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[610,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.AsteriskPBX
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/AsteriskPBX.java:[610,51] cannot find symbol
+[ERROR]   symbol:   method withLock()
+[ERROR]   location: variable liveChannels of type org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[72,66] cannot find symbol
+[ERROR]   symbol:   class LockableList
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/LiveChannelManager.java:[126,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.LiveChannelManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityPlayMessage.java:[10,8] org.asteriskjava.pbx.agi.AgiChannelActivityPlayMessage is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityPlayMessage.java:[52,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityQueue.java:[19,8] org.asteriskjava.pbx.agi.AgiChannelActivityQueue is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityQueue.java:[62,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityHold.java:[14,8] org.asteriskjava.pbx.agi.AgiChannelActivityHold is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityHold.java:[67,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityMeetme.java:[18,8] org.asteriskjava.pbx.agi.AgiChannelActivityMeetme is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityMeetme.java:[64,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[33,53] cannot find symbol
+[ERROR]   symbol:   class LockableList
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[61,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[85,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[109,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[126,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[138,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[166,18] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[178,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CallTracker.java:[188,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CallTracker
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[35,60] cannot find symbol
+[ERROR]   symbol:   class LockableList
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[54,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[79,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[213,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[236,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[248,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[264,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/Peer.java:[305,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.Peer
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/SplitActivityImpl.java:[121,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.activity.SplitActivityImpl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/SplitActivityImpl.java:[121,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityVoicemail.java:[8,8] org.asteriskjava.pbx.agi.AgiChannelActivityVoicemail is not abstract and does not override abstract method isDisconnect() in org.asteriskjava.pbx.AgiChannelActivityAction
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/agi/AgiChannelActivityVoicemail.java:[23,5] method does not override or implement a method from a supertype
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[108,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[108,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[176,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[176,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[194,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[194,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[355,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.asterisk.MeetmeRoomControl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.java:[355,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.java:[236,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.activity.BlindTransferActivityImpl
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.java:[236,38] cannot find symbol
+[ERROR]   symbol: method withLock()
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[52,76] cannot find symbol
+[ERROR]   symbol:   class LockableSet
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[81,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[200,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[200,48] cannot find symbol
+[ERROR]   symbol:   method withLock()
+[ERROR]   location: variable listeners of type org.asteriskjava.pbx.internal.core.ListenerManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[286,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[286,48] cannot find symbol
+[ERROR]   symbol:   method withLock()
+[ERROR]   location: variable listeners of type org.asteriskjava.pbx.internal.core.ListenerManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[289,18] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[326,18] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[326,52] cannot find symbol
+[ERROR]   symbol:   method withLock()
+[ERROR]   location: variable listeners of type org.asteriskjava.pbx.internal.core.ListenerManager
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[333,22] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] /s/chopin/a/grad/mkshin/newResearch/Ekstazi/asterisk/workingDir/src/main/java/org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.java:[357,14] cannot find symbol
+[ERROR]   symbol:   class LockCloser
+[ERROR]   location: class org.asteriskjava.pbx.internal.core.CoherentManagerEventQueue
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

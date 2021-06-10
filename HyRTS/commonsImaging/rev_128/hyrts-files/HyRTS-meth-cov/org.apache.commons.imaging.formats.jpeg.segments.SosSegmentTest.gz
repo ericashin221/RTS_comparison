@@ -1,0 +1,15 @@
+org.apache.commons.imaging.formats.jpeg.segments.SosSegmentTest
+org/apache/commons/imaging/formats/jpeg/segments/SosSegmentTest:<init>:()V
+org/apache/commons/imaging/formats/jpeg/segments/SosSegmentTest:testGetComponentsTakingNoArguments:()V
+org/apache/commons/imaging/formats/jpeg/segments/SosSegmentTest:testCreatesSosSegmentTakingThreeArguments:()V
+org/apache/commons/imaging/common/BinaryFileParser:<init>:()V
+org/apache/commons/imaging/common/BinaryFunctions:readByte:(Ljava/lang/String;Ljava/io/InputStream;Ljava/lang/String;)B
+org/apache/commons/imaging/formats/jpeg/segments/Segment:<init>:(II)V
+org/apache/commons/imaging/formats/jpeg/segments/Segment:toString:()Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/segments/Segment:getSegmentType:()Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/segments/SosSegment:<init>:(I[B)V
+org/apache/commons/imaging/formats/jpeg/segments/SosSegment:<init>:(IILjava/io/InputStream;)V
+org/apache/commons/imaging/formats/jpeg/segments/SosSegment:getComponents:()[Lorg/apache/commons/imaging/formats/jpeg/segments/SosSegment$Component;
+org/apache/commons/imaging/formats/jpeg/segments/SosSegment:getDescription:()Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/segments/SosSegment:toString:()Ljava/lang/String;
+org/apache/commons/imaging/formats/jpeg/segments/SosSegment:getSegmentType:()Ljava/lang/String;

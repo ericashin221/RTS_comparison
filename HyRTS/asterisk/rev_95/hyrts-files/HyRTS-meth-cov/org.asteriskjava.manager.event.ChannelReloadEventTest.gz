@@ -1,0 +1,12 @@
+org.asteriskjava.manager.event.ChannelReloadEventTest
+org/asteriskjava/manager/event/ManagerEvent:<init>:(Ljava/lang/Object;)V
+org/asteriskjava/manager/event/ChannelReloadEventTest:<init>:()V
+org/asteriskjava/manager/event/ChannelReloadEventTest:setUp:()V
+org/asteriskjava/manager/event/ChannelReloadEventTest:testNullReloadReason:()V
+org/asteriskjava/manager/event/ChannelReloadEventTest:testGetReloadReasonCode:()V
+org/asteriskjava/manager/event/ChannelReloadEventTest:testGetReloadReasonDescription:()V
+org/asteriskjava/manager/event/ChannelReloadEvent:<clinit>:()V
+org/asteriskjava/manager/event/ChannelReloadEvent:<init>:(Ljava/lang/Object;)V
+org/asteriskjava/manager/event/ChannelReloadEvent:setReloadReason:(Ljava/lang/String;)V
+org/asteriskjava/manager/event/ChannelReloadEvent:getReloadReasonCode:()Ljava/lang/String;
+org/asteriskjava/manager/event/ChannelReloadEvent:getReloadReasonDescription:()Ljava/lang/String;

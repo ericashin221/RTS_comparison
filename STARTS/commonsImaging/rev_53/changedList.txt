@@ -1,0 +1,3 @@
+org.apache.commons.imaging.ImagingGuessFormatTest 
+org.apache.commons.imaging.ImagingTest 
+org.apache.commons.imaging.ImagingTestConstants 
