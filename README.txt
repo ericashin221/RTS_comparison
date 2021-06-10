@@ -1,8 +1,12 @@
 Scripts to run RTS tools 
 
-This research includes empirical study on running 4 RTS tools, 
-STARTS, Ekstazi, HyRTS, and Clover. The order of the script running matters. 
-The order is the below from 2 to N. 
+This research includes an empirical study of running four RTS tools, 
+STARTS, Ekstazi, HyRTS, and OpenClover. 
+
+The empirical study was conducted on a Linux (Fedora) workstation, a 4-core 3.2GHz machine with 12GB memory, Java 64-Bit Server version 1.8.0 242.
+To run the scripts, the environment should support (1) Maven version 3.2.5 or above, (2) Surefire version 2.14 or above, (3) JUnit version 3 or above, and (4) Java version 1.8 or above. Also, the four RTS tools need to be installed.
+
+The order in which scripts run matters. The order is the below from 2 to 9. 
 ======================================================================
 
 Scripts overview  
